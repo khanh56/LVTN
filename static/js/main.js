@@ -268,6 +268,33 @@ function selectImage(element) {
 }
 
 
+function drawLabel() {
+  var formData = new FormData();
+
+  fetch('/draw_label', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.blob())
+  .then(blob => {
+    const imageUrl = URL.createObjectURL(blob);
+    var img = new Image();
+    img.onload = function () {
+        // Resize the image to 335x335
+        var canvas = document.createElement("canvas");
+        var ctx = canvas.getContext("2d");
+        canvas.width = 335;
+        canvas.height = 335;
+        ctx.drawImage(img, 0, 0, 335, 335);
+
+        var resizedImg = new Image();
+        resizedImg.src = canvas.toDataURL();
+        document.querySelector('.image-3').src = resizedImg.src;
+    };
+    img.src = imageUrl;
+})
+}
+
 function processImage() {
   var formData = new FormData();
   
@@ -307,19 +334,6 @@ function processImage() {
 });
 }
 
-
-
-
-// Truyền hình ảnh thứ 2 sang ảnh thứ 3
-
-document.querySelector(".btn-submit").addEventListener("click", function () {
-  var selectedImage = document.querySelector(".selected-image");
-  var image2 = document.querySelector(".image-3");
-  if (selectedImage && image2) {
-    var selectedImageSrc = selectedImage.src;
-    image2.src = selectedImageSrc;
-  }
-});
 
 document
   .getElementById("dropcontainer")

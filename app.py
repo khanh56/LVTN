@@ -1,15 +1,17 @@
-from flask import Flask, request, jsonify, send_file, render_template, url_for
+from flask import Flask, request, jsonify, send_file, render_template, url_for, session
 import os
 from werkzeug.utils import secure_filename
-from generateText import generate_fake_image
+from generateText import generate_fake_image, draw_rotated_box
 from PIL import Image
 import io
 import numpy as np
+import tempfile
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
-
 app = Flask(__name__)
+app.secret_key = 'the random string'
+app.config['SECRET_KEY'] = 'the random string'    # Replace with your actual secret key
 app.config['UPLOAD_FOLDER'] = 'uploads/'  # Folder where uploaded images will be saved
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # Max upload - 16 MB
 
@@ -48,12 +50,31 @@ def convert_to_bw():
         return 'No selected file', 400
     if file:
         image = Image.open(file.stream)
-        fake_image, _ = generate_fake_image(image)
+        fake_image, annotation = generate_fake_image(image)
+        fake_image_path = os.path.join(tempfile.gettempdir(), secure_filename(file.filename))
+        session['fake_image_path'] = fake_image_path  # Convert numpy array to list before storing in session
+        session['annotation'] = annotation.tolist()
         fake_image_text = Image.fromarray(fake_image.astype(np.uint8), 'RGB')
+        fake_image_text.save(fake_image_path, 'PNG')
         img_io = io.BytesIO()
         fake_image_text.save(img_io, 'PNG')
         img_io.seek(0)
         return send_file(img_io, mimetype='image/png')
+
+@app.route('/draw_label', methods=['POST'])
+def draw_label():
+    fake_image_path = session.get('fake_image_path')  # Convert list back to numpy array
+    if fake_image_path:
+        with open(fake_image_path, 'rb') as f:
+            fake_image = np.array(Image.open(f))
+            annot = np.array(session['annotation'])
+            image_draw_label = draw_rotated_box(fake_image, annot[:, 0], annot[:, 1], annot[:, 2], annot[:, 3], annot[:, 4], annot[:, 5])
+            image_draw_label = Image.fromarray(image_draw_label.astype(np.uint8), 'RGB')
+            img_io = io.BytesIO()
+            image_draw_label.save(img_io, 'PNG')
+            img_io.seek(0)
+            return send_file(img_io, mimetype='image/png')
+
 
 if __name__ == '__main__':
     app.run(debug=True)

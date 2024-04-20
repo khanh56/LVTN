@@ -232,6 +232,9 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
     annot = np.array(annot)
 
     # image_background = Image.open(image_background_path)
+    if image_background.mode != 'RGB':
+        image_background = image_background.convert('RGB')
+    
     image_background = image_background.resize((image.shape[0], image.shape[1]))
     image_background = np.array(image_background)
     if image_background.ndim == 2:
