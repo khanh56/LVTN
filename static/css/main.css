@@ -2291,8 +2291,8 @@ body.is-preload #wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 335px;
-  width: 335px;
+  height: 500px;
+  width: 500px;
   border-radius: 10px;
   border: 2px solid #bebebe;
   color: #444;
@@ -2353,7 +2353,7 @@ input[type="file"]::file-selector-button:hover {
 
 .work {
   background-color: #fff;
-  width: 1150px !important;
+  width: 1600px !important;
   margin-left: auto !important; /* Margin trái tự động, đẩy phần tử sang phải */
   margin-right: auto !important; /* Margin trái tự động, đẩy phần tử sang phải */
 }
@@ -2387,9 +2387,10 @@ input[type="file"]::file-selector-button:hover {
 
 .selected-image,
 .image-2,
-.image-3 {
-  width: 335px !important;
-  height: 335px !important;
+.image-3,
+.image-4 {
+  width: 500px !important;
+  height: 500px !important;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -2399,4 +2400,44 @@ input[type="file"]::file-selector-button:hover {
 } */
 
 
-/* thay đổi kích thước nút Next và submit và bo tròn 4 rìa của nút */
+.drop-container-model img {
+  width: 100%;  /* Ensures the image takes full width of the container */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 335px; /* Ensures the image does not exceed the container height */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  border-radius: 10px; /* Rounds the corners */
+  border: 2px solid #ddd; /* Optional: adds a border around the image */
+}
+
+
+
+.selected-image-model{
+  width: auto;
+  border-radius: 10px;
+}
+
+.contact{
+  width: 1400px !important;
+}
+
+.contact .image-select .image-4{
+  width: 640px !important;
+  height: 640px !important;
+}
+
+.contact .drop-container{
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 640px !important;
+  width: 640px !important;
+  border-radius: 10px;
+  border: 2px solid #bebebe;
+  color: #444;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
+  margin-bottom: 30px;
+}

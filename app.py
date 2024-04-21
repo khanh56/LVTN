@@ -6,6 +6,9 @@ from PIL import Image
 import io
 import numpy as np
 import tempfile
+import secrets
+import ryolo_model
+
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
@@ -75,6 +78,35 @@ def draw_label():
             img_io.seek(0)
             return send_file(img_io, mimetype='image/png')
 
+
+@app.route('/model', methods=['POST'])
+def model():
+    if 'image' not in request.files:
+        return 'No file part', 400
+    file = request.files['image']
+    if file.filename == '':
+        return 'No selected file', 400
+    if file:
+        temp_dir = tempfile.mkdtemp()
+        temp_path = os.path.join(temp_dir, secure_filename(file.filename))
+
+        image = Image.open(file.stream)
+        if image.mode != 'RGB':
+            image = image.convert('RGB')
+        temp_jpg_path = os.path.splitext(temp_path)[0] + '.jpg'  # Change the extension to .jpg
+        image.save(temp_jpg_path, 'JPEG')  # Save the image in JPEG format
+
+        
+        model = ryolo_model.build_model(model_type='s')
+        word_boxes, processed_image, _ = ryolo_model.model_predict(model, temp_jpg_path)
+        image_with_boxes = ryolo_model.draw_rotated_box(np.array(processed_image), word_boxes=word_boxes, gt_boxes=None, gt_label=None)
+        image_with_boxes = Image.fromarray(image_with_boxes.astype(np.uint8), 'RGB')
+        img_io = io.BytesIO()
+        image_with_boxes.save(img_io, 'PNG')
+        img_io.seek(0)
+        os.remove(temp_jpg_path)
+        os.rmdir(temp_dir)
+        return send_file(img_io, mimetype='image/png')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -67,42 +67,42 @@
                   </div>
                 </label>
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                       class="image fit image-select"
                       onclick="selectImage(this)"
                       ><img  src="static/images/pic01.jpg" alt=""
                     /></a>
                   </div>
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                       class="image fit image-select"
                       onclick="selectImage(this)"
                       ><img  src="static/images/pic02.jpg" alt=""
                     /></a>
                   </div>
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                       class="image fit image-select"
                       onclick="selectImage(this)"
                       ><img  src="static/images/pic03.jpg" alt=""
                     /></a>
                   </div>
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                       class="image fit image-select"
                       onclick="selectImage(this)"
                       ><img  src="static/images/pic04.jpg" alt=""
                     /></a>
                   </div>
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                       class="image fit image-select"
                       onclick="selectImage(this)"
                       ><img  src="static/images/pic05.jpg" alt=""
                     /></a>
                   </div>
-                  <div class="col-4">
+                  <div class="col-2">
                     <a
                     class="image fit image-select"
                     onclick="selectImage(this)"
@@ -134,33 +134,77 @@
             </div>
           </section>
         </article>
+      
+
 
         <!-- Contact -->
-        <article id="contact" class="panel">
+        <article id="contact" class="panel contact" style="width:'1111px !important' ">
           <header>
             <h2>Contact Me</h2>
           </header>
-          <form action="#" method="post">
-            <div>
-              <div class="row">
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="name" placeholder="Name" />
+          <section>
+            <div class="row"  >
+              <div class="col-6" >
+                <label for="imagesModel" class="drop-container" id="dropcontainerModel">
+                  <div class="content-photo-model">
+                    <p class="img-photo">
+                      <img src="static/images/001-photo.png"  alt="" />
+                    </p>
+                    <span class="drop-title"
+                      >Drop files here or select files</span
+                    >
+
+                    <input type="file" id="imagesModel" accept="image/*" required />
+                  </div>
+                </label>
+                <div class="row" >
+                  <div class="col-2" >
+                    <a
+                      class="image fit image-select"
+                      onclick="selectImageModel(this)"
+                      ><img  src="static/images/pic07.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      class="image fit image-select"
+                      onclick="selectImageModel(this)"
+                      ><img  src="static/images/pic08.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      class="image fit image-select"
+                      onclick="selectImageModel(this)"
+                      ><img  src="static/images/pic09.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      class="image fit image-select"
+                      onclick="selectImageModel(this)"
+                      ><img  src="static/images/pic10.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                      class="image fit image-select"
+                      onclick="selectImageModel(this)"
+                      ><img  src="static/images/pic11.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="col-2">
+                    <a
+                    class="image fit image-select"
+                    onclick="selectImageModel(this)"
+                    ><img  src="static/images/pic12.jpg" alt=""
+                    /></a>
+                  </div>
                 </div>
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="email" placeholder="Email" />
-                </div>
-                <div class="col-12">
-                  <input type="text" name="subject" placeholder="Subject" />
-                </div>
-                <div class="col-12">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows="6"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <input type="submit" value="Send Message" />
+                <div class="row">
+                  <div class="col-12">
+                    <button class="btn-next" id="btn-next-model" onclick="processImageModel()">Next</button>
+                  </div>
                 </div>
               </div>
             </div>

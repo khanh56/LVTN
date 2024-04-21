@@ -192,12 +192,12 @@ function displaySelectedImage() {
     removeSelectedImage();
     var img = document.createElement("img");
     img.onload = function () {
-      // Resize ảnh thành kích thước 335x335
+      // Resize ảnh thành kích thước 500x500
       var canvas = document.createElement("canvas");
       var ctx = canvas.getContext("2d");
-      canvas.width = 335;
-      canvas.height = 335;
-      ctx.drawImage(img, 0, 0, 335, 335);
+      canvas.width = 500;
+      canvas.height = 500;
+      ctx.drawImage(img, 0, 0, 500, 500);
 
       // Tạo một ảnh mới từ canvas và hiển thị
       var resizedImg = new Image();
@@ -211,9 +211,9 @@ function displaySelectedImage() {
       if (resultImg) {
         var resultCanvas = document.createElement("canvas");
         var resultCtx = resultCanvas.getContext("2d");
-        resultCanvas.width = 335;
-        resultCanvas.height = 335;
-        resultCtx.drawImage(resultImg, 0, 0, 335, 335);
+        resultCanvas.width = 500;
+        resultCanvas.height = 500;
+        resultCtx.drawImage(resultImg, 0, 0, 500, 500);
         resultImg.src = resultCanvas.toDataURL();
       }
 
@@ -280,12 +280,12 @@ function drawLabel() {
     const imageUrl = URL.createObjectURL(blob);
     var img = new Image();
     img.onload = function () {
-        // Resize the image to 335x335
+        // Resize the image to 500x500
         var canvas = document.createElement("canvas");
         var ctx = canvas.getContext("2d");
-        canvas.width = 335;
-        canvas.height = 335;
-        ctx.drawImage(img, 0, 0, 335, 335);
+        canvas.width = 500;
+        canvas.height = 500;
+        ctx.drawImage(img, 0, 0, 500, 500);
 
         var resizedImg = new Image();
         resizedImg.src = canvas.toDataURL();
@@ -315,12 +315,12 @@ function processImage() {
     const imageUrl = URL.createObjectURL(blob);
     var img = new Image();
     img.onload = function () {
-        // Resize the image to 335x335
+        // Resize the image to 500x500
         var canvas = document.createElement("canvas");
         var ctx = canvas.getContext("2d");
-        canvas.width = 335;
-        canvas.height = 335;
-        ctx.drawImage(img, 0, 0, 335, 335);
+        canvas.width = 500;
+        canvas.height = 500;
+        ctx.drawImage(img, 0, 0, 500, 500);
 
         // Create a new image from the canvas and set it as the source for the result image
         var resizedImg = new Image();
@@ -341,23 +341,173 @@ document
     event.preventDefault();
   });
 
-  document.getElementById("dropcontainer").addEventListener("drop", function (event) {
-    event.preventDefault();
-    removeSelectedImage();
-    var contentPhoto = document.querySelector(".content-photo");
-    contentPhoto.style.opacity = "0";
-  
-    var files = event.dataTransfer.files;
-  
-    for (var i = 0; i < files.length; i++) {
-      var file = files[i];
-      var reader = new FileReader();
-  
-      reader.onload = function (e) {
-        selectedImagePath = e.target.result;
-        displaySelectedImage();
-      };
-  
-      reader.readAsDataURL(file);
-    }
+document.getElementById("dropcontainer").addEventListener("drop", function (event) {
+  event.preventDefault();
+  removeSelectedImage();
+  var contentPhoto = document.querySelector(".content-photo");
+  contentPhoto.style.opacity = "0";
+
+  var files = event.dataTransfer.files;
+
+  for (var i = 0; i < files.length; i++) {
+    var file = files[i];
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      selectedImagePath = e.target.result;
+      displaySelectedImage();
+    };
+
+    reader.readAsDataURL(file);
+  }
+});
+
+
+/////////////////// Model //////////////////////
+
+var selectedImagePathModel = null;
+var selectedImageSourceOrBlobModel = null;
+
+function removeSelectedImageModel() {
+  // Select all elements with the class 'selected-image' in the model page and remove them
+  var selectedImagesModel = document.querySelectorAll('.selected-image-model');
+  selectedImagesModel.forEach(function(image) {
+      image.parentNode.removeChild(image);
   });
+}
+
+document.getElementById("imagesModel").onchange = function (e) {
+  var files = e.target.files;
+  var file = files[0];
+  var reader = new FileReader();
+  reader.onload = function (e) {
+    selectedImagePathModel = e.target.result;
+    displaySelectedImageModel(selectedImagePathModel);
+  };
+  reader.readAsDataURL(file);
+};
+
+document.getElementById("dropcontainerModel").addEventListener("dragover", function (event) {
+  event.preventDefault();
+});
+document.getElementById("dropcontainerModel").addEventListener("drop", function (event) {
+  event.preventDefault();
+  var files = event.dataTransfer.files;
+  for (var i = 0; i < files.length; i++) {
+    var file = files[i];
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      selectedImagePathModel = e.target.result;
+      displaySelectedImageModel();
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+function selectImageModel(element) {
+  selectedImagePathModel = element.children[0].src;
+  displaySelectedImageModel();
+}
+
+function displaySelectedImageModel() {
+  if (selectedImagePathModel) {
+    removeSelectedImageModel();
+    var img = document.createElement("img");
+    img.onload = function () {
+      var canvas = document.createElement("canvas");
+      var ctx = canvas.getContext("2d");
+      canvas.width = 640;
+      canvas.height = 640;
+
+      //////////
+      var scaleFactor = Math.min(canvas.width / img.width, canvas.height / img.height);
+
+      var x = (canvas.width - img.width * scaleFactor) / 2;
+      var y = (canvas.height - img.height * scaleFactor) / 2;
+
+      // Fill the canvas with black color
+      ctx.fillStyle = "black";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Draw the image on the canvas
+      // ctx.drawImage(img, x, y, img.width * scaleFactor, img.height * scaleFactor);
+      var newWidth = img.width * scaleFactor;
+      var newHeight = img.height * scaleFactor;      
+      ctx.drawImage(img, 0, 0, newWidth, newHeight);
+
+      
+      
+      //////////
+
+
+      var resizedImg = new Image();
+      resizedImg.src = canvas.toDataURL();
+      resizedImg.className = "selected-image-model";
+      var label = document.getElementById("dropcontainerModel"); 
+      label.appendChild(resizedImg);
+
+      // Apply the same resizing to the result image
+      var resultImg = document.querySelector(".image-4");
+      if (resultImg) {
+        var resultCanvas = document.createElement("canvas");
+        var resultCtx = resultCanvas.getContext("2d");
+        resultCanvas.width = 640;
+        resultCanvas.height = 640;
+        resultCtx.drawImage(resultImg, 0, 0, 640, 640);
+        resultImg.src = resultCanvas.toDataURL();
+      }
+
+      var contentPhoto = document.querySelector(".content-photo-model");
+      contentPhoto.style.opacity = "0";
+      contentPhoto.style.display = "none";
+      fetch(selectedImagePathModel)
+      .then(response => response.blob())
+      .then(blob => {
+        selectedImageSourceOrBlobModel = blob;
+      })
+      .catch(error => console.error('Error fetching uploaded image:', error));
+    };
+    img.src = selectedImagePathModel;
+  }
+}
+
+
+function processImageModel() {
+  var formData = new FormData();
+  
+  // Check if selectedImageSourceOrBlob is a Blob (sample image scenario)
+  if (selectedImageSourceOrBlobModel instanceof Blob) {
+      formData.append('image', selectedImageSourceOrBlobModel);
+  } else { // Else, use the file input (local file scenario)
+      var imageFile = document.getElementById('imagesModel').files[0];
+      formData.append('image', imageFile);
+  }
+
+  fetch('/model', {
+    method: 'POST',
+    body: formData
+})
+.then(response => response.blob())
+.then(blob => {
+    const imageUrl = URL.createObjectURL(blob);
+    var img = new Image();
+    img.onload = function () {
+        // Resize the image to 500x500
+        var canvas = document.createElement("canvas");
+        var ctx = canvas.getContext("2d");
+        canvas.width = 640;
+        canvas.height = 640;
+
+        ctx.drawImage(img, 0, 0, 640, 640);
+
+        // Create a new image from the canvas and set it as the source for the result image
+        var resizedImg = new Image();
+        resizedImg.src = canvas.toDataURL();
+        document.querySelector('.image-4').src = resizedImg.src;
+    };
+    img.src = imageUrl;
+})
+.catch(error => {
+    console.error('Error:', error);
+});
+}
