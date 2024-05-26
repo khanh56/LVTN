@@ -1,0 +1,1004 @@
+2024-04-28 21:54:20,481 - Start evaluating ICDAR 2015 dataset
+2024-04-28 21:54:20,482 - Model type: s, confidence threshold: 0.2
+2024-04-28 21:54:20,483 - Use angle classification: False
+2024-04-28 21:54:29,939 - Runtime 1 Image path: assets/icdar2015/test_images\img_1.jpg, GT: [], Predicted: []
+2024-04-28 21:54:29,940 - True predictions: 1, Total GT: 0
+2024-04-28 21:54:37,689 - Runtime 2 Image path: assets/icdar2015/test_images\img_10.jpg, GT: ['Please', 'lower', 'your', 'volume', 'when', 'you', 'pass', 'residential', 'areas'], Predicted: ['when', 'residentia', 'Please', 'oreas', 'lower', 'your', 'youpassb', 'iorume']
+2024-04-28 21:54:37,690 - True predictions: 6, Total GT: 9
+2024-04-28 21:54:43,129 - Runtime 3 Image path: assets/icdar2015/test_images\img_100.jpg, GT: ['diverse', 'tastes', 'flavours', 'the', 'Refishing', 'DINING', 'DINING'], Predicted: ['tastes', 'the', 'Bavours', '-1', 'diverse', 'Relishing', '-1']
+2024-04-28 21:54:43,130 - True predictions: 10, Total GT: 16
+2024-04-28 21:54:46,947 - Runtime 4 Image path: assets/icdar2015/test_images\img_101.jpg, GT: ['SALE', 'MARC'], Predicted: ['SALE', '-1']
+2024-04-28 21:54:46,948 - True predictions: 12, Total GT: 18
+2024-04-28 21:54:50,386 - Runtime 5 Image path: assets/icdar2015/test_images\img_102.jpg, GT: ['ST.MARC', 'CAFE'], Predicted: ['ST.MARC', 'CAFE']
+2024-04-28 21:54:50,387 - True predictions: 15, Total GT: 20
+2024-04-28 21:54:55,106 - Runtime 6 Image path: assets/icdar2015/test_images\img_103.jpg, GT: ['EXIT', 'ANGKOK', 'KOK', 'ABUR', 'PATH', 'CHAT'], Predicted: ['CHAK', 'EXITY', 'ABUR', 'IWAN', 'NGKOK', 'CHAK', '-1', 'CHAT', '-1', '-1', 'PATH', '-1']
+2024-04-28 21:54:55,107 - True predictions: 19, Total GT: 26
+2024-04-28 21:54:58,448 - Runtime 7 Image path: assets/icdar2015/test_images\img_104.jpg, GT: ['END', 'MILE', 'SPEED', 'gels'], Predicted: ['MILE', 'END', 'SPEED', '-1']
+2024-04-28 21:54:58,449 - True predictions: 23, Total GT: 30
+2024-04-28 21:55:01,649 - Runtime 8 Image path: assets/icdar2015/test_images\img_105.jpg, GT: ['aigonLotus'], Predicted: ["aigontotu'", '-1', '-1', '-1']
+2024-04-28 21:55:01,650 - True predictions: 24, Total GT: 31
+2024-04-28 21:55:05,473 - Runtime 9 Image path: assets/icdar2015/test_images\img_106.jpg, GT: ['Marina', 'MRT', 'Station', 'Link', 'MARINA', 'LINK', 'PARTI', 'PLAN'], Predicted: ['Marma', 'Link', '-1', '-1', '-1', 'AMRT', '-1', '-1', '-1']
+2024-04-28 21:55:05,474 - True predictions: 26, Total GT: 39
+2024-04-28 21:55:09,424 - Runtime 10 Image path: assets/icdar2015/test_images\img_107.jpg, GT: ['@B1', 'MARINA', 'More', 'MARINA', 'LINK', 'SQUARE', 'Shopping', '&Dining!'], Predicted: ['Dining!', 'More', 'MARIR', 'MARINA:SOUARE', 'Shopping', '981', '-1']
+2024-04-28 21:55:09,425 - True predictions: 29, Total GT: 47
+2024-04-28 21:55:14,689 - Runtime 11 Image path: assets/icdar2015/test_images\img_108.jpg, GT: ['Link', 'B1,', 'dining', 'options', 'shopping', 'More', 'Marina', 'This', 'way', 'Esplanade', 'Station', 'MARINA:', 'SQUARE'], Predicted: ['This', 'dining', 'Station', 'Esplanade', 'shopping', 'options', 'way', 'Link', 'More', 'Marina', 'MARINA SQUARE', '-1', 'to', 'B1,', '-1']
+2024-04-28 21:55:14,690 - True predictions: 41, Total GT: 60
+2024-04-28 21:55:18,742 - Runtime 12 Image path: assets/icdar2015/test_images\img_109.jpg, GT: ['LOVE', 'Organto', 'LOVE'], Predicted: ['LOVEBud', 'oresnic', 'LOVE', 'V4', 'VEimSw', '-1', '-1', '-1']
+2024-04-28 21:55:18,742 - True predictions: 44, Total GT: 63
+2024-04-28 21:55:22,484 - Runtime 13 Image path: assets/icdar2015/test_images\img_11.jpg, GT: ['BEWARE', 'MAINTENANCE', 'VEICHLES'], Predicted: ['MMINTENANCE', 'VEHICLES', 'REWARE', 'OF']
+2024-04-28 21:55:22,484 - True predictions: 45, Total GT: 66
+2024-04-28 21:55:26,876 - Runtime 14 Image path: assets/icdar2015/test_images\img_110.jpg, GT: ['STEP', 'CHOOSE', 'YOUR', 'TOPPINGS', 'ORO'], Predicted: ['CHOOSE', 'YOUR', 'STEP', 'TOPPINGS', 'ORO']
+2024-04-28 21:55:26,876 - True predictions: 51, Total GT: 71
+2024-04-28 21:55:30,350 - Runtime 15 Image path: assets/icdar2015/test_images\img_111.jpg, GT: ['DEFY', 'EMPIRE', 'DEFY', 'ENA E'], Predicted: ['DEFYENRRE', 'DEFYEMPIE', '-1']
+2024-04-28 21:55:30,351 - True predictions: 52, Total GT: 75
+2024-04-28 21:55:35,296 - Runtime 16 Image path: assets/icdar2015/test_images\img_112.jpg, GT: ['Gold', 'CLASS', 'East', 'VILLAGE', 'Wing', 'GOLDEN', 'Level 3', 'next', 'GOLD', 'HABA', 'grab', '#GVSuntecCity', 'LUSH'], Predicted: ['GOLD', 'CLASS', 'VILLASLY', 'LUSH', 'HABA', 'Gold', '-1', 'GOLDEN', 'grab', '-1', '-1', '-1', '-1', '-1', 'Ead', '-1']
+2024-04-28 21:55:35,297 - True predictions: 60, Total GT: 88
+2024-04-28 21:55:39,002 - Runtime 17 Image path: assets/icdar2015/test_images\img_113.jpg, GT: ['SALE', 'SAL', 'SALE', 'sale'], Predicted: ['SALE', 'SALE', 'SALL', '-1', 'SAL', '-1', '-1']
+2024-04-28 21:55:39,002 - True predictions: 64, Total GT: 92
+2024-04-28 21:55:43,016 - Runtime 18 Image path: assets/icdar2015/test_images\img_114.jpg, GT: ['H&M', 'FINAL', 'SALE', 'FINAL', 'SAL', 'FINAL', 'FARN'], Predicted: ['FINAL', 'SALESAL', 'FINAL', 'AAOH93', 'FINAL', 'FARR', '-1', '-1', '-1']
+2024-04-28 21:55:43,016 - True predictions: 68, Total GT: 99
+2024-04-28 21:55:46,154 - Runtime 19 Image path: assets/icdar2015/test_images\img_115.jpg, GT: ['SWEATS', 'COMFORTABLE', 'YERSATIUITT', 'DEFINED', 'HARA'], Predicted: ['IEKATLN', 'COMFORTARLE', '-1', 'DEFINED']
+2024-04-28 21:55:46,155 - True predictions: 70, Total GT: 104
+2024-04-28 21:55:49,054 - Runtime 20 Image path: assets/icdar2015/test_images\img_116.jpg, GT: ['FOSSIL', 'UNI', 'QLO'], Predicted: ['FOSSIL', '-1', '-1', '-1']
+2024-04-28 21:55:49,054 - True predictions: 72, Total GT: 107
+2024-04-28 21:55:51,802 - Runtime 21 Image path: assets/icdar2015/test_images\img_117.jpg, GT: ['SELANGOR'], Predicted: ['-1', 'SELANGOR', 'ROYAL']
+2024-04-28 21:55:51,802 - True predictions: 74, Total GT: 108
+2024-04-28 21:55:54,602 - Runtime 22 Image path: assets/icdar2015/test_images\img_118.jpg, GT: ['TISSOT', 'TISSOT'], Predicted: ['TISSOT', '-1', 'TISSOT']
+2024-04-28 21:55:54,602 - True predictions: 77, Total GT: 110
+2024-04-28 21:55:57,463 - Runtime 23 Image path: assets/icdar2015/test_images\img_119.jpg, GT: ['Robert', 'Timms', 'Robert', 'Timms'], Predicted: ['Robert', 'Timms', 'Reoet', '-1']
+2024-04-28 21:55:57,464 - True predictions: 82, Total GT: 114
+2024-04-28 21:56:01,779 - Runtime 24 Image path: assets/icdar2015/test_images\img_12.jpg, GT: ['those', 'need!', 'Care', 'for', 'Look', 'Care'], Predicted: ['inneed!', 'Care', 'EN', '-1', 'fer', '-1', 'Cart', '-1', '-1', '-1']
+2024-04-28 21:56:01,779 - True predictions: 85, Total GT: 120
+2024-04-28 21:56:05,228 - Runtime 25 Image path: assets/icdar2015/test_images\img_120.jpg, GT: ['SINCERE'], Predicted: ['SINCERE', 'SERING', '-1', '-1', '-1']
+2024-04-28 21:56:05,228 - True predictions: 87, Total GT: 121
+2024-04-28 21:56:09,576 - Runtime 26 Image path: assets/icdar2015/test_images\img_121.jpg, GT: ['ESPRIT', 'Enjoy', 'great', 'deals', 'privileges', 'Suntec', 'exciting', 'SINCERE', 'City', 'that', 'gives', 'you'], Predicted: [':SPRIi', 'Suntec', 'privileges,', 'deals', 'exciting', 'City', 'veat', 'Enjoy', '-1', '-1', '-1', 'VSINE', '-1']
+2024-04-28 21:56:09,576 - True predictions: 93, Total GT: 133
+2024-04-28 21:56:13,941 - Runtime 27 Image path: assets/icdar2015/test_images\img_122.jpg, GT: ['SALE', 'FURTHER', 'REDUCTIONS', 'GIORDAN', 'GAP', 'OFF', 'OFF', 'COM'], Predicted: ['SALE', '50%', 'SA', 'GIORDAN', '-', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 21:56:13,942 - True predictions: 96, Total GT: 141
+2024-04-28 21:56:16,828 - Runtime 28 Image path: assets/icdar2015/test_images\img_123.jpg, GT: ['GIORDANO'], Predicted: ['GIORDANO']
+2024-04-28 21:56:16,829 - True predictions: 98, Total GT: 142
+2024-04-28 21:56:19,419 - Runtime 29 Image path: assets/icdar2015/test_images\img_124.jpg, GT: [], Predicted: ['-1']
+2024-04-28 21:56:19,420 - True predictions: 99, Total GT: 142
+2024-04-28 21:56:24,778 - Runtime 30 Image path: assets/icdar2015/test_images\img_125.jpg, GT: ['sale', 'cafes', 'and', 'Restaurants', 'shops', 'food', 'more', 'republic', 'giant', 'hyperfresh', 'fountain', 'suntec', 'Money', 'Chang', 'office', 'SALE', 'SALE', 'COTTON', 'new', 'NOW'], Predicted: ['Hyperfresh', 'COTTON ON', 'Money', 'Republic', 'Fountain', 'Shops', 'Glant', 'Food', 'Office', 'Promod', 'and', 'More', 'Restaurants', 'IWe', 'Cafes', 'ESALESALE', 'Suntec', 'Chan', '-1']
+2024-04-28 21:56:24,779 - True predictions: 103, Total GT: 162
+2024-04-28 21:56:28,853 - Runtime 31 Image path: assets/icdar2015/test_images\img_126.jpg, GT: ['dining', 'and', 'continues', 'shopping', 'remaking', 'city', 'you', 'for', 'your', 'support'], Predicted: ['shopping an', 'support', 'you', '-1', '-1', '-1', 'bop', 'endkinoconi', '-1']
+2024-04-28 21:56:28,854 - True predictions: 106, Total GT: 172
+2024-04-28 21:56:32,225 - Runtime 32 Image path: assets/icdar2015/test_images\img_127.jpg, GT: ['SPECIAL', 'robinsons', 'SK-II'], Predicted: ['ROBNSONS', '-1']
+2024-04-28 21:56:32,225 - True predictions: 107, Total GT: 175
+2024-04-28 21:56:35,676 - Runtime 33 Image path: assets/icdar2015/test_images\img_128.jpg, GT: ['SINCLARE'], Predicted: ['SKINCARE', 'LOOOLANE']
+2024-04-28 21:56:35,676 - True predictions: 108, Total GT: 176
+2024-04-28 21:56:38,573 - Runtime 34 Image path: assets/icdar2015/test_images\img_129.jpg, GT: ['raffles', 'City'], Predicted: ['RafflesCity']
+2024-04-28 21:56:38,574 - True predictions: 109, Total GT: 178
+2024-04-28 21:56:41,785 - Runtime 35 Image path: assets/icdar2015/test_images\img_13.jpg, GT: ['CHEVRON', 'Premier', 'HSBC', 'HOU'], Predicted: ['-1', 'HSBC', 'ms', '-1', '-1']
+2024-04-28 21:56:41,785 - True predictions: 111, Total GT: 182
+2024-04-28 21:56:44,497 - Runtime 36 Image path: assets/icdar2015/test_images\img_130.jpg, GT: ['ROBINSONS', 'THT'], Predicted: ['-1', 'Artl']
+2024-04-28 21:56:44,497 - True predictions: 112, Total GT: 184
+2024-04-28 21:56:47,495 - Runtime 37 Image path: assets/icdar2015/test_images\img_131.jpg, GT: ['MARKET', 'PLACE', 'cierge', 'BRITISH'], Predicted: ['MARKETPLACE', 'BRITISE', '-1', 'IEROE']
+2024-04-28 21:56:47,496 - True predictions: 113, Total GT: 188
+2024-04-28 21:56:50,478 - Runtime 38 Image path: assets/icdar2015/test_images\img_132.jpg, GT: ['SACOOR', 'BRITISH'], Predicted: ['SACOOR', '-1', 'BRITISH', '-1']
+2024-04-28 21:56:50,478 - True predictions: 116, Total GT: 190
+2024-04-28 21:56:53,606 - Runtime 39 Image path: assets/icdar2015/test_images\img_133.jpg, GT: ['SHOPS', 'jacobs', 'SALE', 'BRITISH', 'MARC', 'INDIA', 'SALE', 'RESTAURANTS', 'RAFFLES'], Predicted: ['BRITISHINDIA', 'JACOBS', 'MARC', 'B', '-1']
+2024-04-28 21:56:53,606 - True predictions: 118, Total GT: 199
+2024-04-28 21:56:56,706 - Runtime 40 Image path: assets/icdar2015/test_images\img_134.jpg, GT: ['SALE', 'BRITISH'], Predicted: ['SALE', 'BRITISHINL']
+2024-04-28 21:56:56,706 - True predictions: 120, Total GT: 201
+2024-04-28 21:56:59,466 - Runtime 41 Image path: assets/icdar2015/test_images\img_135.jpg, GT: ['dont', 'panic'], Predicted: ['PANIC', 'DONT', '-1']
+2024-04-28 21:56:59,466 - True predictions: 121, Total GT: 203
+2024-04-28 21:57:01,992 - Runtime 42 Image path: assets/icdar2015/test_images\img_136.jpg, GT: ['place', 'bright', 'RKET', 'WALK'], Predicted: ['RKEPLACE']
+2024-04-28 21:57:01,993 - True predictions: 122, Total GT: 207
+2024-04-28 21:57:05,671 - Runtime 43 Image path: assets/icdar2015/test_images\img_137.jpg, GT: ['JACOBS', 'MARC', 'MARC', 'brothers', 'DIA'], Predicted: ['brothers', 'MARC', 'DIA', 'BY', 'JACOSS', 'MARC', '2', '-1']
+2024-04-28 21:57:05,672 - True predictions: 127, Total GT: 212
+2024-04-28 21:57:09,379 - Runtime 44 Image path: assets/icdar2015/test_images\img_138.jpg, GT: ['desigual', 'desigual', 'alluti', 'Further', 'tions'], Predicted: ['Deaigual', 'Deal', 'Deeigus', 'Further', '-1', '-1', '-1', '-1']
+2024-04-28 21:57:09,380 - True predictions: 129, Total GT: 217
+2024-04-28 21:57:12,411 - Runtime 45 Image path: assets/icdar2015/test_images\img_139.jpg, GT: ['PRECIOUS', 'THOTS'], Predicted: ['PRECIOUSTH', 'TS']
+2024-04-28 21:57:12,412 - True predictions: 130, Total GT: 219
+2024-04-28 21:57:15,591 - Runtime 46 Image path: assets/icdar2015/test_images\img_14.jpg, GT: ['the', 'Future', 'Communications', 'venting', 'ntelligence.'], Predicted: ['iventing', 'Future', 'ntelligence.', '-1', 'Communicatian./oh']
+2024-04-28 21:57:15,592 - True predictions: 133, Total GT: 224
+2024-04-28 21:57:19,468 - Runtime 47 Image path: assets/icdar2015/test_images\img_140.jpg, GT: ['SUSHI', 'sushi', 'the', 'kimmic', 'precious', 'place'], Predicted: ['SUSHI', '-1', 'TEr', '-1', '-1', '-1', '-1', '-1', 'KMSIHTS']
+2024-04-28 21:57:19,470 - True predictions: 135, Total GT: 230
+2024-04-28 21:57:23,162 - Runtime 48 Image path: assets/icdar2015/test_images\img_141.jpg, GT: ['Noodles', 'PONTIAN', 'Wanton'], Predicted: ['60', 'ONTIAN', '-1', '-1', '-1', '-1']
+2024-04-28 21:57:23,162 - True predictions: 136, Total GT: 233
+2024-04-28 21:57:27,321 - Runtime 49 Image path: assets/icdar2015/test_images\img_142.jpg, GT: ['OPE', 'EARLY', 'OPENS', 'toast', 'DAILY', 'and', 'your', 'important'], Predicted: ['toastl@', '7.30AM', 'OPENS', 'OPEII', '-', 'OPET', 'DAILY', '-1']
+2024-04-28 21:57:27,322 - True predictions: 139, Total GT: 241
+2024-04-28 21:57:30,657 - Runtime 50 Image path: assets/icdar2015/test_images\img_143.jpg, GT: ['food', 'place', 'GIVE', 'YOUR', 'BOOS'], Predicted: ['GIVE', '-1', 'YOUR', 'BOOS']
+2024-04-28 21:57:30,658 - True predictions: 143, Total GT: 246
+2024-04-28 21:57:34,721 - Runtime 51 Image path: assets/icdar2015/test_images\img_144.jpg, GT: ['such', 'Hoon', 'Fried', 'meal', 'most', 'EARLY', 'OPEN', 'WORK', 'toast', 'OPENS'], Predicted: ['VLEARLY', '730AM', 'OPENS', '-1', 'ACOPEN', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 21:57:34,722 - True predictions: 145, Total GT: 256
+2024-04-28 21:57:37,328 - Runtime 52 Image path: assets/icdar2015/test_images\img_145.jpg, GT: ['place', 'food', 'the'], Predicted: ['-1']
+2024-04-28 21:57:37,328 - True predictions: 146, Total GT: 259
+2024-04-28 21:57:40,072 - Runtime 53 Image path: assets/icdar2015/test_images\img_146.jpg, GT: ['Copper', 'chimney'], Predicted: ['Cotber Clanme', '-1', '-1']
+2024-04-28 21:57:40,072 - True predictions: 147, Total GT: 261
+2024-04-28 21:57:43,703 - Runtime 54 Image path: assets/icdar2015/test_images\img_147.jpg, GT: ['Copper', 'Chimney', 'NORTH', 'INDIAN', 'CUISINE'], Predicted: ['Copper', '-1', 'Inme', 'NORTHINDIAN', '-1', '-1']
+2024-04-28 21:57:43,703 - True predictions: 149, Total GT: 266
+2024-04-28 21:57:46,693 - Runtime 55 Image path: assets/icdar2015/test_images\img_148.jpg, GT: ['EXPRESS'], Predicted: ['SXPPESS', '-1']
+2024-04-28 21:57:46,694 - True predictions: 150, Total GT: 267
+2024-04-28 21:57:49,326 - Runtime 56 Image path: assets/icdar2015/test_images\img_149.jpg, GT: ['SKECHER', '2015'], Predicted: ['SKECHER', '-1']
+2024-04-28 21:57:49,327 - True predictions: 152, Total GT: 269
+2024-04-28 21:57:52,694 - Runtime 57 Image path: assets/icdar2015/test_images\img_15.jpg, GT: ['Reserved', 'Seating', 'PINTU'], Predicted: ['Seating', 'Reserved', '-1', '-1', '-1', '-1']
+2024-04-28 21:57:52,695 - True predictions: 155, Total GT: 272
+2024-04-28 21:57:55,451 - Runtime 58 Image path: assets/icdar2015/test_images\img_150.jpg, GT: ['SONS', 'FOX', 'GRACIOUS'], Predicted: ['SONS', 'GRACIOUS']
+2024-04-28 21:57:55,451 - True predictions: 158, Total GT: 275
+2024-04-28 21:57:58,401 - Runtime 59 Image path: assets/icdar2015/test_images\img_151.jpg, GT: ['LVER', 'sale'], Predicted: ['-1']
+2024-04-28 21:57:58,402 - True predictions: 159, Total GT: 277
+2024-04-28 21:58:01,906 - Runtime 60 Image path: assets/icdar2015/test_images\img_152.jpg, GT: ['CEDELE', 'COURT', 'ECHUAN', 'MIKUNI', 'MAHARANI', 'SAHI', 'CARPETS', 'STERN', 'BEAUTY', 'SOL'], Predicted: ['BEAUT', 'MIKUNI', 'COURT', 'CEDELE', 'CARPETS', 'MARARANI', '-1', '-1']
+2024-04-28 21:58:01,907 - True predictions: 164, Total GT: 287
+2024-04-28 21:58:05,223 - Runtime 61 Image path: assets/icdar2015/test_images\img_153.jpg, GT: ['MOVE.', 'NOURISH', 'BELIEVE'], Predicted: ['MOE', 'NOOUUSN', 'BEEUEEE']
+2024-04-28 21:58:05,223 - True predictions: 165, Total GT: 290
+2024-04-28 21:58:08,059 - Runtime 62 Image path: assets/icdar2015/test_images\img_154.jpg, GT: ['SALE'], Predicted: ['-1', '-1', 'SALT', '-1']
+2024-04-28 21:58:08,059 - True predictions: 166, Total GT: 291
+2024-04-28 21:58:11,405 - Runtime 63 Image path: assets/icdar2015/test_images\img_155.jpg, GT: ['Start', 'earning', 'STARS', 'top', 'all'], Predicted: ['STARS', 'eaming', 'Start', 'top', 'on']
+2024-04-28 21:58:11,405 - True predictions: 170, Total GT: 296
+2024-04-28 21:58:14,425 - Runtime 64 Image path: assets/icdar2015/test_images\img_156.jpg, GT: ['ROBINSO'], Predicted: ['ROBINSOI']
+2024-04-28 21:58:14,426 - True predictions: 171, Total GT: 297
+2024-04-28 21:58:17,433 - Runtime 65 Image path: assets/icdar2015/test_images\img_157.jpg, GT: ['giordano', 'ladies', 'SPENC'], Predicted: ['giordano', 'SPING', 'grordanoladies', 'Madies']
+2024-04-28 21:58:17,434 - True predictions: 173, Total GT: 300
+2024-04-28 21:58:21,411 - Runtime 66 Image path: assets/icdar2015/test_images\img_158.jpg, GT: ['TOPMAN', 'TOPSHOP', 'MANY', 'ITEMS', 'OFF'], Predicted: ['TOPMAN', 'MANY', 'ITEMS', '0%R']
+2024-04-28 21:58:21,411 - True predictions: 177, Total GT: 305
+2024-04-28 21:58:25,834 - Runtime 67 Image path: assets/icdar2015/test_images\img_159.jpg, GT: ['latu  e', 'CAP', 'CAFE', 'USE'], Predicted: ['USE', 'larme', 'CAFE', '-1', '-1']
+2024-04-28 21:58:25,835 - True predictions: 180, Total GT: 309
+2024-04-28 21:58:30,123 - Runtime 68 Image path: assets/icdar2015/test_images\img_16.jpg, GT: ['Reserved', 'Seating', 'BAG', 'FOR', 'DOW', 'BETTER', 'SMOKING'], Predicted: ['Reserved', 'Seating', 'BAG', 'DOV', 'BETTEP', 'FOR', '-1', '-1', '-1']
+2024-04-28 21:58:30,123 - True predictions: 185, Total GT: 316
+2024-04-28 21:58:34,307 - Runtime 69 Image path: assets/icdar2015/test_images\img_160.jpg, GT: ['G20', 'SALE', 'SALE', 'SALE', 'hue', 'SALE', 'GEOX'], Predicted: ['SALE', 'G2OX', 'SAE', '-1', '-1', 'LE']
+2024-04-28 21:58:34,308 - True predictions: 190, Total GT: 323
+2024-04-28 21:58:37,134 - Runtime 70 Image path: assets/icdar2015/test_images\img_161.jpg, GT: ['GEOX', 'GEOX'], Predicted: ['-1', '-1']
+2024-04-28 21:58:37,134 - True predictions: 191, Total GT: 325
+2024-04-28 21:58:40,144 - Runtime 71 Image path: assets/icdar2015/test_images\img_162.jpg, GT: ['NAUTI'], Predicted: ['NAUTI']
+2024-04-28 21:58:40,144 - True predictions: 193, Total GT: 326
+2024-04-28 21:58:43,165 - Runtime 72 Image path: assets/icdar2015/test_images\img_163.jpg, GT: ['DOROTHY', 'PERKINS'], Predicted: ['DOROTHY', 'PERKINS', '-1']
+2024-04-28 21:58:43,166 - True predictions: 196, Total GT: 328
+2024-04-28 21:58:48,074 - Runtime 73 Image path: assets/icdar2015/test_images\img_164.jpg, GT: ['SALE', 'NEW', 'SALE', 'FURTHER', 'SALE', 'LINES', 'ADDED'], Predicted: ['SALE', 'LINES', 'NEW', '50', 'ADDED', 'OFF', 'FORTAER', '-1', '-1', '-1', 'o', '-1', '-1', 'UPT']
+2024-04-28 21:58:48,074 - True predictions: 203, Total GT: 335
+2024-04-28 21:58:51,250 - Runtime 74 Image path: assets/icdar2015/test_images\img_165.jpg, GT: ['NEW', 'Desigual', 'FURTHER', 'LINES', 'SALE', '50% OFF'], Predicted: ['SALE', '-1', 'NEWLINE', '-1']
+2024-04-28 21:58:51,251 - True predictions: 205, Total GT: 341
+2024-04-28 21:58:54,381 - Runtime 75 Image path: assets/icdar2015/test_images\img_166.jpg, GT: ['sales', 'sale', '70%', 'Etam', '-70%'], Predicted: ['Etam', '70', '-1', 'sale', '-1', '-1']
+2024-04-28 21:58:54,381 - True predictions: 208, Total GT: 346
+2024-04-28 21:58:57,205 - Runtime 76 Image path: assets/icdar2015/test_images\img_167.jpg, GT: ['ROBINSONS'], Predicted: ['KOONSONS']
+2024-04-28 21:58:57,206 - True predictions: 209, Total GT: 347
+2024-04-28 21:59:00,066 - Runtime 77 Image path: assets/icdar2015/test_images\img_168.jpg, GT: ['SHOP'], Predicted: ['OPSHOP']
+2024-04-28 21:59:00,066 - True predictions: 210, Total GT: 348
+2024-04-28 21:59:03,384 - Runtime 78 Image path: assets/icdar2015/test_images\img_169.jpg, GT: ['GODIVA', 'BROOKS', 'BROTHERS', 'SALE'], Predicted: ['GODIVA', '-1', 'DHOTHERS']
+2024-04-28 21:59:03,385 - True predictions: 212, Total GT: 352
+2024-04-28 21:59:06,677 - Runtime 79 Image path: assets/icdar2015/test_images\img_17.jpg, GT: ['Haugang', 'Ave', '(Upp', 'Serangoon', 'RdJ'], Predicted: ['Haupang', 'Serango', '-1', 'CLipp', '-1']
+2024-04-28 21:59:06,677 - True predictions: 213, Total GT: 357
+2024-04-28 21:59:10,157 - Runtime 80 Image path: assets/icdar2015/test_images\img_170.jpg, GT: ['GODIVA', 'Belgium', '1926', 'Goat', '2015'], Predicted: ['GODIVA', 'Brlgium', '7015', 'R', '-1']
+2024-04-28 21:59:10,158 - True predictions: 215, Total GT: 362
+2024-04-28 21:59:13,748 - Runtime 81 Image path: assets/icdar2015/test_images\img_171.jpg, GT: ['OMEGA', 'OMEGA'], Predicted: ['OMEGA', 'CMEGA', '...', '..', '-1']
+2024-04-28 21:59:13,749 - True predictions: 218, Total GT: 364
+2024-04-28 21:59:16,792 - Runtime 82 Image path: assets/icdar2015/test_images\img_172.jpg, GT: ['AIGNER', 'SALE', 'SALE'], Predicted: ['SACA', 'AIGNER', '-1']
+2024-04-28 21:59:16,793 - True predictions: 220, Total GT: 367
+2024-04-28 21:59:20,328 - Runtime 83 Image path: assets/icdar2015/test_images\img_173.jpg, GT: ['part', 'the', 'Art', 'Connector'], Predicted: ['Connector', 'Art', 'part', 'the', '-1', 'SNCO', '-1']
+2024-04-28 21:59:20,328 - True predictions: 225, Total GT: 371
+2024-04-28 21:59:23,617 - Runtime 84 Image path: assets/icdar2015/test_images\img_174.jpg, GT: ['EXIT', 'MARC', 'SALE', 'BRITISH'], Predicted: ['EXIT', 'BRITISH', '-1', 'MANG', 'NOA']
+2024-04-28 21:59:23,617 - True predictions: 228, Total GT: 375
+2024-04-28 21:59:26,491 - Runtime 85 Image path: assets/icdar2015/test_images\img_175.jpg, GT: ['50%off', 'ORE', 'POP', 'OUR', 'SALE', '01-15'], Predicted: ['SALE', '50%', '-1']
+2024-04-28 21:59:26,491 - True predictions: 230, Total GT: 381
+2024-04-28 21:59:30,451 - Runtime 86 Image path: assets/icdar2015/test_images\img_176.jpg, GT: ['strip', 'POP', 'OUR', 'SORE', '#01-15'], Predicted: ['OUR', 'BY', 'POP', 'AT', '#01-15', 'STORE', 'Ste', '-1', '-1']
+2024-04-28 21:59:30,451 - True predictions: 234, Total GT: 386
+2024-04-28 21:59:33,817 - Runtime 87 Image path: assets/icdar2015/test_images\img_177.jpg, GT: ['POP', 'OUR', 'ORE', 'AI #'], Predicted: ['POP', 'OUR', '-1', '-1', '-1', '-1']
+2024-04-28 21:59:33,818 - True predictions: 237, Total GT: 390
+2024-04-28 21:59:38,130 - Runtime 88 Image path: assets/icdar2015/test_images\img_178.jpg, GT: ['Buffet', 'TOAST', 'BreadTalk', 'IND', 'Town', 'Epidor', 'BANGKOKJAM', 'BOX'], Predicted: ['Buffet', 'KIAM', 'BANGH', '-1', 'INDL', 'pidor', 'LOwE', '-1', 'BreadTal', 'Talk']
+2024-04-28 21:59:38,130 - True predictions: 239, Total GT: 398
+2024-04-28 21:59:42,597 - Runtime 89 Image path: assets/icdar2015/test_images\img_179.jpg, GT: ['TOAST', 'BOX', 'BEERY', 'THIRSTY?', '$10', 'FORTWO'], Predicted: ['BEERY', 'FORTWO', 'THIRSTY?', 'S10', '-1', '-1', '(.', '-1']
+2024-04-28 21:59:42,598 - True predictions: 243, Total GT: 404
+2024-04-28 21:59:46,266 - Runtime 90 Image path: assets/icdar2015/test_images\img_18.jpg, GT: ['EXIT', 'I2R'], Predicted: ['-1', '2R', '-1']
+2024-04-28 21:59:46,267 - True predictions: 244, Total GT: 406
+2024-04-28 21:59:49,292 - Runtime 91 Image path: assets/icdar2015/test_images\img_180.jpg, GT: ['Epidor', 'Bread', 'Talk'], Predicted: ['Cpldor', '-1', '-1']
+2024-04-28 21:59:49,292 - True predictions: 245, Total GT: 409
+2024-04-28 21:59:52,114 - Runtime 92 Image path: assets/icdar2015/test_images\img_181.jpg, GT: ['Epidor'], Predicted: ['Epidor', '-1']
+2024-04-28 21:59:52,114 - True predictions: 247, Total GT: 410
+2024-04-28 21:59:55,191 - Runtime 93 Image path: assets/icdar2015/test_images\img_182.jpg, GT: ['COCOA', 'TREES', 'TOBLERONE', 'm&m'], Predicted: ['COCOA', 'TREES', 'TOBLERONE']
+2024-04-28 21:59:55,191 - True predictions: 251, Total GT: 414
+2024-04-28 21:59:58,237 - Runtime 94 Image path: assets/icdar2015/test_images\img_183.jpg, GT: ['Cadbury'], Predicted: ['Castoury', '-1']
+2024-04-28 21:59:58,237 - True predictions: 252, Total GT: 415
+2024-04-28 22:00:01,150 - Runtime 95 Image path: assets/icdar2015/test_images\img_184.jpg, GT: ['Everyday', 'Specials'], Predicted: ['Specials', 'Everyday', '-1', '-1']
+2024-04-28 22:00:01,151 - True predictions: 255, Total GT: 417
+2024-04-28 22:00:03,764 - Runtime 96 Image path: assets/icdar2015/test_images\img_185.jpg, GT: ['PODI'], Predicted: ['PODI']
+2024-04-28 22:00:03,765 - True predictions: 257, Total GT: 418
+2024-04-28 22:00:06,331 - Runtime 97 Image path: assets/icdar2015/test_images\img_186.jpg, GT: ['COMNAM'], Predicted: ['COMINAM']
+2024-04-28 22:00:06,331 - True predictions: 258, Total GT: 419
+2024-04-28 22:00:08,936 - Runtime 98 Image path: assets/icdar2015/test_images\img_187.jpg, GT: ['LONDON', 'Crahtree', 'Evelyn', 'Mt.', 'Sapola'], Predicted: ['W@apola', '-1']
+2024-04-28 22:00:08,937 - True predictions: 259, Total GT: 424
+2024-04-28 22:00:11,622 - Runtime 99 Image path: assets/icdar2015/test_images\img_188.jpg, GT: ['MPH', 'BOOKSTORES'], Predicted: ['MPH', 'OOKSTORES']
+2024-04-28 22:00:11,622 - True predictions: 261, Total GT: 426
+2024-04-28 22:00:14,659 - Runtime 100 Image path: assets/icdar2015/test_images\img_189.jpg, GT: ['hair', 'billlie'], Predicted: ['-1', '1401', '-1']
+2024-04-28 22:00:14,659 - True predictions: 262, Total GT: 428
+2024-04-28 22:00:17,741 - Runtime 101 Image path: assets/icdar2015/test_images\img_19.jpg, GT: ['West', 'Coast', 'Way', 'PIE'], Predicted: ['Coast', 'lest', 'PIE', '-1', '-1']
+2024-04-28 22:00:17,741 - True predictions: 265, Total GT: 432
+2024-04-28 22:00:20,672 - Runtime 102 Image path: assets/icdar2015/test_images\img_190.jpg, GT: ['HOUSE'], Predicted: ['UBHSOSE']
+2024-04-28 22:00:20,673 - True predictions: 266, Total GT: 433
+2024-04-28 22:00:23,379 - Runtime 103 Image path: assets/icdar2015/test_images\img_191.jpg, GT: ['HOUSE'], Predicted: ['QBHOUSE', 'BE']
+2024-04-28 22:00:23,380 - True predictions: 267, Total GT: 434
+2024-04-28 22:00:26,946 - Runtime 104 Image path: assets/icdar2015/test_images\img_192.jpg, GT: ['WATER', 'FIRE', 'HOSEREEH', 'WET'], Predicted: ['HOSEREL', '-1', 'WATER', 'FERE', 'WETRER', '-1']
+2024-04-28 22:00:26,947 - True predictions: 269, Total GT: 438
+2024-04-28 22:00:29,872 - Runtime 105 Image path: assets/icdar2015/test_images\img_193.jpg, GT: ['Choices', 'House'], Predicted: ['House', '-1']
+2024-04-28 22:00:29,872 - True predictions: 271, Total GT: 440
+2024-04-28 22:00:32,570 - Runtime 106 Image path: assets/icdar2015/test_images\img_194.jpg, GT: ['@SMRT'], Predicted: ['@SHRI']
+2024-04-28 22:00:32,571 - True predictions: 272, Total GT: 441
+2024-04-28 22:00:36,638 - Runtime 107 Image path: assets/icdar2015/test_images\img_195.jpg, GT: ['EXPERIENCE', 'FIBRE', 'HERE', 'EXPERIENCE', 'Open', 'Public.', 'Free', 'Admission.'], Predicted: ['EXPERIENCE', 'Admission.', 'HERE', 'FIBRE', 'Public.', 'Free', 'Open', 'to', '-1']
+2024-04-28 22:00:36,639 - True predictions: 281, Total GT: 449
+2024-04-28 22:00:40,257 - Runtime 108 Image path: assets/icdar2015/test_images\img_196.jpg, GT: ['SINCE', '1954', 'BURGER', 'KING'], Predicted: ['SENCE', 'KING', 'BLIRGEE', '4854']
+2024-04-28 22:00:40,258 - True predictions: 283, Total GT: 453
+2024-04-28 22:00:43,386 - Runtime 109 Image path: assets/icdar2015/test_images\img_197.jpg, GT: ['HEAT', 'ELEVEN', 'WELCOME', 'ELEVEN', 'EAT'], Predicted: ['ELEVEn', 'NEAT', 'SET', '-1']
+2024-04-28 22:00:43,386 - True predictions: 284, Total GT: 458
+2024-04-28 22:00:47,240 - Runtime 110 Image path: assets/icdar2015/test_images\img_198.jpg, GT: ['Free', 'Open', 'Inn', 'Public.', 'OOD', 'Admission.'], Predicted: ['Admission.', '-1', '-1', 'Public.', 'Free', 'Open', '-1', '-1']
+2024-04-28 22:00:47,241 - True predictions: 289, Total GT: 464
+2024-04-28 22:00:51,138 - Runtime 111 Image path: assets/icdar2015/test_images\img_199.jpg, GT: ['EXPLORE', 'INFOCOMM', 'POSS', 'EAT'], Predicted: ['INFOCOMM', 'POSS', 'EXPLORE', 'LORE', '-1']
+2024-04-28 22:00:51,139 - True predictions: 293, Total GT: 468
+2024-04-28 22:00:55,751 - Runtime 112 Image path: assets/icdar2015/test_images\img_2.jpg, GT: ['JOINT', 'yourself', '154', '197', '727', '198', '20029', 'Free', 'from', 'PAIN'], Predicted: ['JOINT', 'PAIN', '-1', '-1', '-1', '20029', '-1', '-1', '154197', '77']
+2024-04-28 22:00:55,752 - True predictions: 297, Total GT: 478
+2024-04-28 22:00:58,902 - Runtime 113 Image path: assets/icdar2015/test_images\img_20.jpg, GT: ['BEYOND', 'FOUR', 'WALLS', 'JOIN', 'CLASSROOMS', 'NOW', 'DRING', 'YOU', 'WORLD', 'THE'], Predicted: ['Joon', '00']
+2024-04-28 22:00:58,903 - True predictions: 298, Total GT: 488
+2024-04-28 22:01:01,424 - Runtime 114 Image path: assets/icdar2015/test_images\img_200.jpg, GT: ['House'], Predicted: ['House']
+2024-04-28 22:01:01,424 - True predictions: 300, Total GT: 489
+2024-04-28 22:01:04,213 - Runtime 115 Image path: assets/icdar2015/test_images\img_201.jpg, GT: ['COMNAM', 'SPECTACLE'], Predicted: ['COMNAM', '-1', '-1']
+2024-04-28 22:01:04,213 - True predictions: 302, Total GT: 491
+2024-04-28 22:01:08,424 - Runtime 116 Image path: assets/icdar2015/test_images\img_202.jpg, GT: ['FASTER', 'THAN', 'YOU', 'CAN', 'Etam', 'SAY', 'GIFT', 'WRAP', 'PLEASE', 'TAP', 'SALE', 'SALE', 'TAP', 'The', 'faster', 'ivay', 'pay.'], Predicted: ['tutssorig', '-1', 'TAP', '-1', 'THUAN', '-1', '-1', '-1', '-1', '&GO', 'PLEASE*', '-1', '-1', '-1']
+2024-04-28 22:01:08,424 - True predictions: 305, Total GT: 508
+2024-04-28 22:01:13,165 - Runtime 117 Image path: assets/icdar2015/test_images\img_203.jpg, GT: ['Food', 'FOOD', 'DIRECTORY', 'HOTELS', 'Fairmont', 'Singapore', 'Prego', 'Court', 'Kitchen', 'The', 'Stamford', 'Swiss', 'Bar', 'Level', 'Level', 'SALE', 'Accessorize', 'SALE', 'MasterCard', 'woobo'], Predicted: ['HOTELS', 'FOOD', 'DIRECTORY', '-1', '-1', 'Accesseriae', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:01:13,165 - True predictions: 309, Total GT: 528
+2024-04-28 22:01:17,060 - Runtime 118 Image path: assets/icdar2015/test_images\img_204.jpg, GT: ['CHRISTMAS', 'SALE', "IT'S", 'BIG', 'AND', "IT'S"], Predicted: ['SALE', 'CHSSTMAS', "IT'S", 'BIG', '-1', 'AND', 'ON', 'HI', '-']
+2024-04-28 22:01:17,060 - True predictions: 315, Total GT: 534
+2024-04-28 22:01:20,567 - Runtime 119 Image path: assets/icdar2015/test_images\img_205.jpg, GT: ['TISSOT', "VICTORIA'S"], Predicted: ["VICTORIA'S", 'SECA', 'TISSOT', '-1', 'HAR', '-1', '-1']
+2024-04-28 22:01:20,568 - True predictions: 318, Total GT: 536
+2024-04-28 22:01:23,292 - Runtime 120 Image path: assets/icdar2015/test_images\img_206.jpg, GT: ['ROLEX'], Predicted: ['ROLEX', 'OMFR']
+2024-04-28 22:01:23,292 - True predictions: 320, Total GT: 537
+2024-04-28 22:01:25,820 - Runtime 121 Image path: assets/icdar2015/test_images\img_207.jpg, GT: ['ART', 'ODE', 'NOT'], Predicted: ['COETOAE']
+2024-04-28 22:01:25,821 - True predictions: 321, Total GT: 540
+2024-04-28 22:01:29,312 - Runtime 122 Image path: assets/icdar2015/test_images\img_208.jpg, GT: ['UOB'], Predicted: ['UOB', '-1', '-1', '-1']
+2024-04-28 22:01:29,313 - True predictions: 323, Total GT: 541
+2024-04-28 22:01:33,796 - Runtime 123 Image path: assets/icdar2015/test_images\img_209.jpg, GT: ['City', 'MRT', 'Office', 'Tower', 'sumosal'], Predicted: ['sumosa', 'Office', 'MRT', '-1', 'Tower', '-1', 'bb/go', '-1', 'on E', '-1']
+2024-04-28 22:01:33,796 - True predictions: 327, Total GT: 546
+2024-04-28 22:01:37,514 - Runtime 124 Image path: assets/icdar2015/test_images\img_21.jpg, GT: ['BEAST', 'CITY', '$20', 'LOST', 'FOOD', 'GGULDEN', 'UNSEEN', 'UNSEEN'], Predicted: ['-1', 'UNSEEN', '-1', '-1', '-1', '3s20', 'OH', '-1', '-1']
+2024-04-28 22:01:37,515 - True predictions: 330, Total GT: 554
+2024-04-28 22:01:40,898 - Runtime 125 Image path: assets/icdar2015/test_images\img_210.jpg, GT: ['chocolate'], Predicted: ['chocolate', '-1', '-1']
+2024-04-28 22:01:40,898 - True predictions: 332, Total GT: 555
+2024-04-28 22:01:43,770 - Runtime 126 Image path: assets/icdar2015/test_images\img_211.jpg, GT: ['guardian'], Predicted: ['-1', '-1', 'PEES!']
+2024-04-28 22:01:43,771 - True predictions: 333, Total GT: 556
+2024-04-28 22:01:46,371 - Runtime 127 Image path: assets/icdar2015/test_images\img_212.jpg, GT: ['aster', 'EXIT'], Predicted: ['aster', 'peu']
+2024-04-28 22:01:46,372 - True predictions: 335, Total GT: 558
+2024-04-28 22:01:49,196 - Runtime 128 Image path: assets/icdar2015/test_images\img_213.jpg, GT: ['DIRECTORY'], Predicted: ['DIRECTORY', '-1']
+2024-04-28 22:01:49,196 - True predictions: 337, Total GT: 559
+2024-04-28 22:01:53,594 - Runtime 129 Image path: assets/icdar2015/test_images\img_214.jpg, GT: ['place', 'DIN', "there's", 'always', 'that', 'special', 'the', 'areas', 'live.'], Predicted: ['live.', 'theres', 'always', 'place', 'special', 'we', 'that', 'areas', 'the', '-1', 'in', '-1', '-1']
+2024-04-28 22:01:53,594 - True predictions: 345, Total GT: 568
+2024-04-28 22:01:56,670 - Runtime 130 Image path: assets/icdar2015/test_images\img_215.jpg, GT: ['EXIT', '$8.80'], Predicted: ['IEXIT', '-1', '-1']
+2024-04-28 22:01:56,671 - True predictions: 346, Total GT: 570
+2024-04-28 22:01:59,266 - Runtime 131 Image path: assets/icdar2015/test_images\img_216.jpg, GT: ['browhous'], Predicted: ['browhous']
+2024-04-28 22:01:59,266 - True predictions: 348, Total GT: 571
+2024-04-28 22:02:02,828 - Runtime 132 Image path: assets/icdar2015/test_images\img_217.jpg, GT: ['MARKET', 'PLACE', 'COURT', 'ODI', 'PODI', 'EXIT', 'SUBW'], Predicted: ['PODI', ')ODI', 'MARKETPLACE', '-1', 'EXIT', '-1']
+2024-04-28 22:02:02,828 - True predictions: 351, Total GT: 578
+2024-04-28 22:02:06,632 - Runtime 133 Image path: assets/icdar2015/test_images\img_218.jpg, GT: ['ROBINSONS', 'Elizabeth', 'MAC', 'BIOTHERM', 'SALE'], Predicted: ['Elizaberh', 'ROBINSONS', 'SALE', '70', 'Ardl', 'TC', '-1', 'BIOTHERM']
+2024-04-28 22:02:06,633 - True predictions: 355, Total GT: 583
+2024-04-28 22:02:09,644 - Runtime 134 Image path: assets/icdar2015/test_images\img_219.jpg, GT: ['TOMMY', 'HILFGER'], Predicted: ['TOMNY', 'GER', 'HILE']
+2024-04-28 22:02:09,644 - True predictions: 356, Total GT: 585
+2024-04-28 22:02:12,270 - Runtime 135 Image path: assets/icdar2015/test_images\img_22.jpg, GT: ['Toffifee'], Predicted: ['Toffifee']
+2024-04-28 22:02:12,270 - True predictions: 358, Total GT: 586
+2024-04-28 22:02:14,831 - Runtime 136 Image path: assets/icdar2015/test_images\img_220.jpg, GT: ['Swatch'], Predicted: ['swatch+']
+2024-04-28 22:02:14,832 - True predictions: 359, Total GT: 587
+2024-04-28 22:02:18,311 - Runtime 137 Image path: assets/icdar2015/test_images\img_221.jpg, GT: ['ios', 'umP', 'sme', '50%', 'off'], Predicted: ['umP', 'olock', 'uPto', 'Sma', '50f', '30']
+2024-04-28 22:02:18,311 - True predictions: 361, Total GT: 592
+2024-04-28 22:02:21,507 - Runtime 138 Image path: assets/icdar2015/test_images\img_222.jpg, GT: ['Spaghetti', 'GOEMON'], Predicted: ['GOEMON', 'Spaghetti', '-1', 'ISH', '-1']
+2024-04-28 22:02:21,508 - True predictions: 364, Total GT: 594
+2024-04-28 22:02:25,090 - Runtime 139 Image path: assets/icdar2015/test_images\img_223.jpg, GT: ['any', 'SIS'], Predicted: ['anysis']
+2024-04-28 22:02:25,090 - True predictions: 365, Total GT: 596
+2024-04-28 22:02:28,218 - Runtime 140 Image path: assets/icdar2015/test_images\img_224.jpg, GT: ['dr.', 'CAFE', 'COFFEE', 'THE', 'BODY', 'STHES'], Predicted: ['COFFEE', 'drCAFE', 'THE', '-1']
+2024-04-28 22:02:28,219 - True predictions: 368, Total GT: 602
+2024-04-28 22:02:31,028 - Runtime 141 Image path: assets/icdar2015/test_images\img_225.jpg, GT: ['COFFEE', 'Rare', 'Bits'], Predicted: ['RareBits', 'COFFEE', '-1']
+2024-04-28 22:02:31,028 - True predictions: 370, Total GT: 605
+2024-04-28 22:02:34,134 - Runtime 142 Image path: assets/icdar2015/test_images\img_226.jpg, GT: ['50%', 'off!', 'SALE'], Predicted: ['SALE', '50%off!', '-1', '-1']
+2024-04-28 22:02:34,134 - True predictions: 372, Total GT: 608
+2024-04-28 22:02:37,014 - Runtime 143 Image path: assets/icdar2015/test_images\img_227.jpg, GT: ['Eett', 'DOCKERS', 'figger'], Predicted: ['DOCKERS', '19qqit', 'Yeu', '-1']
+2024-04-28 22:02:37,015 - True predictions: 374, Total GT: 611
+2024-04-28 22:02:40,136 - Runtime 144 Image path: assets/icdar2015/test_images\img_228.jpg, GT: ['SEX'], Predicted: ['SEX', '-1', 't', '-1', '-1', '-1']
+2024-04-28 22:02:40,137 - True predictions: 376, Total GT: 612
+2024-04-28 22:02:44,096 - Runtime 145 Image path: assets/icdar2015/test_images\img_229.jpg, GT: ['Esplanade', 'Theatres', 'the', 'Bay'], Predicted: ['Theatres', 'the', 'Esplanade', 'on', 'Bay', '-1']
+2024-04-28 22:02:44,096 - True predictions: 381, Total GT: 616
+2024-04-28 22:02:47,646 - Runtime 146 Image path: assets/icdar2015/test_images\img_23.jpg, GT: ['Emergency', 'Stop', 'Plunger'], Predicted: ['Emergerk', 'Punwger', '-1', '-1', '-1']
+2024-04-28 22:02:47,646 - True predictions: 382, Total GT: 619
+2024-04-28 22:02:51,017 - Runtime 147 Image path: assets/icdar2015/test_images\img_230.jpg, GT: ['Esplanade', 'Theatres', 'the', 'Bay'], Predicted: ['Esplanade', 'Theatres', 'the', 'on', 'Bay']
+2024-04-28 22:02:51,018 - True predictions: 387, Total GT: 623
+2024-04-28 22:02:54,556 - Runtime 148 Image path: assets/icdar2015/test_images\img_231.jpg, GT: ['FIRE', 'OSE', 'REEL'], Predicted: ['-1', 'REEZ', 'FIRE']
+2024-04-28 22:02:54,556 - True predictions: 389, Total GT: 626
+2024-04-28 22:02:57,363 - Runtime 149 Image path: assets/icdar2015/test_images\img_232.jpg, GT: ['Carpark'], Predicted: ['Carpark']
+2024-04-28 22:02:57,363 - True predictions: 391, Total GT: 627
+2024-04-28 22:03:00,981 - Runtime 150 Image path: assets/icdar2015/test_images\img_233.jpg, GT: ['Esplanade', '14-17', '2015', 'Corsaire', 'Theatre'], Predicted: ['Corsaire', 'Theatre', 'Le', 'Esplanade', '2015', '7My', '-1', 'H4-1', '33']
+2024-04-28 22:03:00,981 - True predictions: 396, Total GT: 632
+2024-04-28 22:03:03,715 - Runtime 151 Image path: assets/icdar2015/test_images\img_234.jpg, GT: ['HAPPY', 'HOUR'], Predicted: ['HAPPY']
+2024-04-28 22:03:03,715 - True predictions: 398, Total GT: 634
+2024-04-28 22:03:07,139 - Runtime 152 Image path: assets/icdar2015/test_images\img_235.jpg, GT: ['Concert', 'Theatre', 'Hall'], Predicted: ['Concert', 'Hall', 'Theal', '-1', '-1', '-1', '-1']
+2024-04-28 22:03:07,140 - True predictions: 401, Total GT: 637
+2024-04-28 22:03:13,118 - Runtime 153 Image path: assets/icdar2015/test_images\img_236.jpg, GT: ['Lift', 'MEETS', 'Passages', 'Restroom', 'Carpark'], Predicted: ['Passsgas', 'Lift', 'Carpark', 'Main', 'Rastroom', '-1', '-1', 'MIRT', 'Thastre', '-1', '-1', '-1', '-1', 'M', '-1', '-1', '-1', '-1', 'TOB)&', '-1']
+2024-04-28 22:03:13,119 - True predictions: 404, Total GT: 642
+2024-04-28 22:03:16,845 - Runtime 154 Image path: assets/icdar2015/test_images\img_237.jpg, GT: ['Passages', 'Meeting', 'Point', 'Theatre'], Predicted: ['Thestre', 'Meedng', 'Passages', 'Point', '-1', '-1', '-1', '-1']
+2024-04-28 22:03:16,846 - True predictions: 407, Total GT: 646
+2024-04-28 22:03:21,102 - Runtime 155 Image path: assets/icdar2015/test_images\img_238.jpg, GT: ['The', 'esplanade', 'Ltd', 'library', 'Esplanade', 'Theatre', 'Roof', 'Lift'], Predicted: ['Terra', 'Esplanade', 'Root', 'Theatre', 'The', 'Ebrary', 'Stule', 'Col', 'Litt', 'esplanak:', '-1', 'Coh']
+2024-04-28 22:03:21,103 - True predictions: 411, Total GT: 654
+2024-04-28 22:03:24,116 - Runtime 156 Image path: assets/icdar2015/test_images\img_239.jpg, GT: ['NETS', 'AXS'], Predicted: ['AXS', '-', '-1']
+2024-04-28 22:03:24,116 - True predictions: 413, Total GT: 656
+2024-04-28 22:03:26,649 - Runtime 157 Image path: assets/icdar2015/test_images\img_24.jpg, GT: ['CONVERSE'], Predicted: ['CODVERS']
+2024-04-28 22:03:26,649 - True predictions: 414, Total GT: 657
+2024-04-28 22:03:29,405 - Runtime 158 Image path: assets/icdar2015/test_images\img_240.jpg, GT: ['Kenko'], Predicted: ['Kenko']
+2024-04-28 22:03:29,405 - True predictions: 416, Total GT: 658
+2024-04-28 22:03:32,147 - Runtime 159 Image path: assets/icdar2015/test_images\img_241.jpg, GT: [], Predicted: ['3', '-1']
+2024-04-28 22:03:32,148 - True predictions: 417, Total GT: 658
+2024-04-28 22:03:34,917 - Runtime 160 Image path: assets/icdar2015/test_images\img_242.jpg, GT: ['esplanade', 'library'], Predicted: ['@es!', 'orary']
+2024-04-28 22:03:34,918 - True predictions: 418, Total GT: 660
+2024-04-28 22:03:37,475 - Runtime 161 Image path: assets/icdar2015/test_images\img_243.jpg, GT: ['MANDARIN', 'ORIENTAL'], Predicted: ['-1', 'MANDARIN']
+2024-04-28 22:03:37,475 - True predictions: 420, Total GT: 662
+2024-04-28 22:03:40,386 - Runtime 162 Image path: assets/icdar2015/test_images\img_244.jpg, GT: ['BRENNER', 'CHOCOLATE', 'BAR'], Predicted: ['CHOCOLATE', 'BRENNER', 'BAS']
+2024-04-28 22:03:40,387 - True predictions: 423, Total GT: 665
+2024-04-28 22:03:43,339 - Runtime 163 Image path: assets/icdar2015/test_images\img_245.jpg, GT: ['TOAST', 'BOX'], Predicted: ['TOAST', 'BOX', '5']
+2024-04-28 22:03:43,339 - True predictions: 426, Total GT: 667
+2024-04-28 22:03:46,297 - Runtime 164 Image path: assets/icdar2015/test_images\img_246.jpg, GT: ['TOP', 'TWO', 'FINEST', 'LEAVES', 'BUD'], Predicted: ['LEAVES', '-', '-1', 'THO', '-1']
+2024-04-28 22:03:46,297 - True predictions: 428, Total GT: 672
+2024-04-28 22:03:49,173 - Runtime 165 Image path: assets/icdar2015/test_images\img_247.jpg, GT: ['QUEEN'], Predicted: ['50', 'SG', 'EN']
+2024-04-28 22:03:49,173 - True predictions: 429, Total GT: 673
+2024-04-28 22:03:52,612 - Runtime 166 Image path: assets/icdar2015/test_images\img_248.jpg, GT: ['Charcoal', 'THE', 'BAY', 'COLOUR'], Predicted: ['COLOUR', 'BAY', 'THE', '-1', '-1', '-1', '12M', '-1', '-1']
+2024-04-28 22:03:52,612 - True predictions: 433, Total GT: 677
+2024-04-28 22:03:55,611 - Runtime 167 Image path: assets/icdar2015/test_images\img_249.jpg, GT: ['Molly', 'Roffey s', 'RUSH', 'ESPLANADE'], Predicted: ['Molly', 'eSPLAnADE', 'Poffeys']
+2024-04-28 22:03:55,612 - True predictions: 435, Total GT: 681
+2024-04-28 22:03:58,436 - Runtime 168 Image path: assets/icdar2015/test_images\img_25.jpg, GT: ['FairPrice', 'finest'], Predicted: ['fnest', 'FairPrice', '-1', '-1']
+2024-04-28 22:03:58,437 - True predictions: 437, Total GT: 683
+2024-04-28 22:04:01,309 - Runtime 169 Image path: assets/icdar2015/test_images\img_250.jpg, GT: ['GIANT', 'TOAST', 'BOX'], Predicted: ['TOAST', 'BOX']
+2024-04-28 22:04:01,310 - True predictions: 440, Total GT: 686
+2024-04-28 22:04:05,546 - Runtime 170 Image path: assets/icdar2015/test_images\img_251.jpg, GT: ['Savings', 'DBS', 'DBS', 'Giant', 'UOB', 'HYPER', 'Citibank', 'Value', 'B1-150-15', '9am-'], Predicted: ['Giant', 'crtbank', 'DRS', '-1', '-1', '-1']
+2024-04-28 22:04:05,546 - True predictions: 442, Total GT: 696
+2024-04-28 22:04:10,454 - Runtime 171 Image path: assets/icdar2015/test_images\img_252.jpg, GT: ['Fountain', 'East', 'Atrium', 'Food', 'Republic', 'EXIT', 'Restaurants', 'Wealth', 'Hypermarket', 'GOLDEN', 'VILLAGE'], Predicted: ['EXIT', 'Wealth', '3GOLDEN VILLAGE', 'Fountain', '-1', '<', '-1', 'AXrium', 'Restaurants', 'of', 'Cafes', 'P']
+2024-04-28 22:04:10,455 - True predictions: 447, Total GT: 707
+2024-04-28 22:04:13,744 - Runtime 172 Image path: assets/icdar2015/test_images\img_253.jpg, GT: ['food', 'repu', 'SOUP', 'TRADITIONAL', "alk'"], Predicted: ['-1', '-1', '-1', 'food']
+2024-04-28 22:04:13,744 - True predictions: 449, Total GT: 712
+2024-04-28 22:04:17,382 - Runtime 173 Image path: assets/icdar2015/test_images\img_254.jpg, GT: ['CRYSTAL', 'TAXI', 'NEXT', 'Towe'], Predicted: ['TO', '(NEXT', 'TAXi', '1440', '-1', 'JOVEL', '-1', 'HyEud']
+2024-04-28 22:04:17,383 - True predictions: 450, Total GT: 716
+2024-04-28 22:04:22,067 - Runtime 174 Image path: assets/icdar2015/test_images\img_255.jpg, GT: ['2015', 'HAPPY', 'SPECIAL', 'FISH', 'PEPPER', 'MONTHLY', 'NEW', 'YEAR'], Predicted: ['2015', 'HAPPY', '-1', 'MORYEL', 'NEWYEAR', '-1', 'MEL', '-1']
+2024-04-28 22:04:22,068 - True predictions: 453, Total GT: 724
+2024-04-28 22:04:26,500 - Runtime 175 Image path: assets/icdar2015/test_images\img_256.jpg, GT: ['Gold', 'CLASS', 'Level', 'VILLAGE', 'GOLDEN', 'grab', 'GOLD', 'EAST'], Predicted: ['Level', 'GOLD', 'CLASS', '-1', 'VILLAGE', 'BALDEN', '-1', '-1', '-1', '-1']
+2024-04-28 22:04:26,500 - True predictions: 458, Total GT: 732
+2024-04-28 22:04:30,190 - Runtime 176 Image path: assets/icdar2015/test_images\img_257.jpg, GT: ['10%', 'Coca', 'Cola', 'Three', '10%', "It's"], Predicted: ['Coca-Cola', '-1', '-1', '-', '-', '-1']
+2024-04-28 22:04:30,191 - True predictions: 459, Total GT: 738
+2024-04-28 22:04:32,942 - Runtime 177 Image path: assets/icdar2015/test_images\img_258.jpg, GT: ['EXIT'], Predicted: ['IEXIT']
+2024-04-28 22:04:32,942 - True predictions: 460, Total GT: 739
+2024-04-28 22:04:36,304 - Runtime 178 Image path: assets/icdar2015/test_images\img_259.jpg, GT: ['Open', 'Sale'], Predicted: ['Sale50%', '-1', 'Open', 'We', '-1', '-1', '-1']
+2024-04-28 22:04:36,305 - True predictions: 462, Total GT: 741
+2024-04-28 22:04:42,530 - Runtime 179 Image path: assets/icdar2015/test_images\img_26.jpg, GT: ['Mitsubishi', 'JUR', 'TOWN', 'HALL', '197', 'AYE', 'Electric', 'star', 'Air', 'MEX', 'Better', 'the', 'Conditioner'], Predicted: ['Mitsubishi', 'Electric', 'TOWH', 'Better', 'the', 'JUR', 'ATE', 'starME', 'HALL', 'Air-Conditioner', '-1', '197']
+2024-04-28 22:04:42,530 - True predictions: 470, Total GT: 754
+2024-04-28 22:04:46,145 - Runtime 180 Image path: assets/icdar2015/test_images\img_260.jpg, GT: ['SHA'], Predicted: ['SHAJ', 'Shabu', '-', '-1', '-1']
+2024-04-28 22:04:46,145 - True predictions: 471, Total GT: 755
+2024-04-28 22:04:49,283 - Runtime 181 Image path: assets/icdar2015/test_images\img_261.jpg, GT: ['STRO', 'Leaf', 'Bean', 'Peperoni'], Predicted: ['Bean', '-1', '-1']
+2024-04-28 22:04:49,283 - True predictions: 473, Total GT: 759
+2024-04-28 22:04:52,172 - Runtime 182 Image path: assets/icdar2015/test_images\img_262.jpg, GT: ['Peperoni', 'PIZZERIA', 'Peperor'], Predicted: ['Deperen', 'Deperoni']
+2024-04-28 22:04:52,172 - True predictions: 474, Total GT: 762
+2024-04-28 22:04:54,776 - Runtime 183 Image path: assets/icdar2015/test_images\img_263.jpg, GT: ['promod'], Predicted: ['pr', 'omo']
+2024-04-28 22:04:54,776 - True predictions: 475, Total GT: 763
+2024-04-28 22:04:57,505 - Runtime 184 Image path: assets/icdar2015/test_images\img_264.jpg, GT: ['Thank', 'you'], Predicted: ['Thank', 'you']
+2024-04-28 22:04:57,505 - True predictions: 478, Total GT: 765
+2024-04-28 22:05:00,675 - Runtime 185 Image path: assets/icdar2015/test_images\img_265.jpg, GT: ['BRAUN', 'BUFFEL', 'GIORDANO', 'EXIT'], Predicted: ['BRAUR', 'SORBAND', '-1', '-1']
+2024-04-28 22:05:00,675 - True predictions: 479, Total GT: 769
+2024-04-28 22:05:03,729 - Runtime 186 Image path: assets/icdar2015/test_images\img_266.jpg, GT: ['SWAROVSKI', 'Levis', 'TM Lewin'], Predicted: ['SWARONSKI', 'SAPU', '-1', '-1']
+2024-04-28 22:05:03,729 - True predictions: 480, Total GT: 772
+2024-04-28 22:05:06,671 - Runtime 187 Image path: assets/icdar2015/test_images\img_267.jpg, GT: ['DOCKERS', 'Storewide'], Predicted: ['50', 'COCKE', '25']
+2024-04-28 22:05:06,671 - True predictions: 481, Total GT: 774
+2024-04-28 22:05:09,529 - Runtime 188 Image path: assets/icdar2015/test_images\img_268.jpg, GT: ['SEPHORA', 'Tvo'], Predicted: ['Coahoreeolre', '-1', 'ARNA']
+2024-04-28 22:05:09,529 - True predictions: 482, Total GT: 776
+2024-04-28 22:05:12,683 - Runtime 189 Image path: assets/icdar2015/test_images\img_269.jpg, GT: ['LEE', 'HWA', 'DIAMOND', 'GALLERY', 'SEPH'], Predicted: ['DAAMOND', 'HWA', 'LEE', 'GALLEY', 'SEPn']
+2024-04-28 22:05:12,683 - True predictions: 485, Total GT: 781
+2024-04-28 22:05:15,508 - Runtime 190 Image path: assets/icdar2015/test_images\img_27.jpg, GT: ['OPEN', 'QBHOUSE'], Predicted: ['QBHOUSE', '-1', '-1']
+2024-04-28 22:05:15,508 - True predictions: 487, Total GT: 783
+2024-04-28 22:05:18,083 - Runtime 191 Image path: assets/icdar2015/test_images\img_270.jpg, GT: ['Vine', 'Vera', 'Skin', 'Care'], Predicted: ['Vine.veru', '-1']
+2024-04-28 22:05:18,084 - True predictions: 488, Total GT: 787
+2024-04-28 22:05:22,170 - Runtime 192 Image path: assets/icdar2015/test_images\img_271.jpg, GT: ['LUSH', 'GOLD', 'CLASS', 'grab', 'Gold', 'JAPAN', 'SALE'], Predicted: ['HARA', 'CLASS', 'LUSH', '-1', 'GOLD', 'SALE', 'AAE', 'UALE', '-1', '-1', '-1', '-1', '-1', 'NILLANK']
+2024-04-28 22:05:22,171 - True predictions: 493, Total GT: 794
+2024-04-28 22:05:25,182 - Runtime 193 Image path: assets/icdar2015/test_images\img_272.jpg, GT: ['ONSEN'], Predicted: ['NSEN']
+2024-04-28 22:05:25,183 - True predictions: 494, Total GT: 795
+2024-04-28 22:05:29,640 - Runtime 194 Image path: assets/icdar2015/test_images\img_273.jpg, GT: ['SPORTS', 'WORLD', 'FENDI', 'FENDI', 'MUSEUM', 'DISCOVER'], Predicted: ['FENDI', '-1', '-1', 'FESR', '-1', '-1', '-1', '-1', 'TONENNES', '-1', '-1']
+2024-04-28 22:05:29,640 - True predictions: 497, Total GT: 801
+2024-04-28 22:05:32,858 - Runtime 195 Image path: assets/icdar2015/test_images\img_274.jpg, GT: ['crocs', '50%', 'sale', 'Dior'], Predicted: ['crocs', '-1', '-1', 'sale']
+2024-04-28 22:05:32,859 - True predictions: 500, Total GT: 805
+2024-04-28 22:05:35,921 - Runtime 196 Image path: assets/icdar2015/test_images\img_275.jpg, GT: ['HOAMGAR', 'NETB', 'JCB'], Predicted: ['-1', '-1', '-1']
+2024-04-28 22:05:35,921 - True predictions: 501, Total GT: 808
+2024-04-28 22:05:40,011 - Runtime 197 Image path: assets/icdar2015/test_images\img_276.jpg, GT: ['Dior', 'NOW', 'BOOK', 'JAN', 'GUCCI', '2015', 'BACKI', 'Dior'], Predicted: ['GUCCi', 'Dior', '-1', '9.3828', '-1']
+2024-04-28 22:05:40,012 - True predictions: 504, Total GT: 816
+2024-04-28 22:05:43,260 - Runtime 198 Image path: assets/icdar2015/test_images\img_277.jpg, GT: ['ROYAL', 'SELANGOR'], Predicted: ['SELANGOR', 'ROYAL']
+2024-04-28 22:05:43,261 - True predictions: 507, Total GT: 818
+2024-04-28 22:05:45,794 - Runtime 199 Image path: assets/icdar2015/test_images\img_278.jpg, GT: ['bYST'], Predicted: ['-1']
+2024-04-28 22:05:45,795 - True predictions: 508, Total GT: 819
+2024-04-28 22:05:48,852 - Runtime 200 Image path: assets/icdar2015/test_images\img_279.jpg, GT: ['dr.', 'CAFE', 'COFFEE'], Predicted: ['CAFE', 'OFFEE']
+2024-04-28 22:05:48,852 - True predictions: 510, Total GT: 822
+2024-04-28 22:05:52,981 - Runtime 201 Image path: assets/icdar2015/test_images\img_28.jpg, GT: ['Nam', 'Library', 'Lecture', 'Wee', 'Theatre', 'Lee', 'Wat', 'Exc', 'comi', 'cha'], Predicted: ['Wat', 'Exc', 'cha', 'Lecture', 'Theatre', 'comr', 'Library', 'Wee', 'Lee', 'Nan', 'A']
+2024-04-28 22:05:52,982 - True predictions: 519, Total GT: 832
+2024-04-28 22:05:56,550 - Runtime 202 Image path: assets/icdar2015/test_images\img_280.jpg, GT: ['JEWERLERY', 'STREET', 'SINGPOST', 'shu', 'uemura', 'shuaTELER'], Predicted: ['suuamura', '-1', '-1', '-1', '-1', 'SORR', '-1']
+2024-04-28 22:05:56,551 - True predictions: 520, Total GT: 838
+2024-04-28 22:06:00,829 - Runtime 203 Image path: assets/icdar2015/test_images\img_281.jpg, GT: ['again', 'Ion', 'ORCHARD', 'ALD', 'WHEELOCK', 'PLACE'], Predicted: ['PLACE', 'ion', 'again', 'WHEELOCK', 'at', 'ALOM', '-1']
+2024-04-28 22:06:00,830 - True predictions: 524, Total GT: 844
+2024-04-28 22:06:04,556 - Runtime 204 Image path: assets/icdar2015/test_images\img_282.jpg, GT: ['stradivarius', 'MANGO'], Predicted: ['MANGO', 'Ghtradfvariu', '-1', '-1']
+2024-04-28 22:06:04,556 - True predictions: 526, Total GT: 846
+2024-04-28 22:06:08,132 - Runtime 205 Image path: assets/icdar2015/test_images\img_283.jpg, GT: ['THe', 'Coffee', 'Bean', 'COFF', 'TEA', 'COFFEE', 'ROASTED', 'ARABICA', 'CBTL', 'Coffes', 'SSI'], Predicted: ['Bean', 'e Coffee', 'COF', '-1', '-1', 'TEA', '-1']
+2024-04-28 22:06:08,133 - True predictions: 529, Total GT: 857
+2024-04-28 22:06:10,747 - Runtime 206 Image path: assets/icdar2015/test_images\img_284.jpg, GT: ['SWAROVSKI', 'FRAGRANCES'], Predicted: ['FRAGRANCES']
+2024-04-28 22:06:10,747 - True predictions: 531, Total GT: 859
+2024-04-28 22:06:13,967 - Runtime 207 Image path: assets/icdar2015/test_images\img_285.jpg, GT: ['EXIT', 'Standart', 'SWAROVSKI'], Predicted: ['SWAROVSKI', 'EXITY', '53', '-1']
+2024-04-28 22:06:13,968 - True predictions: 533, Total GT: 862
+2024-04-28 22:06:17,808 - Runtime 208 Image path: assets/icdar2015/test_images\img_286.jpg, GT: ['DIANE', 'FURSTENBERG', 'MaxMara'], Predicted: ['MaxMara', 'DIANE', "ion'", 'NEIHFLIOCT']
+2024-04-28 22:06:17,809 - True predictions: 536, Total GT: 865
+2024-04-28 22:06:21,208 - Runtime 209 Image path: assets/icdar2015/test_images\img_287.jpg, GT: ['BALLY'], Predicted: ['BALN', '-1']
+2024-04-28 22:06:21,209 - True predictions: 537, Total GT: 866
+2024-04-28 22:06:24,721 - Runtime 210 Image path: assets/icdar2015/test_images\img_288.jpg, GT: ['Dior', 'STAGE'], Predicted: ['Dior', 'STAGE', '-1', '-1', 'ON']
+2024-04-28 22:06:24,722 - True predictions: 540, Total GT: 868
+2024-04-28 22:06:28,375 - Runtime 211 Image path: assets/icdar2015/test_images\img_289.jpg, GT: ['PATEK', 'PHILIPPE'], Predicted: ['PATEKPHLPPE', '-1', '1', '-1', 'GEMPE']
+2024-04-28 22:06:28,376 - True predictions: 541, Total GT: 870
+2024-04-28 22:06:33,201 - Runtime 212 Image path: assets/icdar2015/test_images\img_29.jpg, GT: ['$50', 'ZALORA', 'purchases', 'the', 'next', 'day!', 'Sign-up', 'Shop', 'Collect', 'Only', 'notes', 'available', 'here', 'Atm', 'for'], Predicted: ['Atm', 'purchases', '-1', 'SZALORA', '-1', 'nextciy', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:06:33,201 - True predictions: 544, Total GT: 885
+2024-04-28 22:06:36,068 - Runtime 213 Image path: assets/icdar2015/test_images\img_290.jpg, GT: ['EXIT'], Predicted: ['IEXN']
+2024-04-28 22:06:36,069 - True predictions: 545, Total GT: 886
+2024-04-28 22:06:39,818 - Runtime 214 Image path: assets/icdar2015/test_images\img_291.jpg, GT: ['LANEIGE', 'SALE', 'SALE', 'Grand', 'Grand', 'Anniversary', 'Anniversary'], Predicted: ['SALE', 'SALE', 'LANEIGE', 'Grand', 'Grand', 'Anniversary', 'Anniversary']
+2024-04-28 22:06:39,819 - True predictions: 553, Total GT: 893
+2024-04-28 22:06:42,672 - Runtime 215 Image path: assets/icdar2015/test_images\img_292.jpg, GT: ['collectpoint', 'SALE', 'SALE', 'poix'], Predicted: ['Colectpont', 'SALE']
+2024-04-28 22:06:42,673 - True predictions: 556, Total GT: 897
+2024-04-28 22:06:45,550 - Runtime 216 Image path: assets/icdar2015/test_images\img_293.jpg, GT: ['coffee', 'club'], Predicted: ['club', 'ffee', '-1', '-1']
+2024-04-28 22:06:45,551 - True predictions: 558, Total GT: 899
+2024-04-28 22:06:48,436 - Runtime 217 Image path: assets/icdar2015/test_images\img_294.jpg, GT: ['KIDS', 'KIDS'], Predicted: ['-1', 'KIDS', 'KIDS']
+2024-04-28 22:06:48,436 - True predictions: 561, Total GT: 901
+2024-04-28 22:06:51,964 - Runtime 218 Image path: assets/icdar2015/test_images\img_295.jpg, GT: ['SALE', 'SALE', 'sale', 'SAL', 'SALE', 'sale'], Predicted: ['SAF', 'SALES', 'SALE', 'soe', '-1', '-1', '-1', '-1']
+2024-04-28 22:06:51,964 - True predictions: 565, Total GT: 907
+2024-04-28 22:06:55,316 - Runtime 219 Image path: assets/icdar2015/test_images\img_296.jpg, GT: ['STARBUCKS', 'COFFEE', 'PARIS', 'BAGUETTE', 'Cafe'], Predicted: ['STARBUCKS', 'COFFEE', 'QAGUETTEG', 'PARIS']
+2024-04-28 22:06:55,316 - True predictions: 569, Total GT: 912
+2024-04-28 22:06:58,473 - Runtime 220 Image path: assets/icdar2015/test_images\img_297.jpg, GT: ['OMEGA', 'PARIS', 'OMA', 'EXIT'], Predicted: ['PARIS', 'OMEGA', '-1', '-1']
+2024-04-28 22:06:58,473 - True predictions: 572, Total GT: 916
+2024-04-28 22:07:01,542 - Runtime 221 Image path: assets/icdar2015/test_images\img_298.jpg, GT: ['JEWELLERY', 'NALE', 'Grand'], Predicted: ['19A9', 'RARIR', '-1', '-1', '-1', '-1']
+2024-04-28 22:07:01,543 - True predictions: 573, Total GT: 919
+2024-04-28 22:07:04,457 - Runtime 222 Image path: assets/icdar2015/test_images\img_299.jpg, GT: ['LEE', 'HWA', 'DIAMOND', 'GALLERY'], Predicted: ['DAAMOND', 'HINA', 'GALLERY', 'LEE']
+2024-04-28 22:07:04,457 - True predictions: 576, Total GT: 923
+2024-04-28 22:07:07,477 - Runtime 223 Image path: assets/icdar2015/test_images\img_3.jpg, GT: ['BLOCK', '441B', 'STOREY'], Predicted: ['4418', 'STORE', 'SLOCK', '-1', 'e']
+2024-04-28 22:07:07,478 - True predictions: 577, Total GT: 926
+2024-04-28 22:07:10,657 - Runtime 224 Image path: assets/icdar2015/test_images\img_30.jpg, GT: ['MRT', '140m', 'INSEAD'], Predicted: ['INSEAD', '140m', 'MRT', '-1', '-1']
+2024-04-28 22:07:10,658 - True predictions: 581, Total GT: 929
+2024-04-28 22:07:13,635 - Runtime 225 Image path: assets/icdar2015/test_images\img_300.jpg, GT: ['OMEGA', 'OMEGA', 'Gla    illo', 'swatc', 'SALE'], Predicted: ['OMEGA', 'SWLAECY', '-1', '-1']
+2024-04-28 22:07:13,636 - True predictions: 584, Total GT: 934
+2024-04-28 22:07:16,527 - Runtime 226 Image path: assets/icdar2015/test_images\img_301.jpg, GT: ['TIMEWISE'], Predicted: ['FO', '-1', 'TIMEWISE', '-1']
+2024-04-28 22:07:16,527 - True predictions: 586, Total GT: 935
+2024-04-28 22:07:19,355 - Runtime 227 Image path: assets/icdar2015/test_images\img_302.jpg, GT: ['SALE', 'NOW', 'SALE', 'SALE', 'Haagen'], Predicted: ['Hoogen-Dans', 'SALE', '-1', '-1', '-1']
+2024-04-28 22:07:19,355 - True predictions: 590, Total GT: 940
+2024-04-28 22:07:22,086 - Runtime 228 Image path: assets/icdar2015/test_images\img_303.jpg, GT: ['CONCIERGE', 'GAP'], Predicted: ['CONCTEGE', 'TS']
+2024-04-28 22:07:22,086 - True predictions: 591, Total GT: 942
+2024-04-28 22:07:24,917 - Runtime 229 Image path: assets/icdar2015/test_images\img_304.jpg, GT: ['ALLWATCHES', 'SINC'], Predicted: ['ALLAATCHES']
+2024-04-28 22:07:24,917 - True predictions: 592, Total GT: 944
+2024-04-28 22:07:28,815 - Runtime 230 Image path: assets/icdar2015/test_images\img_305.jpg, GT: ['Steamed', 'Pork', 'Dumplings', 'dintaifungSG', 'www.dintaifung.com.sg'], Predicted: ['dintaifungSG', 'Pork', 'teamed', 'Dumplings', '-1', 'v.dintaifung', '+', '-1']
+2024-04-28 22:07:28,816 - True predictions: 596, Total GT: 949
+2024-04-28 22:07:31,729 - Runtime 231 Image path: assets/icdar2015/test_images\img_306.jpg, GT: ['EXIT'], Predicted: ['EXIT', '-1']
+2024-04-28 22:07:31,730 - True predictions: 598, Total GT: 950
+2024-04-28 22:07:34,458 - Runtime 232 Image path: assets/icdar2015/test_images\img_307.jpg, GT: ["Ben's", 'SALE'], Predicted: ["Ben's", '-1', '-1']
+2024-04-28 22:07:34,459 - True predictions: 600, Total GT: 952
+2024-04-28 22:07:37,541 - Runtime 233 Image path: assets/icdar2015/test_images\img_308.jpg, GT: ['SALE', 'Grand', 'Anniversary', 'SETAN'], Predicted: ['SALE', 'Grand', '-1', 'Annversar']
+2024-04-28 22:07:37,542 - True predictions: 603, Total GT: 956
+2024-04-28 22:07:40,585 - Runtime 234 Image path: assets/icdar2015/test_images\img_309.jpg, GT: ['Grand', 'Anniversary'], Predicted: ['wwesan', 'Grand']
+2024-04-28 22:07:40,586 - True predictions: 605, Total GT: 958
+2024-04-28 22:07:45,380 - Runtime 235 Image path: assets/icdar2015/test_images\img_31.jpg, GT: ['Art', 'Needs', 'Art', 'Needs', 'Art', 'Needs', 'EXIT'], Predicted: ['Art', 'Needs', 'Needs', 'Eare', 'An Meeds', '-1', '-1', '-1', '-1']
+2024-04-28 22:07:45,380 - True predictions: 612, Total GT: 965
+2024-04-28 22:07:49,937 - Runtime 236 Image path: assets/icdar2015/test_images\img_310.jpg, GT: ['NGEE', 'ANN', 'CITY', 'EXIT', 'GNC', 'GNC'], Predicted: ['ANN', 'NGEE', 'CITY', '81', '-1', 'YTO', 'GAR', 'MSA', 'TIO', 'V']
+2024-04-28 22:07:49,938 - True predictions: 616, Total GT: 971
+2024-04-28 22:07:53,595 - Runtime 237 Image path: assets/icdar2015/test_images\img_311.jpg, GT: ['SAT'], Predicted: ['SAI']
+2024-04-28 22:07:53,596 - True predictions: 617, Total GT: 972
+2024-04-28 22:07:57,283 - Runtime 238 Image path: assets/icdar2015/test_images\img_312.jpg, GT: ['Opening', 'Soon', 'Gifts', 'for', 'all', 'your', 'girls'], Predicted: ['Upenng', 'roor', '-1', 'for', 'girls', '-1', '-1', '-1', '-1']
+2024-04-28 22:07:57,284 - True predictions: 620, Total GT: 979
+2024-04-28 22:08:01,207 - Runtime 239 Image path: assets/icdar2015/test_images\img_313.jpg, GT: ['SCOTCH', 'SODA', 'AMSTERDAM', 'pening', 'Soon', 'VUEDA'], Predicted: ['OLMing', 'SCOTCH&S', '&SODA', 'LASTESSS', '-1']
+2024-04-28 22:08:01,208 - True predictions: 621, Total GT: 985
+2024-04-28 22:08:04,332 - Runtime 240 Image path: assets/icdar2015/test_images\img_314.jpg, GT: ['SHOP'], Predicted: ['SHOP', 'DY']
+2024-04-28 22:08:04,333 - True predictions: 623, Total GT: 986
+2024-04-28 22:08:08,057 - Runtime 241 Image path: assets/icdar2015/test_images\img_315.jpg, GT: ['TSC', 'SPECIAL', 'CLUB', 'MONACO'], Predicted: ['SPECLAL', '-1', 'TSK', '-1', 'MONACO', 'CLUB', '-1']
+2024-04-28 22:08:08,057 - True predictions: 626, Total GT: 990
+2024-04-28 22:08:11,261 - Runtime 242 Image path: assets/icdar2015/test_images\img_316.jpg, GT: ['CLUB'], Predicted: ['CLUB', '-1', 'MOr', '-1']
+2024-04-28 22:08:11,262 - True predictions: 628, Total GT: 991
+2024-04-28 22:08:14,458 - Runtime 243 Image path: assets/icdar2015/test_images\img_317.jpg, GT: ['SALE', 'UP TO', 'OFF', 'MANGO'], Predicted: ['SALE', 'UNG', 'MANGO', '-1', '-1']
+2024-04-28 22:08:14,459 - True predictions: 631, Total GT: 995
+2024-04-28 22:08:17,578 - Runtime 244 Image path: assets/icdar2015/test_images\img_318.jpg, GT: ['FURTHER', 'DISCOUNTS', 'OFF'], Predicted: ['DISCOUNTS', 'FURTHER', '-1', '-1']
+2024-04-28 22:08:17,579 - True predictions: 634, Total GT: 998
+2024-04-28 22:08:20,212 - Runtime 245 Image path: assets/icdar2015/test_images\img_319.jpg, GT: ['EXIT'], Predicted: ['$EXIT', '-1']
+2024-04-28 22:08:20,213 - True predictions: 635, Total GT: 999
+2024-04-28 22:08:23,305 - Runtime 246 Image path: assets/icdar2015/test_images\img_32.jpg, GT: ['HI-TEC'], Predicted: ['GHI-TEC', '500', '20']
+2024-04-28 22:08:23,306 - True predictions: 636, Total GT: 1000
+2024-04-28 22:08:27,008 - Runtime 247 Image path: assets/icdar2015/test_images\img_320.jpg, GT: ['GIFT', 'OCEAN'], Predicted: ['GFT', 'OCEAN']
+2024-04-28 22:08:27,008 - True predictions: 638, Total GT: 1002
+2024-04-28 22:08:30,126 - Runtime 248 Image path: assets/icdar2015/test_images\img_321.jpg, GT: ['CLUB', 'MONACO', 'AVEDA'], Predicted: ['MONACO', 'CLUB']
+2024-04-28 22:08:30,127 - True predictions: 641, Total GT: 1005
+2024-04-28 22:08:33,914 - Runtime 249 Image path: assets/icdar2015/test_images\img_322.jpg, GT: ['LOUIS', 'VUITTON'], Predicted: ['VUITTON', 'LOUIS']
+2024-04-28 22:08:33,914 - True predictions: 644, Total GT: 1007
+2024-04-28 22:08:36,859 - Runtime 250 Image path: assets/icdar2015/test_images\img_323.jpg, GT: ['FENDI'], Predicted: ['FENDI', 'LOGS.', 'dunhu']
+2024-04-28 22:08:36,859 - True predictions: 646, Total GT: 1008
+2024-04-28 22:08:39,672 - Runtime 251 Image path: assets/icdar2015/test_images\img_324.jpg, GT: ['THE', 'WORLD', 'OYS'], Predicted: ['ISMYOYE', 'WORLO', 'THE']
+2024-04-28 22:08:39,672 - True predictions: 648, Total GT: 1011
+2024-04-28 22:08:42,414 - Runtime 252 Image path: assets/icdar2015/test_images\img_325.jpg, GT: ['St.', 'MAARteN', 'St.', 'OYSTER', 'RLD'], Predicted: ['OYSTER', 'iSMY', '-1']
+2024-04-28 22:08:42,414 - True predictions: 650, Total GT: 1016
+2024-04-28 22:08:45,677 - Runtime 253 Image path: assets/icdar2015/test_images\img_326.jpg, GT: ['MONEY', 'CHANGER', 'Kinokuniva'], Predicted: ['Kinokuniva', 'OMAT', 'LSHESAA', 'OHANGER', '-1', '-1', 'HONG']
+2024-04-28 22:08:45,678 - True predictions: 652, Total GT: 1019
+2024-04-28 22:08:49,503 - Runtime 254 Image path: assets/icdar2015/test_images\img_327.jpg, GT: ['BOOKS', 'Kinokuniya', 'Knowledge', 'new', 'chapter', 'one', 'MONEY', 'CHANGER'], Predicted: ['Kinokuniya', 'Anew', 'chapter', 'BOOKS', 'Nnowedoe', 'NONEY', 'CHANGE', 'beciors', '-1']
+2024-04-28 22:08:49,503 - True predictions: 656, Total GT: 1027
+2024-04-28 22:08:52,881 - Runtime 255 Image path: assets/icdar2015/test_images\img_328.jpg, GT: ['PAUL', 'SALON', 'THE', 'RESTAURANT', 'PAUL'], Predicted: ['PAUL', 'RESTALRANT', '-1', 'SALENOATN']
+2024-04-28 22:08:52,881 - True predictions: 659, Total GT: 1032
+2024-04-28 22:08:56,782 - Runtime 256 Image path: assets/icdar2015/test_images\img_329.jpg, GT: ['new', 'chapter', 'Knowledg'], Predicted: ['Anew', 'Knowledc', 'chapter', 'be', 'HHE', '-1', 'K']
+2024-04-28 22:08:56,783 - True predictions: 661, Total GT: 1035
+2024-04-28 22:09:01,443 - Runtime 257 Image path: assets/icdar2015/test_images\img_33.jpg, GT: ['LI-NING', 'SALE', 'HEAD', 'HEAD'], Predicted: ['HEAD', '-1', 'LFNING', 'SNE', 'Ye', '-1', '350', '-1', '-1']
+2024-04-28 22:09:01,444 - True predictions: 664, Total GT: 1039
+2024-04-28 22:09:04,345 - Runtime 258 Image path: assets/icdar2015/test_images\img_330.jpg, GT: ['SPECIAL', 'PED', 'DER', 'RED', 'TSC'], Predicted: ['-1']
+2024-04-28 22:09:04,346 - True predictions: 665, Total GT: 1044
+2024-04-28 22:09:07,360 - Runtime 259 Image path: assets/icdar2015/test_images\img_331.jpg, GT: ['EXIT', 'swatch'], Predicted: ['CHANI', 'EXIT', 'Igle', '-1']
+2024-04-28 22:09:07,360 - True predictions: 667, Total GT: 1046
+2024-04-28 22:09:10,814 - Runtime 260 Image path: assets/icdar2015/test_images\img_332.jpg, GT: ['Calvin', 'Klein', 'EXIT', 'swatch'], Predicted: ['swatch', 'Calvin', 'Ken', '-1', 'EXIT']
+2024-04-28 22:09:10,814 - True predictions: 671, Total GT: 1050
+2024-04-28 22:09:14,047 - Runtime 261 Image path: assets/icdar2015/test_images\img_333.jpg, GT: ['Calvin', 'Klein', 'swatch', 'O-FACTORY', 'EXIT'], Predicted: ['swatch+', 'O-FACTORY', 'EaviA', 'Kian']
+2024-04-28 22:09:14,049 - True predictions: 673, Total GT: 1055
+2024-04-28 22:09:16,585 - Runtime 262 Image path: assets/icdar2015/test_images\img_334.jpg, GT: ['FedEx', 'ORCHARD'], Predicted: []
+2024-04-28 22:09:16,585 - True predictions: 674, Total GT: 1057
+2024-04-28 22:09:19,661 - Runtime 263 Image path: assets/icdar2015/test_images\img_335.jpg, GT: ['PARAGON', 'SALE'], Predicted: ['PARAGO', 'ShudesFonngane', '-1']
+2024-04-28 22:09:19,661 - True predictions: 675, Total GT: 1059
+2024-04-28 22:09:22,461 - Runtime 264 Image path: assets/icdar2015/test_images\img_336.jpg, GT: ['GUESS', 'TODS'], Predicted: ['GUESS', 'ROLS']
+2024-04-28 22:09:22,462 - True predictions: 677, Total GT: 1061
+2024-04-28 22:09:25,393 - Runtime 265 Image path: assets/icdar2015/test_images\img_337.jpg, GT: ['The', 'Soup', 'Spoon'], Predicted: ['-1', '-1']
+2024-04-28 22:09:25,393 - True predictions: 678, Total GT: 1064
+2024-04-28 22:09:28,057 - Runtime 266 Image path: assets/icdar2015/test_images\img_338.jpg, GT: ['BreadTalk'], Predicted: ['Bread']
+2024-04-28 22:09:28,058 - True predictions: 679, Total GT: 1065
+2024-04-28 22:09:31,061 - Runtime 267 Image path: assets/icdar2015/test_images\img_339.jpg, GT: ['The', 'Soup', 'Spoon'], Predicted: ['Spoon', 'neSoup']
+2024-04-28 22:09:31,061 - True predictions: 681, Total GT: 1068
+2024-04-28 22:09:35,264 - Runtime 268 Image path: assets/icdar2015/test_images\img_34.jpg, GT: ['Note?', 'Samsung', 'GALAXY', 'you', 'Note'], Predicted: ['Note?', 'you', '-1', '-1', '-1', 'CAAxyNote', 'Noter', '-1']
+2024-04-28 22:09:35,265 - True predictions: 684, Total GT: 1073
+2024-04-28 22:09:39,123 - Runtime 269 Image path: assets/icdar2015/test_images\img_340.jpg, GT: ['BREAKFAST', 'Spoon', 'The', 'Soup'], Predicted: ['The', 'Spoon', 'Soup', '-1']
+2024-04-28 22:09:39,124 - True predictions: 688, Total GT: 1077
+2024-04-28 22:09:42,343 - Runtime 270 Image path: assets/icdar2015/test_images\img_341.jpg, GT: ['The', 'Soup', 'Spoon'], Predicted: ['Spoon', 'Soup', 'The']
+2024-04-28 22:09:42,344 - True predictions: 692, Total GT: 1080
+2024-04-28 22:09:45,593 - Runtime 271 Image path: assets/icdar2015/test_images\img_342.jpg, GT: ['50%', 'OFF', 'sale'], Predicted: ['sale', 'OFF', '-1', '0%']
+2024-04-28 22:09:45,594 - True predictions: 695, Total GT: 1083
+2024-04-28 22:09:48,732 - Runtime 272 Image path: assets/icdar2015/test_images\img_343.jpg, GT: ['MAKE', 'STORE', 'Northern'], Predicted: ['STORE', 'MAKE', 'UP', '-1', '-1']
+2024-04-28 22:09:48,732 - True predictions: 698, Total GT: 1086
+2024-04-28 22:09:51,256 - Runtime 273 Image path: assets/icdar2015/test_images\img_344.jpg, GT: ['STORE'], Predicted: ['STORE']
+2024-04-28 22:09:51,256 - True predictions: 700, Total GT: 1087
+2024-04-28 22:09:54,442 - Runtime 274 Image path: assets/icdar2015/test_images\img_345.jpg, GT: ['eauty', 'PAMPER', 'SKIN!', 'PERFECT'], Predicted: ['PAMPER', 'SKIN!', 'MY', '-1', '-1', '-1']
+2024-04-28 22:09:54,443 - True predictions: 703, Total GT: 1091
+2024-04-28 22:09:57,664 - Runtime 275 Image path: assets/icdar2015/test_images\img_346.jpg, GT: ['SMELL', 'SEXY', 'ALL', 'THE', 'TIME!'], Predicted: ['TIME!', 'SMELL', '-1', 'THE', 'SEXY', 'ALL', '-1']
+2024-04-28 22:09:57,664 - True predictions: 709, Total GT: 1096
+2024-04-28 22:10:00,921 - Runtime 276 Image path: assets/icdar2015/test_images\img_347.jpg, GT: ['STAR', 'THREESIXTY'], Predicted: ['STAR', 'PHREESTXTY', 'sad', 'LAROa']
+2024-04-28 22:10:00,922 - True predictions: 711, Total GT: 1098
+2024-04-28 22:10:03,840 - Runtime 277 Image path: assets/icdar2015/test_images\img_348.jpg, GT: ['WAREHOUSE', 'GEOX'], Predicted: ['WAREHOUSE']
+2024-04-28 22:10:03,840 - True predictions: 713, Total GT: 1100
+2024-04-28 22:10:06,642 - Runtime 278 Image path: assets/icdar2015/test_images\img_349.jpg, GT: ['SALE'], Predicted: ['SALE']
+2024-04-28 22:10:06,643 - True predictions: 715, Total GT: 1101
+2024-04-28 22:10:09,324 - Runtime 279 Image path: assets/icdar2015/test_images\img_35.jpg, GT: ['SAMSUNG'], Predicted: ['-1', 'F00']
+2024-04-28 22:10:09,325 - True predictions: 716, Total GT: 1102
+2024-04-28 22:10:13,041 - Runtime 280 Image path: assets/icdar2015/test_images\img_350.jpg, GT: ['SALE', 'CHINA', 'SALE', 'IMAGES', 'PARAGON', 'SALE', 'Commune'], Predicted: ['Commune', 'CHINA', 'IMAGESO', 'AL', '70', '-1', '-1', '-1', '-1']
+2024-04-28 22:10:13,041 - True predictions: 719, Total GT: 1109
+2024-04-28 22:10:16,032 - Runtime 281 Image path: assets/icdar2015/test_images\img_351.jpg, GT: ['DOME', 'PARAGON'], Predicted: ['DOME', 'PARAGON', '-1']
+2024-04-28 22:10:16,033 - True predictions: 722, Total GT: 1111
+2024-04-28 22:10:18,742 - Runtime 282 Image path: assets/icdar2015/test_images\img_352.jpg, GT: ['DOME'], Predicted: ['DOME']
+2024-04-28 22:10:18,743 - True predictions: 724, Total GT: 1112
+2024-04-28 22:10:21,795 - Runtime 283 Image path: assets/icdar2015/test_images\img_353.jpg, GT: ['coast', 'SPENCER'], Predicted: ['SPENCER', '-1', 'YNINEA']
+2024-04-28 22:10:21,795 - True predictions: 726, Total GT: 1114
+2024-04-28 22:10:24,963 - Runtime 284 Image path: assets/icdar2015/test_images\img_354.jpg, GT: ['CHRISTMAS', 'FOR', 'PL   ECT'], Predicted: ['CHRISTMAS', 'FOR', '-1']
+2024-04-28 22:10:24,963 - True predictions: 729, Total GT: 1117
+2024-04-28 22:10:27,588 - Runtime 285 Image path: assets/icdar2015/test_images\img_355.jpg, GT: ['PARAGON', 'MAIN', 'DIRECTORY'], Predicted: ['PARAGON']
+2024-04-28 22:10:27,588 - True predictions: 731, Total GT: 1120
+2024-04-28 22:10:31,210 - Runtime 286 Image path: assets/icdar2015/test_images\img_356.jpg, GT: ['BREAD', 'BUTTER', 'HARC', 'MARC', 'JACOBS'], Predicted: ['JACOPS', 'RREADA', 'ANUTTER', '-1', 'RESC', 'EHPOA']
+2024-04-28 22:10:31,210 - True predictions: 732, Total GT: 1125
+2024-04-28 22:10:34,344 - Runtime 287 Image path: assets/icdar2015/test_images\img_357.jpg, GT: ['MULBERRY'], Predicted: ['DERRY', '-1']
+2024-04-28 22:10:34,344 - True predictions: 733, Total GT: 1126
+2024-04-28 22:10:37,060 - Runtime 288 Image path: assets/icdar2015/test_images\img_358.jpg, GT: ['BOSS'], Predicted: ['BOSS']
+2024-04-28 22:10:37,060 - True predictions: 735, Total GT: 1127
+2024-04-28 22:10:41,120 - Runtime 289 Image path: assets/icdar2015/test_images\img_359.jpg, GT: ['POH', '313', 'HENG', 'ORCHARD', 'SHOPPING', 'POH', 'HEN', 'CEN'], Predicted: ['ORCHARD', 'SHOPPNS', 'HENG', 'PON', '-1', 'POH', 'HENG']
+2024-04-28 22:10:41,121 - True predictions: 740, Total GT: 1135
+2024-04-28 22:10:45,076 - Runtime 290 Image path: assets/icdar2015/test_images\img_36.jpg, GT: ['RYOSHI', 'SUSHI', 'IKEIKEMARU'], Predicted: ['SOSHE', 'RYOSMI', 'REERRTMANS', '-1', '-1']
+2024-04-28 22:10:45,076 - True predictions: 741, Total GT: 1138
+2024-04-28 22:10:49,252 - Runtime 291 Image path: assets/icdar2015/test_images\img_360.jpg, GT: ['opping', 'Advertisement Space', 'Space', 'Office'], Predicted: ['rtisement', '-1', 'Cen', 'Space', 'Adver', '-1', '-1']
+2024-04-28 22:10:49,253 - True predictions: 743, Total GT: 1142
+2024-04-28 22:10:52,811 - Runtime 292 Image path: assets/icdar2015/test_images\img_361.jpg, GT: ['Robert', 'Timms', '321', 'SAYOUR'], Predicted: ['Imms', '-1', '321', '-1']
+2024-04-28 22:10:52,812 - True predictions: 745, Total GT: 1146
+2024-04-28 22:10:55,944 - Runtime 293 Image path: assets/icdar2015/test_images\img_362.jpg, GT: ['timms', 'FOR', 'TASTE', 'GREAT', 'uob', 'the', 'step', 'outback', 'Robert'], Predicted: ['-1', 'SEPINFOE', '-1']
+2024-04-28 22:10:55,945 - True predictions: 746, Total GT: 1155
+2024-04-28 22:10:59,205 - Runtime 294 Image path: assets/icdar2015/test_images\img_363.jpg, GT: ['YOUR', 'STEAK', 'CLAIM!', 'Robert', 'Timms', 'YOUR', 'YOUR', 'DONE', 'STAKE', 'WAY!', 'NTRE'], Predicted: ['STAKE', 'YOUR', '-1']
+2024-04-28 22:10:59,206 - True predictions: 751, Total GT: 1166
+2024-04-28 22:11:03,090 - Runtime 295 Image path: assets/icdar2015/test_images\img_364.jpg, GT: ['ORCHARD', 'CENTRE', 'SPRINKLER', 'VALVE', 'SHOPPING'], Predicted: ['ORCHARD', 'SHOPPING', 'CENTRE', 'SPRINKLER', 'VALVE', '-1']
+2024-04-28 22:11:03,091 - True predictions: 757, Total GT: 1171
+2024-04-28 22:11:07,741 - Runtime 296 Image path: assets/icdar2015/test_images\img_365.jpg, GT: ['PARKING', 'THE', 'ENTRANCE', 'THE', 'CARPARK', 'ORDER', 'THE', 'MANAGEMENT'], Predicted: ['ENTRANCE', 'CARPARK', 'PARKING', 'THE', 'MANAGEMENT', 'OF', 'THE', 'o', '-1', 'ORDER', '-1', 'THE']
+2024-04-28 22:11:07,742 - True predictions: 766, Total GT: 1179
+2024-04-28 22:11:11,665 - Runtime 297 Image path: assets/icdar2015/test_images\img_366.jpg, GT: ['SALE', 'ALE', 'SALE', 'SALE', 'SAL', 'SALE', 'SALE', 'SALE', 'SAL', 'SALE', 'SALE', 'SAL'], Predicted: ['SALE', 'SALE', 'SAL', 'ALE', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:11:11,665 - True predictions: 779, Total GT: 1191
+2024-04-28 22:11:15,060 - Runtime 298 Image path: assets/icdar2015/test_images\img_367.jpg, GT: ['NEW', 'COTTON'], Predicted: ['-1', '-1']
+2024-04-28 22:11:15,061 - True predictions: 780, Total GT: 1193
+2024-04-28 22:11:18,432 - Runtime 299 Image path: assets/icdar2015/test_images\img_368.jpg, GT: ['NEW', 'NOW', 'GRAPHIC', 'TEES', 'FOR', "VICTORIA'S"], Predicted: ['2F00$30', "nCTORIA'S", '-1', 'SECI', '-1', '-1']
+2024-04-28 22:11:18,432 - True predictions: 781, Total GT: 1199
+2024-04-28 22:11:21,665 - Runtime 300 Image path: assets/icdar2015/test_images\img_369.jpg, GT: ['NEW', 'NOW', 'THE'], Predicted: ['NOW', 'NEW', 'VICTORIAS']
+2024-04-28 22:11:21,665 - True predictions: 784, Total GT: 1202
+2024-04-28 22:11:24,735 - Runtime 301 Image path: assets/icdar2015/test_images\img_37.jpg, GT: ['Expert', 'Beaute'], Predicted: ['-1', '-1', 'DMA']
+2024-04-28 22:11:24,735 - True predictions: 785, Total GT: 1204
+2024-04-28 22:11:28,453 - Runtime 302 Image path: assets/icdar2015/test_images\img_370.jpg, GT: ['FOREVER', 'FOREVER', 'MANGO', 'SALE', 'ALE'], Predicted: ['FOREVER', '-1', '-1', 'NANGO', 'biqe', '-1', "D'A"]
+2024-04-28 22:11:28,454 - True predictions: 788, Total GT: 1209
+2024-04-28 22:11:32,469 - Runtime 303 Image path: assets/icdar2015/test_images\img_371.jpg, GT: ['FOREVER', 'OREVER'], Predicted: ['FOREVER', '-1', '-1', '-1', 'Gbiqe', '-1']
+2024-04-28 22:11:32,470 - True predictions: 790, Total GT: 1211
+2024-04-28 22:11:36,920 - Runtime 304 Image path: assets/icdar2015/test_images\img_372.jpg, GT: ['epiCentre', 'GUESS', "LADY'S", 'ecco', 'SALE'], Predicted: ['epicentre', 'GUESS', 'ecco', 'ALF', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:11:36,920 - True predictions: 793, Total GT: 1216
+2024-04-28 22:11:40,142 - Runtime 305 Image path: assets/icdar2015/test_images\img_373.jpg, GT: ['epiCentre', 'GUESS'], Predicted: ['epicentre', 'GESS', '-1', '-1']
+2024-04-28 22:11:40,142 - True predictions: 794, Total GT: 1218
+2024-04-28 22:11:44,085 - Runtime 306 Image path: assets/icdar2015/test_images\img_374.jpg, GT: ['ntre', 'LEVIS', 'SALE'], Predicted: ['SALE', 'ntre', '50', 'LES', '-1', '-1', '-1']
+2024-04-28 22:11:44,086 - True predictions: 797, Total GT: 1221
+2024-04-28 22:11:47,525 - Runtime 307 Image path: assets/icdar2015/test_images\img_375.jpg, GT: ['evis', "LADY'S", 'ecco', 'SALE'], Predicted: ["eVI'sLADYS", 'ecco', 'Earas']
+2024-04-28 22:11:47,525 - True predictions: 799, Total GT: 1225
+2024-04-28 22:11:50,676 - Runtime 308 Image path: assets/icdar2015/test_images\img_376.jpg, GT: ['SALE', 'SALE', 'ecco', 'ALE', 'EASTERN', 'WATCH'], Predicted: ['EASTERN', 'WATCH', '-1', '-1']
+2024-04-28 22:11:50,676 - True predictions: 802, Total GT: 1231
+2024-04-28 22:11:53,775 - Runtime 309 Image path: assets/icdar2015/test_images\img_377.jpg, GT: ['SALE', 'SOLDES', 'SAL', 'OLDES', 'SALE', 'SOLDE', 'SALE'], Predicted: ['-1', '-1', '-1']
+2024-04-28 22:11:53,775 - True predictions: 803, Total GT: 1238
+2024-04-28 22:11:57,079 - Runtime 310 Image path: assets/icdar2015/test_images\img_378.jpg, GT: ['SALE', 'EXIT'], Predicted: ['SALE', '-1', '15A', 'HE']
+2024-04-28 22:11:57,080 - True predictions: 805, Total GT: 1240
+2024-04-28 22:11:59,759 - Runtime 311 Image path: assets/icdar2015/test_images\img_379.jpg, GT: ['FOSSIL'], Predicted: ['-1']
+2024-04-28 22:11:59,759 - True predictions: 806, Total GT: 1241
+2024-04-28 22:12:02,620 - Runtime 312 Image path: assets/icdar2015/test_images\img_38.jpg, GT: ['concierge@L3'], Predicted: ['concierge@L3', '-1']
+2024-04-28 22:12:02,620 - True predictions: 808, Total GT: 1242
+2024-04-28 22:12:05,374 - Runtime 313 Image path: assets/icdar2015/test_images\img_380.jpg, GT: ['epiCentre'], Predicted: ['epicentre', '-1']
+2024-04-28 22:12:05,374 - True predictions: 809, Total GT: 1243
+2024-04-28 22:12:08,596 - Runtime 314 Image path: assets/icdar2015/test_images\img_381.jpg, GT: ['EXIT', 'OREVER', 'SALE', 'SALE', 'SALE'], Predicted: ['REVER', 'EXIT>', '21', 'SALE']
+2024-04-28 22:12:08,596 - True predictions: 813, Total GT: 1248
+2024-04-28 22:12:11,996 - Runtime 315 Image path: assets/icdar2015/test_images\img_382.jpg, GT: ['SLE', 'SALE', 'SALE', 'SALE'], Predicted: ['SALE', 'SAL', 'SAL', '5ML', '-1', '-1']
+2024-04-28 22:12:11,997 - True predictions: 817, Total GT: 1252
+2024-04-28 22:12:15,850 - Runtime 316 Image path: assets/icdar2015/test_images\img_383.jpg, GT: ['SALE', 'public'], Predicted: ['SALE', 'public', '-1', '-1', '-1']
+2024-04-28 22:12:15,850 - True predictions: 820, Total GT: 1254
+2024-04-28 22:12:19,552 - Runtime 317 Image path: assets/icdar2015/test_images\img_384.jpg, GT: ['FITTING', 'ROOK', 'RIVAL'], Predicted: ['-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:12:19,553 - True predictions: 821, Total GT: 1257
+2024-04-28 22:12:22,415 - Runtime 318 Image path: assets/icdar2015/test_images\img_385.jpg, GT: ['ECOIL'], Predicted: ['ECDIL']
+2024-04-28 22:12:22,416 - True predictions: 822, Total GT: 1258
+2024-04-28 22:12:25,217 - Runtime 319 Image path: assets/icdar2015/test_images\img_386.jpg, GT: ['Timberland', 'PHO    A'], Predicted: ['Timberi and']
+2024-04-28 22:12:25,218 - True predictions: 823, Total GT: 1260
+2024-04-28 22:12:28,466 - Runtime 320 Image path: assets/icdar2015/test_images\img_387.jpg, GT: ['NINE', 'WEST', 'RECOIL', 'SALE', 'CITY'], Predicted: ['RECOIL', 'WEST', 'NINE', 'R']
+2024-04-28 22:12:28,466 - True predictions: 827, Total GT: 1265
+2024-04-28 22:12:32,570 - Runtime 321 Image path: assets/icdar2015/test_images\img_388.jpg, GT: ['OFF', 'XMAS', 'OFF', 'SALE', 'W.E.', 'W.E.'], Predicted: ['W.E.', 'WOR', 'XMAS', 'SALE', 'OFF', '15%OFF', 'Amard', '10%']
+2024-04-28 22:12:32,570 - True predictions: 834, Total GT: 1271
+2024-04-28 22:12:37,323 - Runtime 322 Image path: assets/icdar2015/test_images\img_389.jpg, GT: ['W.E.', 'WORKSHOPE', 'WALKIN'], Predicted: ['W.E.', 'WORKSHOPE', '-1', '-1', 'ROET', 'HOEND', 'DEESEAENSN', '-1', '-', '-1', '-1']
+2024-04-28 22:12:37,324 - True predictions: 837, Total GT: 1274
+2024-04-28 22:12:40,862 - Runtime 323 Image path: assets/icdar2015/test_images\img_39.jpg, GT: ['EXIT', 'UNSHAKA', 'AT HIGH', 'SPEEDS.'], Predicted: ['EXITP', 'SPEEDS.', 'UNSHAKA', '-1', '-1']
+2024-04-28 22:12:40,863 - True predictions: 840, Total GT: 1278
+2024-04-28 22:12:43,622 - Runtime 324 Image path: assets/icdar2015/test_images\img_390.jpg, GT: ['#22', 'WORKSHOPELEM'], Predicted: ['WORKSHOPMEN', '-1']
+2024-04-28 22:12:43,622 - True predictions: 841, Total GT: 1280
+2024-04-28 22:12:46,582 - Runtime 325 Image path: assets/icdar2015/test_images\img_391.jpg, GT: ['RAUCO', 'NINE', 'WEST'], Predicted: ['NINEWEST']
+2024-04-28 22:12:46,582 - True predictions: 842, Total GT: 1283
+2024-04-28 22:12:49,404 - Runtime 326 Image path: assets/icdar2015/test_images\img_392.jpg, GT: ['SPORTS', 'OUTLET', 'SALE!'], Predicted: ['SPORTE', 'OUTLETT', '-1']
+2024-04-28 22:12:49,405 - True predictions: 843, Total GT: 1286
+2024-04-28 22:12:52,473 - Runtime 327 Image path: assets/icdar2015/test_images\img_393.jpg, GT: ['CLOSING', 'DOWN', 'SALE!', 'SALE'], Predicted: ['DOWN', 'CLOSINS', '-1', 'SALL']
+2024-04-28 22:12:52,474 - True predictions: 845, Total GT: 1290
+2024-04-28 22:12:56,087 - Runtime 328 Image path: assets/icdar2015/test_images\img_394.jpg, GT: ['SPORTS', 'STOR', 'CLOSING', 'DOWN', 'SALE!'], Predicted: ['JTLET', 'SPORTS', 'STOR', 'SALE!', 'T', 'CLOSING', 'DOWN']
+2024-04-28 22:12:56,088 - True predictions: 851, Total GT: 1295
+2024-04-28 22:12:59,428 - Runtime 329 Image path: assets/icdar2015/test_images\img_395.jpg, GT: ['LES', 'BALL', 'PARK'], Predicted: ['BALL', 'PARK', '-1']
+2024-04-28 22:12:59,428 - True predictions: 854, Total GT: 1298
+2024-04-28 22:13:02,998 - Runtime 330 Image path: assets/icdar2015/test_images\img_396.jpg, GT: ['YOUR', 'NEW', 'ERA', 'FLY', 'MAKE', 'OWN', 'FLAG'], Predicted: ['-1', 'OWN', 'FLAG', '-1', 'ERA', 'YOUR', '-1', 'NEW']
+2024-04-28 22:13:02,998 - True predictions: 860, Total GT: 1305
+2024-04-28 22:13:06,310 - Runtime 331 Image path: assets/icdar2015/test_images\img_397.jpg, GT: ['CLASSICS', 'MADE', 'AMERICA.', 'GOAL'], Predicted: ['MADE', 'AMERICA', 'CLASSICS', 'SCAL', '-1', '-1']
+2024-04-28 22:13:06,310 - True predictions: 863, Total GT: 1309
+2024-04-28 22:13:10,025 - Runtime 332 Image path: assets/icdar2015/test_images\img_398.jpg, GT: ['CLASSICS.', 'nstinct', 'AMERICA', 'OPEN', 'MADE', 'EXIT', 'over', 'GOA'], Predicted: ['-1', 'AMERICA.', 'CLASSICS', 'MADE', 'GCA', '-1', '-1', '-1']
+2024-04-28 22:13:10,025 - True predictions: 865, Total GT: 1317
+2024-04-28 22:13:12,841 - Runtime 333 Image path: assets/icdar2015/test_images\img_399.jpg, GT: ['BONG.'], Predicted: ['BONG']
+2024-04-28 22:13:12,842 - True predictions: 866, Total GT: 1318
+2024-04-28 22:13:15,448 - Runtime 334 Image path: assets/icdar2015/test_images\img_4.jpg, GT: ['NUS'], Predicted: ['-1', 'ONUS']
+2024-04-28 22:13:15,449 - True predictions: 867, Total GT: 1319
+2024-04-28 22:13:18,713 - Runtime 335 Image path: assets/icdar2015/test_images\img_40.jpg, GT: ['Bread', 'Talk', 'Bread', 'Talk', 'CAFÉ', 'CA.'], Predicted: ['STARIPCLOPFES', '-1', 'Talk', 'Bread', 'Talk', 'CAFE']
+2024-04-28 22:13:18,714 - True predictions: 872, Total GT: 1325
+2024-04-28 22:13:21,465 - Runtime 336 Image path: assets/icdar2015/test_images\img_400.jpg, GT: ['SALE'], Predicted: ['SALE']
+2024-04-28 22:13:21,466 - True predictions: 874, Total GT: 1326
+2024-04-28 22:13:23,828 - Runtime 337 Image path: assets/icdar2015/test_images\img_401.jpg, GT: ['TOKYO'], Predicted: []
+2024-04-28 22:13:23,828 - True predictions: 875, Total GT: 1327
+2024-04-28 22:13:26,691 - Runtime 338 Image path: assets/icdar2015/test_images\img_402.jpg, GT: ['SALE', 'RIBEC'], Predicted: ['50%', '-1', 'SALE', '-1']
+2024-04-28 22:13:26,691 - True predictions: 877, Total GT: 1329
+2024-04-28 22:13:29,720 - Runtime 339 Image path: assets/icdar2015/test_images\img_403.jpg, GT: ['SALE', 'FURTHER', 'DISCOUNTS'], Predicted: ['SALE', 'NANDN', '-1', '-1', 'DISCOUNTS']
+2024-04-28 22:13:29,720 - True predictions: 880, Total GT: 1332
+2024-04-28 22:13:32,228 - Runtime 340 Image path: assets/icdar2015/test_images\img_404.jpg, GT: ['FOREVER', 'FORE ER'], Predicted: ['FOREVER 21']
+2024-04-28 22:13:32,229 - True predictions: 881, Total GT: 1334
+2024-04-28 22:13:35,907 - Runtime 341 Image path: assets/icdar2015/test_images\img_405.jpg, GT: ['epiCentre', "VICTORIA'S", 'SECRET', 'VICTORIAS', 'SECRET'], Predicted: ['SECRET', 'eplcentre', "VICTORIA'S", 'SCKET', '-1', '-1', 'VICTORLKE', 'SECHET']
+2024-04-28 22:13:35,908 - True predictions: 885, Total GT: 1339
+2024-04-28 22:13:39,461 - Runtime 342 Image path: assets/icdar2015/test_images\img_406.jpg, GT: ["VICTORIA'S", "VICTORIA'S", "VICTORIA'S", "VICTORIA'S", 'SECRET', 'SECRET', 'SECRET'], Predicted: ['SECRET', 'SECRET', "VICTORIA'S", "VICTORIA'S", 'VICTOREKS', 'SECRET', '-1', '-1']
+2024-04-28 22:13:39,461 - True predictions: 893, Total GT: 1346
+2024-04-28 22:13:43,306 - Runtime 343 Image path: assets/icdar2015/test_images\img_407.jpg, GT: ['SALE', 'SALE', 'SALE', 'SALE'], Predicted: ['SALE', 'SALE', 'SALE', 'SALE', 'EEE', '-1', '-1', '-1']
+2024-04-28 22:13:43,306 - True predictions: 898, Total GT: 1350
+2024-04-28 22:13:46,411 - Runtime 344 Image path: assets/icdar2015/test_images\img_408.jpg, GT: ['REDEMPTION', 'EIC', 'CLUB313', 'CONCIERGE', '313'], Predicted: ['CLUB313', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:13:46,412 - True predictions: 900, Total GT: 1355
+2024-04-28 22:13:49,275 - Runtime 345 Image path: assets/icdar2015/test_images\img_409.jpg, GT: ['LAMY', 'CITY', 'AIN', 'YELLOW'], Predicted: ['-1', 'IAIN', 'CITY', 'YELLD']
+2024-04-28 22:13:49,275 - True predictions: 902, Total GT: 1359
+2024-04-28 22:13:52,260 - Runtime 346 Image path: assets/icdar2015/test_images\img_41.jpg, GT: ['CREATIVITY', 'TAPE', 'MARKET'], Predicted: ['CREATIVITYI', 'MASKNG', 'MARXEY']
+2024-04-28 22:13:52,261 - True predictions: 903, Total GT: 1362
+2024-04-28 22:13:55,925 - Runtime 347 Image path: assets/icdar2015/test_images\img_410.jpg, GT: ['SPA', 'SYMPHONY', 'CHABU', 'CHANBUTON'], Predicted: ['CHASUTON', 'DRAHD', 'SYRFHOR', '-1', '-1', 'Srk']
+2024-04-28 22:13:55,925 - True predictions: 904, Total GT: 1366
+2024-04-28 22:13:59,570 - Runtime 348 Image path: assets/icdar2015/test_images\img_411.jpg, GT: ['EXIT', 'CHABUTON'], Predicted: ['CHABUTON', '-1', '-1', '4EXIT', '-1', '-1']
+2024-04-28 22:13:59,571 - True predictions: 906, Total GT: 1368
+2024-04-28 22:14:02,432 - Runtime 349 Image path: assets/icdar2015/test_images\img_412.jpg, GT: ['end', 'seas'], Predicted: ['-1', '-1', '-1']
+2024-04-28 22:14:02,432 - True predictions: 907, Total GT: 1370
+2024-04-28 22:14:05,791 - Runtime 350 Image path: assets/icdar2015/test_images\img_413.jpg, GT: ['Deals', 'Set', 'KITCHEN', 'Chicken', 'HOLIDAY', 'PLATTER', '.50'], Predicted: ['HOLIDAY', 'PLATTER', '-1', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:14:05,792 - True predictions: 910, Total GT: 1377
+2024-04-28 22:14:09,336 - Runtime 351 Image path: assets/icdar2015/test_images\img_414.jpg, GT: ['CANDY', 'EMPIRE'], Predicted: ['CANDY', 'JMPRE', 'CIT9', '-1', '-1', '-1', '006', '.']
+2024-04-28 22:14:09,337 - True predictions: 912, Total GT: 1379
+2024-04-28 22:14:12,672 - Runtime 352 Image path: assets/icdar2015/test_images\img_415.jpg, GT: ['HOLIDAY', 'PLATTER', '$5,50', 'CANDY'], Predicted: ['HOLIDAY', 'PLATTER', '.50', 'CA', '-1']
+2024-04-28 22:14:12,673 - True predictions: 915, Total GT: 1383
+2024-04-28 22:14:15,792 - Runtime 353 Image path: assets/icdar2015/test_images\img_416.jpg, GT: ['SELLERS', 'EXIT'], Predicted: ['EXIT', 'SELLERS', '-1']
+2024-04-28 22:14:15,793 - True predictions: 918, Total GT: 1385
+2024-04-28 22:14:18,841 - Runtime 354 Image path: assets/icdar2015/test_images\img_417.jpg, GT: ['GALAXY', 'AMSUNG'], Predicted: ['AMSUNG', '-', 'Noten']
+2024-04-28 22:14:18,842 - True predictions: 920, Total GT: 1387
+2024-04-28 22:14:21,358 - Runtime 355 Image path: assets/icdar2015/test_images\img_418.jpg, GT: ['OWNDAYS'], Predicted: ['OWNDAYS']
+2024-04-28 22:14:21,358 - True predictions: 922, Total GT: 1388
+2024-04-28 22:14:24,404 - Runtime 356 Image path: assets/icdar2015/test_images\img_419.jpg, GT: ['EXIT', '#B2-02/03', 'Saboten'], Predicted: ['Saboten', 'SIRCA', 'EXIT', '02/03', 'FB2']
+2024-04-28 22:14:24,404 - True predictions: 925, Total GT: 1391
+2024-04-28 22:14:27,810 - Runtime 357 Image path: assets/icdar2015/test_images\img_42.jpg, GT: ['A/X', 'Klein', 'Jeans', 'Klein', 'Jeans', 'Calvin', 'SALE'], Predicted: ['Cdilenears', 'CalvinKleinJeans', 'AX', '-1']
+2024-04-28 22:14:27,810 - True predictions: 926, Total GT: 1398
+2024-04-28 22:14:30,706 - Runtime 358 Image path: assets/icdar2015/test_images\img_420.jpg, GT: ['TOAST', 'BOX'], Predicted: ['TOASTR', '1BOX', '-1']
+2024-04-28 22:14:30,707 - True predictions: 927, Total GT: 1400
+2024-04-28 22:14:35,194 - Runtime 359 Image path: assets/icdar2015/test_images\img_421.jpg, GT: ['More', 'GET', 'JAY', 'GEE', 'CARD', '70%OFF', 'SALE', 'YOUR', '$100', 'VOUCHER', 'citibank', 'SALE', 'MERRY'], Predicted: ['$100', 'VOUCHER', 'SALE', 'YOUR', 'GET', 'SALE', 'OFF', '70', 'GEE', 'JAY', 'CARD', 'citibank']
+2024-04-28 22:14:35,195 - True predictions: 938, Total GT: 1413
+2024-04-28 22:14:38,821 - Runtime 360 Image path: assets/icdar2015/test_images\img_422.jpg, GT: ['NOW', 'SALE', '70%OFF', 'SALE', 'MERRY', 'SALE'], Predicted: ['70%', 'SALE', 'SALE', 'SALE', 'NOW', 'ON', 'MERRD']
+2024-04-28 22:14:38,821 - True predictions: 943, Total GT: 1419
+2024-04-28 22:14:42,000 - Runtime 361 Image path: assets/icdar2015/test_images\img_423.jpg, GT: ['$108', 'dENiZEN', '$150'], Predicted: ['dEIZEN', '-1', '$150', '-1']
+2024-04-28 22:14:42,000 - True predictions: 945, Total GT: 1422
+2024-04-28 22:14:44,931 - Runtime 362 Image path: assets/icdar2015/test_images\img_424.jpg, GT: ['SAMSUNG', 'Tokyo'], Predicted: ['SANSUNG', '-1']
+2024-04-28 22:14:44,931 - True predictions: 946, Total GT: 1424
+2024-04-28 22:14:48,162 - Runtime 363 Image path: assets/icdar2015/test_images\img_425.jpg, GT: ['Louisiana', 'EXIT', 'CANDY', 'POPEVES', 'Kitchen'], Predicted: ['CANDY', '-1', 'R', 'EXIT>', '-1', '-1', '-1']
+2024-04-28 22:14:48,162 - True predictions: 948, Total GT: 1429
+2024-04-28 22:14:51,508 - Runtime 364 Image path: assets/icdar2015/test_images\img_426.jpg, GT: ['orchardgateway'], Predicted: ['orchard', '-1', 'gateway', '-1']
+2024-04-28 22:14:51,508 - True predictions: 949, Total GT: 1430
+2024-04-28 22:14:55,141 - Runtime 365 Image path: assets/icdar2015/test_images\img_427.jpg, GT: ['THE', 'BODY', 'GOOD', 'SALE', 'SAL'], Predicted: ['THE', 'GOOD', 'BODY', 'SH', 'sO', 'SALI', '-1']
+2024-04-28 22:14:55,141 - True predictions: 953, Total GT: 1435
+2024-04-28 22:14:58,154 - Runtime 366 Image path: assets/icdar2015/test_images\img_428.jpg, GT: ['Underground', 'SALE', 'WAKA'], Predicted: ['-1', '-1', 'MIVO', '-1']
+2024-04-28 22:14:58,155 - True predictions: 954, Total GT: 1438
+2024-04-28 22:15:01,366 - Runtime 367 Image path: assets/icdar2015/test_images\img_429.jpg, GT: ['ground', 'WAKA', 'SALE', 'Underground'], Predicted: ['-1', 'SALE', 'MIY', 'WAKAI', '-1', 'Undergrond', '-1']
+2024-04-28 22:15:01,367 - True predictions: 956, Total GT: 1442
+2024-04-28 22:15:04,340 - Runtime 368 Image path: assets/icdar2015/test_images\img_43.jpg, GT: ['SAMSUNG'], Predicted: ['SAMSUNG']
+2024-04-28 22:15:04,340 - True predictions: 958, Total GT: 1443
+2024-04-28 22:15:08,027 - Runtime 369 Image path: assets/icdar2015/test_images\img_430.jpg, GT: ['Louis'], Predicted: ['Lonits', 'O.T.', '-1', '-1', '-1']
+2024-04-28 22:15:08,028 - True predictions: 959, Total GT: 1444
+2024-04-28 22:15:12,658 - Runtime 370 Image path: assets/icdar2015/test_images\img_431.jpg, GT: ['orchardgateway', '@emerold', 'natural'], Predicted: ['orchard', 'emerold', 'gateway', 'a', '-1', '-1', 'LOVE', '-1', '-1', '-1']
+2024-04-28 22:15:12,659 - True predictions: 960, Total GT: 1447
+2024-04-28 22:15:16,973 - Runtime 371 Image path: assets/icdar2015/test_images\img_432.jpg, GT: ['Crate&Barrel'], Predicted: ['Crate&Bare']
+2024-04-28 22:15:16,974 - True predictions: 961, Total GT: 1448
+2024-04-28 22:15:22,295 - Runtime 372 Image path: assets/icdar2015/test_images\img_433.jpg, GT: ['the', 'underground', 'fashion', 'street'], Predicted: ['Eunder', 'fashlon', 'street', 'und', 'gro', '-1']
+2024-04-28 22:15:22,296 - True predictions: 963, Total GT: 1452
+2024-04-28 22:15:26,200 - Runtime 373 Image path: assets/icdar2015/test_images\img_434.jpg, GT: ['Blush!'], Predicted: ['-1']
+2024-04-28 22:15:26,203 - True predictions: 964, Total GT: 1453
+2024-04-28 22:15:31,386 - Runtime 374 Image path: assets/icdar2015/test_images\img_435.jpg, GT: ['starts', 'Price', 'SERVICE', 'BATTERY', 'STRAPS,', 'WATCH', 'from', '$10', 'CASIO'], Predicted: ['SERVICE', 'BATTERY', 'WATCH', 'STRAPS', 'Iroul', '-1', '-1', '-1', 'staris']
+2024-04-28 22:15:31,386 - True predictions: 968, Total GT: 1462
+2024-04-28 22:15:37,313 - Runtime 375 Image path: assets/icdar2015/test_images\img_436.jpg, GT: ['GREAT', 'LUMI', 'NOX', 'SWISS', 'MADE', 'SALE', 'Luminox', 'GEAR', 'ALWAYS', 'VISIBLE'], Predicted: ['SALE', 'GREAT', 'NOX', 'ISSINTA', 'PWIES', '-1', 'GRAS', 'MACY', 'LUML', '-1', '-1', '-1']
+2024-04-28 22:15:37,313 - True predictions: 972, Total GT: 1472
+2024-04-28 22:15:42,027 - Runtime 376 Image path: assets/icdar2015/test_images\img_437.jpg, GT: ['COLDWEAR', 'COLDWEAR', 'SALE'], Predicted: ['COLDWEAR', 'COLE', 'WEAR']
+2024-04-28 22:15:42,028 - True predictions: 975, Total GT: 1475
+2024-04-28 22:15:47,581 - Runtime 377 Image path: assets/icdar2015/test_images\img_438.jpg, GT: ['SUPER', 'SALE', 'OMG!', 'HER', 'BEEGA'], Predicted: ['SUPER', 'OMG', 'HERC', 'SALE', '-1', '-1', '-1', '-1', 'TN']
+2024-04-28 22:15:47,582 - True predictions: 978, Total GT: 1480
+2024-04-28 22:15:51,952 - Runtime 378 Image path: assets/icdar2015/test_images\img_439.jpg, GT: ['SALE', 'OFF', 'UNDER', 'ARMOUR'], Predicted: ['ARMOUR', 'UNCER', '-1', 'e|81', '-1']
+2024-04-28 22:15:51,953 - True predictions: 980, Total GT: 1484
+2024-04-28 22:15:55,998 - Runtime 379 Image path: assets/icdar2015/test_images\img_44.jpg, GT: ['Kinokuniya', 'MANGA', 'MANGA'], Predicted: ['Kinokuniya', 'MANGA', '-1']
+2024-04-28 22:15:55,999 - True predictions: 984, Total GT: 1487
+2024-04-28 22:15:59,708 - Runtime 380 Image path: assets/icdar2015/test_images\img_440.jpg, GT: ['DOROTHYPERKINS', 'PERKINS', '#01-12', 'LEVEL'], Predicted: ['-1', 'ICRRN']
+2024-04-28 22:15:59,708 - True predictions: 985, Total GT: 1491
+2024-04-28 22:16:03,207 - Runtime 381 Image path: assets/icdar2015/test_images\img_441.jpg, GT: ['your', 'way', 'after', 'shopping!', 'CHOCOOLATE', 'indulge'], Predicted: ['Wou', 'your', 'droppiag', 'ucduige', 'Pafter']
+2024-04-28 22:16:03,207 - True predictions: 987, Total GT: 1497
+2024-04-28 22:16:06,189 - Runtime 382 Image path: assets/icdar2015/test_images\img_442.jpg, GT: ['313@somerset', 'OLATE'], Predicted: ['3130somerset']
+2024-04-28 22:16:06,190 - True predictions: 988, Total GT: 1499
+2024-04-28 22:16:09,605 - Runtime 383 Image path: assets/icdar2015/test_images\img_443.jpg, GT: ['Marché', 'BAR'], Predicted: ['Marche', 'Malanc', '-1']
+2024-04-28 22:16:09,605 - True predictions: 989, Total GT: 1501
+2024-04-28 22:16:13,677 - Runtime 384 Image path: assets/icdar2015/test_images\img_444.jpg, GT: ['EXIT', 'Malones', 'IRISH', 'RESTAURANT', 'BAR'], Predicted: ['Ma.ones', 'IRISH', 'RESTAURANT', 'BAR', '-1', 'Davonee', 'EXI', '-1']
+2024-04-28 22:16:13,677 - True predictions: 993, Total GT: 1506
+2024-04-28 22:16:17,679 - Runtime 385 Image path: assets/icdar2015/test_images\img_445.jpg, GT: ["Asia's", 'ORCHAR', 'Trans', 'SK-II', 'GRANGE', 'First', 'Supermodel', 'And', 'Taiwanese', 'Actor'], Predicted: ['SK-II', 'Trans', 'ORCHARI', 'Mtie']
+2024-04-28 22:16:17,680 - True predictions: 996, Total GT: 1516
+2024-04-28 22:16:21,602 - Runtime 386 Image path: assets/icdar2015/test_images\img_446.jpg, GT: ['Mandarin'], Predicted: ['Vanoarin']
+2024-04-28 22:16:21,603 - True predictions: 997, Total GT: 1517
+2024-04-28 22:16:25,206 - Runtime 387 Image path: assets/icdar2015/test_images\img_447.jpg, GT: ['Mandarin', 'Gallery'], Predicted: ['Mandariny', 'Gallery']
+2024-04-28 22:16:25,206 - True predictions: 999, Total GT: 1519
+2024-04-28 22:16:29,192 - Runtime 388 Image path: assets/icdar2015/test_images\img_448.jpg, GT: ['MULBERRY', 'BREAD', 'BUTTER'], Predicted: ['NIUL', 'RERRY', 'BREADS', 'BAVER']
+2024-04-28 22:16:29,193 - True predictions: 1000, Total GT: 1522
+2024-04-28 22:16:32,969 - Runtime 389 Image path: assets/icdar2015/test_images\img_449.jpg, GT: ['EXODUS', 'SHOWING', 'NOW', 'SHOWING', 'NOW', 'EXIT', 'AND', 'KINOS'], Predicted: ['SHOWING', 'NOW', 'EXODUS', 'EX', '-1', '-1']
+2024-04-28 22:16:32,970 - True predictions: 1006, Total GT: 1530
+2024-04-28 22:16:37,443 - Runtime 390 Image path: assets/icdar2015/test_images\img_45.jpg, GT: ['pumpkin', 'the', 'big', 'Patch', 'patch', 'sale', 'FOX', 'ZONY'], Predicted: ['pumpkin', 'big', '-1', 'LE', 'patch', 'MZONU', 'Patchy', 'FOX']
+2024-04-28 22:16:37,444 - True predictions: 1011, Total GT: 1538
+2024-04-28 22:16:40,968 - Runtime 391 Image path: assets/icdar2015/test_images\img_450.jpg, GT: ['SHOWING', 'SERENA', 'NOW', 'HOBBIT', 'PACT', 'NOW', 'SHOWING'], Predicted: ['SERENA', 'NOW', 'OWING']
+2024-04-28 22:16:40,969 - True predictions: 1015, Total GT: 1545
+2024-04-28 22:16:45,176 - Runtime 392 Image path: assets/icdar2015/test_images\img_451.jpg, GT: ['SEVENTH', 'PUTEH', 'INTO', 'THE', 'KACHANG', 'reaL', 'EXIT', 'SON'], Predicted: ['KACHANG', '....', 'PUTEH', 'INOTHEWO', 'VEXIT', '-1', '-1', '8000', '-1', '-1']
+2024-04-28 22:16:45,177 - True predictions: 1018, Total GT: 1553
+2024-04-28 22:16:50,207 - Runtime 393 Image path: assets/icdar2015/test_images\img_452.jpg, GT: ['EVERYTHING', 'THEORY', 'INTO', 'THE', 'WOODS', 'CATHAY', 'real', 'CINEMAS', 'JANUARY 8', 'CATHA', 'JAN'], Predicted: ['INTO', 'EVERYTHING', 'WOODS', 'CATHAY', 'HEORY', 'THE', 'CINEMAS', '-1', "IANUARY'S", 'HCAUA', '3D', 'reaLD']
+2024-04-28 22:16:50,207 - True predictions: 1025, Total GT: 1564
+2024-04-28 22:16:54,820 - Runtime 394 Image path: assets/icdar2015/test_images\img_453.jpg, GT: ['CATHAY', 'THEORY', 'EVERYTHING', 'CINEMAS', 'JANUARY', 'MORTDECAI'], Predicted: ['THEORY', 'CATHAY', 'EVERYTHING', 'MORTDECA', 'IN', "CINEMIASJANUARY'S", 'JANUARY']
+2024-04-28 22:16:54,820 - True predictions: 1030, Total GT: 1570
+2024-04-28 22:16:59,544 - Runtime 395 Image path: assets/icdar2015/test_images\img_454.jpg, GT: ['MORTDECAI', 'CATHAY', 'CINEPLEXES', 'JANUARY', 'SOPHISTICATION', 'NAM'], Predicted: ['MORTDECAI', 'JANUARY', '29', 'AOPISTECATOON', 'HA', 'CINEPEEXES', 'CATHAY', 'NA', '-1']
+2024-04-28 22:16:59,545 - True predictions: 1034, Total GT: 1576
+2024-04-28 22:17:02,824 - Runtime 396 Image path: assets/icdar2015/test_images\img_455.jpg, GT: ['SHOWING', 'EXODUS', 'NEXT', 'NOW', 'TAKEN', 'SHOWING', 'EXIT'], Predicted: ['SHOWING', 'EXIT', '-1']
+2024-04-28 22:17:02,825 - True predictions: 1038, Total GT: 1583
+2024-04-28 22:17:06,854 - Runtime 397 Image path: assets/icdar2015/test_images\img_456.jpg, GT: ['CHARLIE', 'BROWN', 'epper', 'Lunch', 'BROWN', 'CHAXLIE'], Predicted: ['epper', 'BROWN', 'CHARLIE', 'Lunch', 'CAI', '-1', '-1']
+2024-04-28 22:17:06,855 - True predictions: 1044, Total GT: 1589
+2024-04-28 22:17:10,334 - Runtime 398 Image path: assets/icdar2015/test_images\img_457.jpg, GT: ['CHARLIE', 'BROWN'], Predicted: ['CHARLIE', 'BROWN', 'EC', '30']
+2024-04-28 22:17:10,335 - True predictions: 1047, Total GT: 1591
+2024-04-28 22:17:14,175 - Runtime 399 Image path: assets/icdar2015/test_images\img_458.jpg, GT: ['CATHAY', 'real', 'real', 'real', 'CINEPLE', 'Free', 'Movie'], Predicted: ['INCATRAY', 'ONEPL', 'PLEXEST', '-1', '1A', 'LGG']
+2024-04-28 22:17:14,176 - True predictions: 1048, Total GT: 1598
+2024-04-28 22:17:17,680 - Runtime 400 Image path: assets/icdar2015/test_images\img_459.jpg, GT: ["GENTLEMEN'S", 'OUTFITTERS', 'READY', 'MADE', 'MADE'], Predicted: ['-1', '-1', 'GE', '-1']
+2024-04-28 22:17:17,681 - True predictions: 1049, Total GT: 1603
+2024-04-28 22:17:21,472 - Runtime 401 Image path: assets/icdar2015/test_images\img_46.jpg, GT: ['HOUSE', 'QBHO'], Predicted: ['HOUSE', 'QB', 'BHO']
+2024-04-28 22:17:21,472 - True predictions: 1051, Total GT: 1605
+2024-04-28 22:17:25,937 - Runtime 402 Image path: assets/icdar2015/test_images\img_460.jpg, GT: ['psb', 'months', 'after'], Predicted: ['after', 'psb', '12', 'DT', '-1', '-1', 'months']
+2024-04-28 22:17:25,938 - True predictions: 1055, Total GT: 1608
+2024-04-28 22:17:30,546 - Runtime 403 Image path: assets/icdar2015/test_images\img_461.jpg, GT: ['time', 'psb', 'diploma'], Predicted: ['dipioma', 'psb', '12', '-1', '12', 'mor', '-1', 'avels.']
+2024-04-28 22:17:30,547 - True predictions: 1057, Total GT: 1611
+2024-04-28 22:17:35,560 - Runtime 404 Image path: assets/icdar2015/test_images\img_462.jpg, GT: ['FLESHIMP.', 'ROUND', 'DAY', 'ALL', 'YEAR', 'WHOLE', 'WWW.', 'COM', 'TAMANIA'], Predicted: ['ROUND', '24', 'ALL', '-1', 'YERR', 'www.', 'P', 'LESHIMP', 'COM', 'WHOLE', '-1']
+2024-04-28 22:17:35,561 - True predictions: 1062, Total GT: 1620
+2024-04-28 22:17:39,334 - Runtime 405 Image path: assets/icdar2015/test_images\img_463.jpg, GT: ['FESTIVE', 'SALE'], Predicted: ['FESTIVE', 'SALE']
+2024-04-28 22:17:39,334 - True predictions: 1065, Total GT: 1622
+2024-04-28 22:17:43,869 - Runtime 406 Image path: assets/icdar2015/test_images\img_464.jpg, GT: ['BOARDS', "SINGAPORE'S", 'PREMIER', 'ONLINE', 'SKATE', 'STORE'], Predicted: ['ONLINE', 'SKATE', 'STORE', "SINGAPOKE'S", 'PREMIER', '-1']
+2024-04-28 22:17:43,870 - True predictions: 1070, Total GT: 1628
+2024-04-28 22:17:48,139 - Runtime 407 Image path: assets/icdar2015/test_images\img_465.jpg, GT: ['OFFICE'], Predicted: ['XOFFICE', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:17:48,139 - True predictions: 1071, Total GT: 1629
+2024-04-28 22:17:54,622 - Runtime 408 Image path: assets/icdar2015/test_images\img_466.jpg, GT: ['Show', 'Our', "President's", 'Challenge', 'DONATE', 'Bit.', 'Care.'], Predicted: ['Challenge', 'DONATE', 'Our', 'Show', "President's", '-1', 'We', 'Sit.', '-1', 'Care.', 'Do', '-1', '-1', '-1']
+2024-04-28 22:17:54,623 - True predictions: 1078, Total GT: 1636
+2024-04-28 22:17:57,820 - Runtime 409 Image path: assets/icdar2015/test_images\img_467.jpg, GT: ['sticky'], Predicted: []
+2024-04-28 22:17:57,820 - True predictions: 1079, Total GT: 1637
+2024-04-28 22:18:00,951 - Runtime 410 Image path: assets/icdar2015/test_images\img_468.jpg, GT: ['CHE  S', 'IES', 'LEVE', 'HYPERION', '00:00 9'], Predicted: ['DUK', '-1', '-1']
+2024-04-28 22:18:00,951 - True predictions: 1080, Total GT: 1642
+2024-04-28 22:18:04,736 - Runtime 411 Image path: assets/icdar2015/test_images\img_469.jpg, GT: ['Cafe', 'SEOULGARDEN', 'HotPot'], Predicted: ['HotPot', 'GARDEN', 'Gaffite', 'SEOUL', 'Cafe', '-1']
+2024-04-28 22:18:04,736 - True predictions: 1083, Total GT: 1645
+2024-04-28 22:18:08,214 - Runtime 412 Image path: assets/icdar2015/test_images\img_47.jpg, GT: ['just', 'adidas', 'sale', 'adidas', 'KECHERS', 'run.', 'crocs', 'SALE', 'LIDAY'], Predicted: ['adidas', 'KECHERS', 'croes', '-1', 'EALE']
+2024-04-28 22:18:08,214 - True predictions: 1087, Total GT: 1654
+2024-04-28 22:18:13,844 - Runtime 413 Image path: assets/icdar2015/test_images\img_470.jpg, GT: ['clearing', 'station', 'service', 'Haina', 'Chicken'], Predicted: ['Haina', 'station', 'Chichen', 'cleanng', '-1', '-1', '-1', '-1', 'servici', '-1', '-1', 'SeI']
+2024-04-28 22:18:13,845 - True predictions: 1090, Total GT: 1659
+2024-04-28 22:18:17,472 - Runtime 414 Image path: assets/icdar2015/test_images\img_471.jpg, GT: ['with'], Predicted: ['with', 'ng', '-1', '-1', '-1']
+2024-04-28 22:18:17,473 - True predictions: 1092, Total GT: 1660
+2024-04-28 22:18:20,811 - Runtime 415 Image path: assets/icdar2015/test_images\img_472.jpg, GT: ['Fish'], Predicted: ['Fish', 'Mr', 'So']
+2024-04-28 22:18:20,811 - True predictions: 1094, Total GT: 1661
+2024-04-28 22:18:24,103 - Runtime 416 Image path: assets/icdar2015/test_images\img_473.jpg, GT: ['tree', 'POTATOES', 'GAMES', 'HUNGER', 'STARBUCKS'], Predicted: ['tree', '-1', '-1']
+2024-04-28 22:18:24,103 - True predictions: 1096, Total GT: 1666
+2024-04-28 22:18:27,494 - Runtime 417 Image path: assets/icdar2015/test_images\img_474.jpg, GT: ['Lunch', 'crunchy', 'Freshly', 'Specials'], Predicted: ['Lunch', 'Specials', '-1', '-1']
+2024-04-28 22:18:27,494 - True predictions: 1099, Total GT: 1670
+2024-04-28 22:18:32,252 - Runtime 418 Image path: assets/icdar2015/test_images\img_475.jpg, GT: ['EBATE', 'SALE', 'GIO', 'ENJOY', 'HERE', 'OCBC', 'Bank'], Predicted: ['SALE', 'OCBC', 'WEBATE', 'ENJOY', 'HERE', 'Bank', '-1', 'ROU', '-1', '-1', '-1']
+2024-04-28 22:18:32,252 - True predictions: 1105, Total GT: 1677
+2024-04-28 22:18:40,608 - Runtime 419 Image path: assets/icdar2015/test_images\img_476.jpg, GT: ['SALE', 'PERSONAL', 'SHOPPING', 'OFF', 'LEVEL', 'LEVEL', 'LEVEL', 'LEVEL', 'Wear', "Women's", 'Wear', 'Book', 'Concierge', 'Kitchen', 'Ladies', 'FROM', 'LEVEL', 'ENJOY', 'SURE'], Predicted: ['SALE', 'LEVEL', 'ENJOY5%', 'LEVEL', 'LEVEL', 'LEVEL', 'B', 'Hase', '-1', '-1', '2', "Hes'y", 'PERSONAL', 'SHOAPNG', '-1', '-1', 'Chpas', '-1', '-1', '-1', '-1', '-1', '-1', '-', '-1', '-1', '-1']
+2024-04-28 22:18:40,609 - True predictions: 1113, Total GT: 1696
+2024-04-28 22:18:44,378 - Runtime 420 Image path: assets/icdar2015/test_images\img_477.jpg, GT: ['TOPSHOP', 'price', 'sale'], Predicted: ['TOPSHOP', '12pice', '-1']
+2024-04-28 22:18:44,379 - True predictions: 1115, Total GT: 1699
+2024-04-28 22:18:47,864 - Runtime 421 Image path: assets/icdar2015/test_images\img_478.jpg, GT: ['SPA', 'NAIL'], Predicted: ['SPA', 'TANONAL', '-1']
+2024-04-28 22:18:47,864 - True predictions: 1117, Total GT: 1701
+2024-04-28 22:18:51,201 - Runtime 422 Image path: assets/icdar2015/test_images\img_479.jpg, GT: ['EXR', 'JIM', 'FUJIFILM', 'EVERLAST', 'EXR'], Predicted: ['FUJIFILM', '-1', 'REELS', '-1', '-1']
+2024-04-28 22:18:51,202 - True predictions: 1119, Total GT: 1706
+2024-04-28 22:18:55,536 - Runtime 423 Image path: assets/icdar2015/test_images\img_48.jpg, GT: ['FOR', 'WEALTH', 'SALE', 'UOB', 'THE', 'EVENT', 'PPING', 'GER'], Predicted: ['UOB', 'FOR', 'THE', 'DVENT', 'WEALTH', 'PRIS', 'SALE', 'OPPING', 'WINC', '-1']
+2024-04-28 22:18:55,537 - True predictions: 1125, Total GT: 1714
+2024-04-28 22:18:58,369 - Runtime 424 Image path: assets/icdar2015/test_images\img_480.jpg, GT: ['SEA', 'BLUE', 'EVEN', 'THE', 'DEEP', 'NOT', '100', 'CAN', 'STOP', 'US.'], Predicted: []
+2024-04-28 22:18:58,369 - True predictions: 1126, Total GT: 1724
+2024-04-28 22:19:01,102 - Runtime 425 Image path: assets/icdar2015/test_images\img_481.jpg, GT: ['cook', 'SOMA'], Predicted: ['SOMA']
+2024-04-28 22:19:01,103 - True predictions: 1128, Total GT: 1726
+2024-04-28 22:19:05,295 - Runtime 426 Image path: assets/icdar2015/test_images\img_482.jpg, GT: ['BODISCIENCES', 'MIND', 'FACE', 'Stay', 'REVERSE', 'AGEING', 'LIFE', 'MASTER'], Predicted: ['AGEING', 'REVERSE', 'BODISCIEnCES', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:19:05,295 - True predictions: 1131, Total GT: 1734
+2024-04-28 22:19:08,348 - Runtime 427 Image path: assets/icdar2015/test_images\img_483.jpg, GT: ['DEAN'], Predicted: ['DEANO']
+2024-04-28 22:19:08,348 - True predictions: 1132, Total GT: 1735
+2024-04-28 22:19:11,200 - Runtime 428 Image path: assets/icdar2015/test_images\img_484.jpg, GT: ['OFF', 'SEASON', 'SALE', '60%'], Predicted: ['60:', 'SALE']
+2024-04-28 22:19:11,201 - True predictions: 1134, Total GT: 1739
+2024-04-28 22:19:14,276 - Runtime 429 Image path: assets/icdar2015/test_images\img_485.jpg, GT: ['WESC', 'DOUG'], Predicted: ['9DOUG', 'wesc', '-1', '-1']
+2024-04-28 22:19:14,277 - True predictions: 1135, Total GT: 1741
+2024-04-28 22:19:20,770 - Runtime 430 Image path: assets/icdar2015/test_images\img_486.jpg, GT: ['THE', 'PLEATATION', 'EXCITING', 'SHOPS', 'COMING', 'NEW', 'ARALD11930', 'CAFE', 'MONDO', 'CENTRAL', 'HONG', 'KONG', 'CAFE', 'FACE+', 'YAMANO', 'ITALIANA', 'SANS', 'SANS', 'TANUKI', 'RAW', 'GALLERIA', 'SINGAPORE', 'MINT', 'RENANZA', 'WELLNESS', 'LIFESTYLE', 'SADRINAGO', 'THE', 'RECKLESS', 'SHOP'], Predicted: ['SHOPS', 'COMING', 'EXCITING', 'NEW', 'PLEATATION', '-1', 'YAMAND', 'IALIANA', '-1', 'ABALDINSSO', '-1', 'TAUNAUAK', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', '-1', 'HONO', '-1']
+2024-04-28 22:19:20,770 - True predictions: 1141, Total GT: 1771
+2024-04-28 22:19:24,251 - Runtime 431 Image path: assets/icdar2015/test_images\img_487.jpg, GT: ['yamano', 'FACE'], Predicted: ['yamano', 'o', '2R', '-1', 'tEIT.']
+2024-04-28 22:19:24,252 - True predictions: 1143, Total GT: 1773
+2024-04-28 22:19:28,548 - Runtime 432 Image path: assets/icdar2015/test_images\img_488.jpg, GT: ['the', 'calator', 'accha', 'ouse', '6636-5830', '#B1-39'], Predicted: ['B1-39', 'to', 'occha', '5830', '6636', 'vuse', 'dlator', '-1', 'the', 'a1', '-1']
+2024-04-28 22:19:28,548 - True predictions: 1145, Total GT: 1779
+2024-04-28 22:19:32,287 - Runtime 433 Image path: assets/icdar2015/test_images\img_489.jpg, GT: ['ANK', 'origo', 'creation', 'rom', 'ature'], Predicted: ['creaton', 'origo', 'ANK', 'rom', '-1', 'citun', '-1']
+2024-04-28 22:19:32,288 - True predictions: 1149, Total GT: 1784
+2024-04-28 22:19:35,327 - Runtime 434 Image path: assets/icdar2015/test_images\img_49.jpg, GT: ['Cotton'], Predicted: ['Cotton']
+2024-04-28 22:19:35,328 - True predictions: 1151, Total GT: 1785
+2024-04-28 22:19:38,919 - Runtime 435 Image path: assets/icdar2015/test_images\img_490.jpg, GT: ['LIFE', 'J&D', 'TOO', 'SHORT', 'BAD', 'nniiru', 'inc'], Predicted: ['-1', 'BADealle', '100', 'SHORT', 'JUI']
+2024-04-28 22:19:38,920 - True predictions: 1153, Total GT: 1792
+2024-04-28 22:19:43,308 - Runtime 436 Image path: assets/icdar2015/test_images\img_491.jpg, GT: ['COLD', 'STONE', 'CREAME', 'COLD', 'STONE', 'CREAMERY', 'COLD', 'STONE'], Predicted: ['COLD', 'STONE', 'NOOSCTOT', 'CR', '-1']
+2024-04-28 22:19:43,308 - True predictions: 1160, Total GT: 1800
+2024-04-28 22:19:46,414 - Runtime 437 Image path: assets/icdar2015/test_images\img_492.jpg, GT: ['KILLINEY'], Predicted: ['RD', 'KILLINEY', '-1']
+2024-04-28 22:19:46,415 - True predictions: 1162, Total GT: 1801
+2024-04-28 22:19:49,911 - Runtime 438 Image path: assets/icdar2015/test_images\img_493.jpg, GT: ['Foods', 'Classic', 'Fine'], Predicted: ["Foed's", 'Fine', 'Classic', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:19:49,912 - True predictions: 1165, Total GT: 1804
+2024-04-28 22:19:54,374 - Runtime 439 Image path: assets/icdar2015/test_images\img_494.jpg, GT: ['Supplies', 'WEN', 'Globe', 'YONG', 'different', 'Website', 'www.ywgroup.com.sg', 'Tel:777 8100'], Predicted: ['WEN', 'YONG', 'ENOD', '-1', '-1', 'Supplies', '-1', 'rnd', '-1', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:19:54,374 - True predictions: 1169, Total GT: 1812
+2024-04-28 22:19:58,609 - Runtime 440 Image path: assets/icdar2015/test_images\img_495.jpg, GT: ['PLAZA', 'CORNER', 'LORS'], Predicted: ['PLAZA', 'LORS', 'A', 'R.D', 'arFef', 'SUIDON', '-1', 'AAL', '-1', '-1']
+2024-04-28 22:19:58,609 - True predictions: 1172, Total GT: 1815
+2024-04-28 22:20:03,110 - Runtime 441 Image path: assets/icdar2015/test_images\img_496.jpg, GT: ['Clemenceau', 'Ave', 'Havelock', 'CTE', 'SLE', 'Bras', 'Basah'], Predicted: ['CTE', 'Basah', 'Ave', '(Havelock', '(SLE)', 'Bras', 'Clemenceau', 'Rd)', '-1', 'F']
+2024-04-28 22:20:03,110 - True predictions: 1178, Total GT: 1822
+2024-04-28 22:20:07,396 - Runtime 442 Image path: assets/icdar2015/test_images\img_497.jpg, GT: ['attached', 'minimum', 'strings', 'spend', 'earn', 'cap', 'Promise', 'anywhere', '24/7', '365'], Predicted: ['strings', 'nttached,', 'No', '-1', '247', '-1', '-1', '355', '-1', '-1', '-1', '-1']
+2024-04-28 22:20:07,397 - True predictions: 1180, Total GT: 1832
+2024-04-28 22:20:10,631 - Runtime 443 Image path: assets/icdar2015/test_images\img_498.jpg, GT: ['Cavenagh', 'KEEP', 'RIGHT'], Predicted: ['RIGHT', 'Cavenagh', 'Ad', 'KEEP']
+2024-04-28 22:20:10,632 - True predictions: 1184, Total GT: 1835
+2024-04-28 22:20:14,187 - Runtime 444 Image path: assets/icdar2015/test_images\img_499.jpg, GT: ['EXCEPT', 'TRAFFIC', 'TURNING', 'INTO', 'ISTANA', 'DOMAIN'], Predicted: ['OOMAN', 'TRKENG', 'ECEPT', '-1', 'IN0O', 'RAHE']
+2024-04-28 22:20:14,188 - True predictions: 1185, Total GT: 1841
+2024-04-28 22:20:17,726 - Runtime 445 Image path: assets/icdar2015/test_images\img_5.jpg, GT: ['Speed', 'Regulating', 'Strips', 'Ahead', 'SLOW'], Predicted: ['Speed', 'Strigs', 'Regulating', 'Ahead', 'SLOW', '-1']
+2024-04-28 22:20:17,727 - True predictions: 1190, Total GT: 1846
+2024-04-28 22:20:21,270 - Runtime 446 Image path: assets/icdar2015/test_images\img_50.jpg, GT: ['CocaCola', 'CocaCola'], Predicted: ['CocaCoa', 'Coca-Coa', 'Coca-Cola', '3', '-1', 'Da', '-1']
+2024-04-28 22:20:21,271 - True predictions: 1191, Total GT: 1848
+2024-04-28 22:20:24,141 - Runtime 447 Image path: assets/icdar2015/test_images\img_500.jpg, GT: ['Underpass'], Predicted: ['Underpass']
+2024-04-28 22:20:24,141 - True predictions: 1193, Total GT: 1849
+2024-04-28 22:20:27,890 - Runtime 448 Image path: assets/icdar2015/test_images\img_51.jpg, GT: ['Baby', 'Food', 'Diapers', 'Milk', 'Powder', 'MAR', 'DARUE'], Predicted: ['16', 'Porwder', 'Baby', 'Dapers', 'Food', 'SDULE', 'Ma', '-1']
+2024-04-28 22:20:27,890 - True predictions: 1196, Total GT: 1856
+2024-04-28 22:20:31,428 - Runtime 449 Image path: assets/icdar2015/test_images\img_52.jpg, GT: ['cha', 'Look', 'out', 'for', 'next'], Predicted: ['next', 'char', 'Look', 'for', 'out', '-1']
+2024-04-28 22:20:31,429 - True predictions: 1201, Total GT: 1861
+2024-04-28 22:20:34,627 - Runtime 450 Image path: assets/icdar2015/test_images\img_53.jpg, GT: ['Avenue'], Predicted: ['Auene', '-1', '-1']
+2024-04-28 22:20:34,627 - True predictions: 1202, Total GT: 1862
+2024-04-28 22:20:38,715 - Runtime 451 Image path: assets/icdar2015/test_images\img_54.jpg, GT: ['EXIT', 'Level', 'Avenue'], Predicted: ['Avenue', 'EXITY', 'Level', '-1', 'At', '-1']
+2024-04-28 22:20:38,716 - True predictions: 1205, Total GT: 1865
+2024-04-28 22:20:43,497 - Runtime 452 Image path: assets/icdar2015/test_images\img_55.jpg, GT: ['CW3/CW4', '715/717', 'PCS', 'Bus', 'BERTH', 'THANK', 'FOR', 'QUEUEING', 'YOU', 'CW3', 'MRT'], Predicted: ['715/717', 'CW3/CW4', 'PCS', 'BERTH', 'Bus', 'QUEUENG', 'MRT', 'YOU', 'FOR', 'THANK', 'ICW3', 'B1', '-1']
+2024-04-28 22:20:43,497 - True predictions: 1215, Total GT: 1876
+2024-04-28 22:20:46,521 - Runtime 453 Image path: assets/icdar2015/test_images\img_56.jpg, GT: ['334', 'Transit'], Predicted: ['334', '-1']
+2024-04-28 22:20:46,522 - True predictions: 1217, Total GT: 1878
+2024-04-28 22:20:49,278 - Runtime 454 Image path: assets/icdar2015/test_images\img_57.jpg, GT: ['POSB', 'citibank'], Predicted: ['otibars', 'POSB']
+2024-04-28 22:20:49,278 - True predictions: 1219, Total GT: 1880
+2024-04-28 22:20:52,087 - Runtime 455 Image path: assets/icdar2015/test_images\img_58.jpg, GT: ['Doraeman', 'PUNE CENTAS'], Predicted: ['Doraeman', '-1', '-1']
+2024-04-28 22:20:52,087 - True predictions: 1221, Total GT: 1882
+2024-04-28 22:20:55,006 - Runtime 456 Image path: assets/icdar2015/test_images\img_59.jpg, GT: ['SALE', 'TEMT', 'NOW', 'TEMT'], Predicted: ['ONOW', 'SALE', 'THEMT']
+2024-04-28 22:20:55,007 - True predictions: 1223, Total GT: 1886
+2024-04-28 22:20:58,486 - Runtime 457 Image path: assets/icdar2015/test_images\img_6.jpg, GT: ['DOORS', 'AIROB', 'Reserved', 'Seating'], Predicted: ['-1', '-1', '-1', '-1', '-1', 'LSE', '-1', '-1', '-1']
+2024-04-28 22:20:58,487 - True predictions: 1224, Total GT: 1890
+2024-04-28 22:21:02,222 - Runtime 458 Image path: assets/icdar2015/test_images\img_60.jpg, GT: ['SINGAPORE', 'CRUISE'], Predicted: ['SINGAPORE', '-CELS', '-1', '-1', 'SAP', '-1', '-1', '-1']
+2024-04-28 22:21:02,222 - True predictions: 1226, Total GT: 1892
+2024-04-28 22:21:04,918 - Runtime 459 Image path: assets/icdar2015/test_images\img_61.jpg, GT: ['MASA'], Predicted: ['-1']
+2024-04-28 22:21:04,918 - True predictions: 1227, Total GT: 1893
+2024-04-28 22:21:08,412 - Runtime 460 Image path: assets/icdar2015/test_images\img_62.jpg, GT: ['TANGS', 'POST', 'CHRISTMAS', 'SALE'], Predicted: ['SALE', 'HRISINAS', 'TANGS', 'PPOST']
+2024-04-28 22:21:08,413 - True predictions: 1230, Total GT: 1897
+2024-04-28 22:21:12,346 - Runtime 461 Image path: assets/icdar2015/test_images\img_63.jpg, GT: ['OSIM', 'Say', 'Love', 'you', 'this', '-70 %'], Predicted: ['OSIMr', 'you', 'this', 'Love', 'Churistm', '-1', '-1']
+2024-04-28 22:21:12,347 - True predictions: 1234, Total GT: 1903
+2024-04-28 22:21:16,302 - Runtime 462 Image path: assets/icdar2015/test_images\img_64.jpg, GT: ['Garrett', 'DBS'], Predicted: ['DBS', '-1', '-1', 'Gattent', '-1', '-1', 'C1', '-1']
+2024-04-28 22:21:16,302 - True predictions: 1236, Total GT: 1905
+2024-04-28 22:21:19,478 - Runtime 463 Image path: assets/icdar2015/test_images\img_65.jpg, GT: ['OPEN', 'Parfait', 'ceve', 'Tokyo'], Predicted: ['Parfait', '-1', '-1', '-1', '-1']
+2024-04-28 22:21:19,478 - True predictions: 1238, Total GT: 1909
+2024-04-28 22:21:22,364 - Runtime 464 Image path: assets/icdar2015/test_images\img_66.jpg, GT: [], Predicted: ['-1', '8', 'T0']
+2024-04-28 22:21:22,364 - True predictions: 1239, Total GT: 1909
+2024-04-28 22:21:25,747 - Runtime 465 Image path: assets/icdar2015/test_images\img_67.jpg, GT: ['FRUIT', 'FRESHLY', 'CUT'], Predicted: ['FRUIT', 'CUT', 'FRESHLY', '-1', '-1', '-1']
+2024-04-28 22:21:25,747 - True predictions: 1243, Total GT: 1912
+2024-04-28 22:21:29,935 - Runtime 466 Image path: assets/icdar2015/test_images\img_68.jpg, GT: ['LOAVES', 'ROLLS', 'PASTRIES', 'for', 'BUY', 'VALUE', 'Fresh', '$8,888', '$100,000'], Predicted: ['VALUE', 'BUY', 'PASTRIES', 'ROLES', '$100,000', 'LOAVES', '.888', '-1', '-1', '-1']
+2024-04-28 22:21:29,936 - True predictions: 1249, Total GT: 1921
+2024-04-28 22:21:33,469 - Runtime 467 Image path: assets/icdar2015/test_images\img_69.jpg, GT: ['CITY', 'SUBWAY'], Predicted: ['SUBWAY', 'CAIR', 'GITY', '-1']
+2024-04-28 22:21:33,470 - True predictions: 1251, Total GT: 1923
+2024-04-28 22:21:36,664 - Runtime 468 Image path: assets/icdar2015/test_images\img_7.jpg, GT: ['FOR', 'SHOP'], Predicted: ['SHOP', 'FOR', 'LIFES', '-1']
+2024-04-28 22:21:36,665 - True predictions: 1254, Total GT: 1925
+2024-04-28 22:21:39,373 - Runtime 469 Image path: assets/icdar2015/test_images\img_70.jpg, GT: ['Fashi  g', 'Exciting', 'Shopping', 'Boerien'], Predicted: ['Shopping']
+2024-04-28 22:21:39,373 - True predictions: 1256, Total GT: 1929
+2024-04-28 22:21:42,256 - Runtime 470 Image path: assets/icdar2015/test_images\img_71.jpg, GT: ['GAIN', 'CITY'], Predicted: ['CITY', 'OAIN', '-1']
+2024-04-28 22:21:42,256 - True predictions: 1258, Total GT: 1931
+2024-04-28 22:21:45,540 - Runtime 471 Image path: assets/icdar2015/test_images\img_72.jpg, GT: ['MORE', 'SHOPS', 'LEVEL2'], Predicted: ['SHOPS', 'MORE', 'AT', 'LEVEL', '2']
+2024-04-28 22:21:45,541 - True predictions: 1261, Total GT: 1934
+2024-04-28 22:21:48,859 - Runtime 472 Image path: assets/icdar2015/test_images\img_73.jpg, GT: ['JOHN', 'LITTLE', 'WAY', 'YOUR', 'CHO'], Predicted: ['LITTLE', 'JOHN', 'ROWNC', '-1']
+2024-04-28 22:21:48,860 - True predictions: 1264, Total GT: 1939
+2024-04-28 22:21:51,989 - Runtime 473 Image path: assets/icdar2015/test_images\img_74.jpg, GT: ['JOHN', 'LITTLE', 'OILETREIES'], Predicted: ['LITTLE', 'JOHN', 'IAMMO']
+2024-04-28 22:21:51,989 - True predictions: 1267, Total GT: 1942
+2024-04-28 22:21:55,487 - Runtime 474 Image path: assets/icdar2015/test_images\img_75.jpg, GT: ['EXIT', 'EXIT', 'CHOC', 'SPOT', 'Mouth-watering', 'LITTLE', 'JOHN', 'Snecks', 'REVLON'], Predicted: ['IOHN', 'LITTLE', 'SPOT', '-1', '-1', 'EWON', '-1']
+2024-04-28 22:21:55,488 - True predictions: 1270, Total GT: 1951
+2024-04-28 22:21:58,940 - Runtime 475 Image path: assets/icdar2015/test_images\img_76.jpg, GT: ['Chef', 'Tony', 'Popcorn', 'Chef', 'Tonajs'], Predicted: ['Chef', 'Tony', 'Popcorn', '-1', '-1', '-1', '-1']
+2024-04-28 22:21:58,941 - True predictions: 1275, Total GT: 1956
+2024-04-28 22:22:02,842 - Runtime 476 Image path: assets/icdar2015/test_images\img_77.jpg, GT: ['MEE', 'JIA', 'SARAWAK', 'KUCHING', 'KOLO', 'XIANG', 'kolo'], Predicted: ['KUCHING', 'SARAWAK', 'KIANG', 'KOLO', 'MEE', 'kolo', 'JA']
+2024-04-28 22:22:02,843 - True predictions: 1281, Total GT: 1963
+2024-04-28 22:22:06,937 - Runtime 477 Image path: assets/icdar2015/test_images\img_78.jpg, GT: ['PHOTO', 'the', 'tastes', 'DINING', 'flavours'], Predicted: ['ROTO', '-1', 'tastes', 'Bavours', 'the', 'DINNG', '-1', '-1']
+2024-04-28 22:22:06,937 - True predictions: 1284, Total GT: 1968
+2024-04-28 22:22:11,549 - Runtime 478 Image path: assets/icdar2015/test_images\img_79.jpg, GT: ['SUPER', 'FESTIVE', 'SALE', 'Cash', 'SPEC'], Predicted: ['70', 'SALE', 'SUPER', '$38', 'FESTIVE', '-1', 'E', 'SPECI', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:22:11,550 - True predictions: 1288, Total GT: 1973
+2024-04-28 22:22:14,637 - Runtime 479 Image path: assets/icdar2015/test_images\img_8.jpg, GT: ['Kappa', 'CAUTION'], Predicted: ['Keapa', 'CAUTIOH', '-1']
+2024-04-28 22:22:14,638 - True predictions: 1289, Total GT: 1975
+2024-04-28 22:22:17,928 - Runtime 480 Image path: assets/icdar2015/test_images\img_80.jpg, GT: ['STOREWIDE'], Predicted: ['STOREWIDE', '-1', 'KLNSRAK', '-1', '-1']
+2024-04-28 22:22:17,928 - True predictions: 1291, Total GT: 1976
+2024-04-28 22:22:20,957 - Runtime 481 Image path: assets/icdar2015/test_images\img_81.jpg, GT: ['ORGANI', 'Singapore', 'Reking', 'the'], Predicted: ['ORGANI', 'E', '-1']
+2024-04-28 22:22:20,958 - True predictions: 1293, Total GT: 1980
+2024-04-28 22:22:27,355 - Runtime 482 Image path: assets/icdar2015/test_images\img_82.jpg, GT: ['wotso', 'SALE', 'your', 'thday', 'month', 'Points', 'atsons', 'Brand', 'product', 'Points', 'nett'], Predicted: ['SALE', 'Brand', 'Points', 'atsons', 'your', 'Points', 'nus', 'month', 'on', 'thday', 'ints', 'nus', 'woXsorT', 'soRn', '-1', 'product', 'nett', '-1', 'In', '-1', '-1', '-1']
+2024-04-28 22:22:27,356 - True predictions: 1304, Total GT: 1991
+2024-04-28 22:22:32,828 - Runtime 483 Image path: assets/icdar2015/test_images\img_83.jpg, GT: ['the', 'tastes', 'flavours', 'MARINA:SQUARE', 'DINING', 'VICHY', 'Appetite', 'Dining', 'Eailian', 'EXIT', 'TEN'], Predicted: ['flavours', 'DINING', 'VICHY', 'MARSNAS', 'taste', '-1', '-1', 'HSC', 'the', '-1', '-1', '-1', '-1', '-1']
+2024-04-28 22:22:32,828 - True predictions: 1309, Total GT: 2002
+2024-04-28 22:22:35,869 - Runtime 484 Image path: assets/icdar2015/test_images\img_84.jpg, GT: ['TAGHeuer'], Predicted: ['TAGHUCT']
+2024-04-28 22:22:35,870 - True predictions: 1310, Total GT: 2003
+2024-04-28 22:22:39,618 - Runtime 485 Image path: assets/icdar2015/test_images\img_85.jpg, GT: ['Pan', 'Hotel', 'Suntec', 'Convention', 'Pacific', 'Centre', 'LONGINES'], Predicted: ['Centre', 'Eonven', 'Hotel', 'Suntec', '-1', 'Pacifich', '-1', '-1']
+2024-04-28 22:22:39,618 - True predictions: 1314, Total GT: 2010
+2024-04-28 22:22:42,872 - Runtime 486 Image path: assets/icdar2015/test_images\img_86.jpg, GT: ['SALE', 'SALE', 'sale'], Predicted: ['SALE', 'SALE']
+2024-04-28 22:22:42,872 - True predictions: 1317, Total GT: 2013
+2024-04-28 22:22:45,500 - Runtime 487 Image path: assets/icdar2015/test_images\img_87.jpg, GT: ['sale'], Predicted: ['-1']
+2024-04-28 22:22:45,500 - True predictions: 1318, Total GT: 2014
+2024-04-28 22:22:48,951 - Runtime 488 Image path: assets/icdar2015/test_images\img_88.jpg, GT: ['DINING', 'EDITION', 'MARINA:SQUARE', 'the'], Predicted: ['DINING', 'MARNAGSOUARE', 'VN', '-1', '-1', '-1']
+2024-04-28 22:22:48,952 - True predictions: 1320, Total GT: 2018
+2024-04-28 22:22:52,762 - Runtime 489 Image path: assets/icdar2015/test_images\img_89.jpg, GT: ['EXIT', 'Jollibean', 'Make', 'your', 'healthier', 'soymilk', 'everyday!'], Predicted: ['Jollibean', 'EXITY', 'Maio', 'healuer', 'your', '-1', '-1', 'soymEk']
+2024-04-28 22:22:52,763 - True predictions: 1323, Total GT: 2025
+2024-04-28 22:22:55,772 - Runtime 490 Image path: assets/icdar2015/test_images\img_9.jpg, GT: ['VEGETARIAN'], Predicted: ['VEGETARIAN', '-1']
+2024-04-28 22:22:55,772 - True predictions: 1325, Total GT: 2026
+2024-04-28 22:22:59,699 - Runtime 491 Image path: assets/icdar2015/test_images\img_90.jpg, GT: ['MORE', 'SHOPS', 'AHEAD', 'OPS'], Predicted: ['AHEAD', 'OPS', 'SHOPS', 'MORE', '-1', '-1', 'MCOLTE', '-1']
+2024-04-28 22:22:59,700 - True predictions: 1330, Total GT: 2030
+2024-04-28 22:23:03,804 - Runtime 492 Image path: assets/icdar2015/test_images\img_91.jpg, GT: ['STARBUCKS', 'COFFEE', 'Refishing', 'the', 'tastes', 'CARE'], Predicted: ['COFFEE', 'Relichin', 'tastes', 'STAROUCKS', 'the', '-1', '-1', '-1']
+2024-04-28 22:23:03,805 - True predictions: 1334, Total GT: 2036
+2024-04-28 22:23:07,222 - Runtime 493 Image path: assets/icdar2015/test_images\img_92.jpg, GT: ['BURGER', 'KING', 'Beanstro,'], Predicted: ['Beanstro', '-1', '-1']
+2024-04-28 22:23:07,223 - True predictions: 1335, Total GT: 2039
+2024-04-28 22:23:10,505 - Runtime 494 Image path: assets/icdar2015/test_images\img_93.jpg, GT: ['BURGER', 'KING'], Predicted: ['KING', 'BURGER', '-1', '-1', '-1']
+2024-04-28 22:23:10,506 - True predictions: 1338, Total GT: 2041
+2024-04-28 22:23:13,731 - Runtime 495 Image path: assets/icdar2015/test_images\img_94.jpg, GT: ['KFC'], Predicted: ['KFC', '-1']
+2024-04-28 22:23:13,731 - True predictions: 1340, Total GT: 2042
+2024-04-28 22:23:17,047 - Runtime 496 Image path: assets/icdar2015/test_images\img_95.jpg, GT: ['Edition', 'Dining', 'Mandarin', 'Hotel', 'The', 'Marina', 'TAGHeuer', 'Marina', 'Link', 'MRT', 'cro'], Predicted: ['TAGHeUer', '-1', '-1', '-1', '-1']
+2024-04-28 22:23:17,048 - True predictions: 1341, Total GT: 2053
+2024-04-28 22:23:20,688 - Runtime 497 Image path: assets/icdar2015/test_images\img_96.jpg, GT: ['TAGHeuer', 'TAGHeuer', 'CRACK', 'UNDER', '#DONT', 'TAGH', 'JAG', 'HEUER'], Predicted: ['TAGHeUer', 'UNDER', '#DO', 'CRACK', '-1', '-1']
+2024-04-28 22:23:20,689 - True predictions: 1344, Total GT: 2061
+2024-04-28 22:23:23,839 - Runtime 498 Image path: assets/icdar2015/test_images\img_97.jpg, GT: ['GEOX', 'GEOX', 'SALE'], Predicted: ['GEOX', 'LLOX']
+2024-04-28 22:23:23,840 - True predictions: 1347, Total GT: 2064
+2024-04-28 22:23:28,902 - Runtime 499 Image path: assets/icdar2015/test_images\img_98.jpg, GT: ['BRAND', 'SHOPPING', 'WING', 'NEW', 'OUT', 'AND', 'OPTIONS', 'YOUR', 'WAY', 'AIL'], Predicted: ['WING', 'NEW', 'OUT', 'BRAND', 'WAY', 'AIL', 'YOUR', 'JOK', 'SHOPPING', 'OPTIONS', 'AND', 'NG']
+2024-04-28 22:23:28,903 - True predictions: 1358, Total GT: 2074
+2024-04-28 22:23:32,513 - Runtime 500 Image path: assets/icdar2015/test_images\img_99.jpg, GT: ['MARKS&', 'SPENCER', 'OFF'], Predicted: ['eDEVCEE', 'WVBK2', 'MARKS&', 'SPENCER', '-1']
+2024-04-28 22:23:32,514 - True predictions: 1361, Total GT: 2077
+2024-04-28 22:23:32,514 - Final accuracy: 0.6552720269619644

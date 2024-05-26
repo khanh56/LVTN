@@ -25,7 +25,7 @@ __C.GENERATE_FAKE_IMAGE.FONT_DIR = r"Fonts"
 __C.GENERATE_FAKE_IMAGE.FONT_SIZE_MIN = 20
 __C.GENERATE_FAKE_IMAGE.FONT_SIZE_MAX = 100
 __C.GENERATE_FAKE_IMAGE.TEXT_COLOR = None       # format = (R,G,B); None = random
-__C.GENERATE_FAKE_IMAGE.IMAGE_SIZE = (640, 640) # format = (w, h)
+__C.GENERATE_FAKE_IMAGE.IMAGE_SIZE = (500, 500) # format = (w, h)
 __C.GENERATE_FAKE_IMAGE.WORD_COUNT = 20
 __C.GENERATE_FAKE_IMAGE.WORD_LENGTH_MIN = 2
 __C.GENERATE_FAKE_IMAGE.WORD_LENGTH_MAX = 5
@@ -62,7 +62,7 @@ def check_IoU(xc1, yc1, w1, h1, angle1, bbox, angle2, center_x, center_y, IoU_th
             return False
     return True
 
-def draw_rotated_box(image, xc, yc, w, h, angle_rad, cls, color=(255, 0, 0), thickness=1):
+def draw_rotated_box(image, xc, yc, w, h, angle_rad, cls, color=(0, 0, 255), thickness=1):
     cos_a = np.cos(-angle_rad)
     sin_a = np.sin(-angle_rad)
     x1 = (xc - w/2 * cos_a - h/2 * sin_a)
@@ -76,18 +76,18 @@ def draw_rotated_box(image, xc, yc, w, h, angle_rad, cls, color=(255, 0, 0), thi
     try:
         for x1, y1, x2, y2, x3, y3, x4, y4, cls in zip(x1, y1, x2, y2, x3, y3, x4, y4, cls):
             if cls != 62:
-                color = (255, 0, 0)
-            elif cls == 62:
                 color = (0, 255, 0)
+            elif cls == 62:
+                color = (0, 0, 255)
             image = cv2.line(image, (int(x1), int(y1)), (int(x2), int(y2)), color, thickness=thickness)
             image = cv2.line(image, (int(x2), int(y2)), (int(x3), int(y3)), color, thickness=thickness)
             image = cv2.line(image, (int(x3), int(y3)), (int(x4), int(y4)), color, thickness=thickness)
             image = cv2.line(image, (int(x4), int(y4)), (int(x1), int(y1)), color, thickness=thickness)
     except:
         if cls != 62:
-            color = (255, 0, 0)
-        elif cls == 62:
             color = (0, 255, 0)
+        elif cls == 62:
+            color = (0, 0, 255)
         image = cv2.line(image, (int(x1), int(y1)), (int(x2), int(y2)), color, thickness=thickness)
         image = cv2.line(image, (int(x2), int(y2)), (int(x3), int(y3)), color, thickness=thickness)
         image = cv2.line(image, (int(x3), int(y3)), (int(x4), int(y4)), color, thickness=thickness)
@@ -110,7 +110,10 @@ def get_pos(font, text, imgsz = __C.GENERATE_FAKE_IMAGE.IMAGE_SIZE):
     width, height = imgsz
     magic_number_1 = (sqrt(2) - 1)/(2*sqrt(2))
     magic_number_2 = 1 - magic_number_1
-    text_width, text_height = font.getsize(text)
+    # text_width, text_height = font.getsize(text)
+    left, top, right, bottom = font.getbbox(text)
+    text_width = right - left
+    text_height = bottom - top
     pos_x_min = int(width * magic_number_1) + 1
     pos_x_max = int(width * magic_number_2 - text_width)
     pos_y_min = int(height * magic_number_1) + 1
@@ -122,7 +125,6 @@ def get_pos(font, text, imgsz = __C.GENERATE_FAKE_IMAGE.IMAGE_SIZE):
 """# **Generate Image Function**"""
 
 def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGROUND_DIR,
-                        font_dir = __C.GENERATE_FAKE_IMAGE.FONT_DIR,
                         font_size_min = __C.GENERATE_FAKE_IMAGE.FONT_SIZE_MIN,
                         font_size_max = __C.GENERATE_FAKE_IMAGE.FONT_SIZE_MAX,
                         word_count = __C.GENERATE_FAKE_IMAGE.WORD_COUNT,
@@ -133,6 +135,7 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
                         angle_min = __C.GENERATE_FAKE_IMAGE.ANGLE_MIN,
                         angle_max = __C.GENERATE_FAKE_IMAGE.ANGLE_MAX):
     cls = string.ascii_letters + string.digits
+    # print font size
     font_size = random.randint(font_size_min, font_size_max)
     # image_background_paths = sorted(glob.glob(os.path.join(__C.GENERATE_FAKE_IMAGE.IMAGE_BACKGROUND_DIR + "/*/*")))
     # image_background_path = np.random.choice(image_background_paths)
@@ -141,15 +144,13 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
     center_x, center_y = width / 2, height / 2
     if text_color is None:
         text_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-
     word_length = [random.randint(word_length_min, word_length_max) for i in range(word_count)]
     text = [generate_random_string(word_length[k]) for k in range(word_count)]
     rotated_text_image = Image.new('RGBA', (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(rotated_text_image)
-
     angle = []
     mu = (angle_min + angle_max) / 2
-    sigma = (angle_max - angle_min) / 6
+    sigma = (angle_max - angle_min) / 6    
     for i in range(word_count):
         condition = True
         while condition:
@@ -162,11 +163,7 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
     yc = [[] for i in range(word_count)]
     w = [[] for i in range(word_count)]
     h =  [[] for i in range(word_count)]
-
     xc_word, yc_word, w_word, h_word = [], [], [], []
-
-
-
     result = np.ones((width, height, 3), dtype=np.uint8)
     for j in range(word_count):
         font_path = np.random.choice(font_paths)
@@ -176,10 +173,10 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
         while condition:
             try:
                 font = ImageFont.truetype(font_path, font_size)
-                pos = get_pos(font, text[j])  ## thiếu size ảnh, mặc định là 640 640
+                pos = get_pos(font, text[j])  ## thiếu size ảnh, mặc định là 500 500
                 condition = False
             except:
-                font_size -= 10
+                font_size -= 5
         condition_IoU = True
         patience = 0
         while condition_IoU:
@@ -194,7 +191,10 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
             else:
                 font_size = font_size_min if font_size - 5 < font_size_min else font_size - 5
                 font = ImageFont.truetype(font_path, font_size)
-                pos = get_pos(font, text[j])
+                try:
+                    pos = get_pos(font, text[j])
+                except:
+                    patience = 4
                 patience += 1
                 if patience == 5:
                     break
@@ -218,7 +218,6 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
         image = Image.new('RGB', rotated_text_image.size, (255, 255, 255))
         image.paste(rotated_text_image, mask=rotated_text_image.split()[3])
         image = np.array(image)
-
         result = result * (image // 255)
 
     angle_rad = [(angle[j] * np.pi/180)  for j in range(word_count)]
@@ -230,7 +229,6 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
         xc_word[i], yc_word[i] = rotated_point(xc_word[i], yc_word[i], angle[i], center_x, center_y)
         annot.append([int(xc_word[i]), int(yc_word[i]), w_word[i], h_word[i], angle_rad[i], 62])
     annot = np.array(annot)
-
     # image_background = Image.open(image_background_path)
     if image_background.mode != 'RGB':
         image_background = image_background.convert('RGB')
@@ -246,7 +244,7 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
         for j in range(height):
             if not(a[i][j]):
                 image_background[i][j] = np.array(text_color, dtype='uint8')
-
+    print("END")
     return image_background, annot
 
 """# **Example**
@@ -259,7 +257,7 @@ def generate_fake_image(image_background = __C.GENERATE_FAKE_IMAGE.IMAGE_BACKGRO
 # cfg.GENERATE_FAKE_IMAGE.FONT_SIZE_MIN = 10
 # cfg.GENERATE_FAKE_IMAGE.FONT_SIZE_MAX = 200
 # cfg.GENERATE_FAKE_IMAGE.TEXT_COLOR = None           # format = (R,G,B); None = random
-# cfg.GENERATE_FAKE_IMAGE.IMAGE_SIZE = (640, 640)     # format = (w, h)
+# cfg.GENERATE_FAKE_IMAGE.IMAGE_SIZE = (500, 500)     # format = (w, h)
 # cfg.GENERATE_FAKE_IMAGE.WORD_COUNT = 3
 # cfg.GENERATE_FAKE_IMAGE.WORD_LENGTH_MIN = 1
 # cfg.GENERATE_FAKE_IMAGE.WORD_LENGTH_MAX = 5

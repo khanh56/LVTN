@@ -2350,21 +2350,12 @@ input[type="file"]::file-selector-button:hover {
   position: absolute;
   z-index: 2;
 }
-
 .work {
   background-color: #fff;
   width: 1600px !important;
-  margin-left: auto !important; /* Margin trái tự động, đẩy phần tử sang phải */
-  margin-right: auto !important; /* Margin trái tự động, đẩy phần tử sang phải */
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-
-/* .btn-next,
-.btn-submit {
-  width: 335px;
-  padding: 5px 0;
-  background-color: #3387e7;
-  color: white;
-} */
 
 .btn-next,
 .btn-submit {
@@ -2374,15 +2365,15 @@ input[type="file"]::file-selector-button:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100px;
+  height: 44px;
   padding: 5px 0;
   background-color: #3387e7;
   color: white;
   transition: background-color 0.3s ease;
-  border-radius: 4px; /* Add border-radius property to round the edges of the buttons */
-  margin-left: auto; /* Center-align the buttons */
-  margin-right: auto; /* Center-align the buttons */
-  border: 1px solid #1355a1; /* replace #color with the color you want */
-
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #1355a1;
 }
 
 .selected-image,
@@ -2401,15 +2392,14 @@ input[type="file"]::file-selector-button:hover {
 
 
 .drop-container-model img {
-  width: 100%;  /* Ensures the image takes full width of the container */
-  height: auto; /* Maintains aspect ratio */
-  max-height: 335px; /* Ensures the image does not exceed the container height */
-  object-fit: cover; /* Ensures the image covers the area without distorting */
-  border-radius: 10px; /* Rounds the corners */
-  border: 2px solid #ddd; /* Optional: adds a border around the image */
+  width: 100%;
+  height: auto;
+  max-height: 335px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+
 }
-
-
 
 .selected-image-model{
   width: auto;
@@ -2441,3 +2431,296 @@ input[type="file"]::file-selector-button:hover {
   transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
   margin-bottom: 30px;
 }
+
+
+/* Drawer styles */
+.drawer {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  color: black;
+  box-shadow: 4px 0 8px rgba(0,0,0,0.3);
+  z-index: 3;
+}
+
+/* Drawer content styles */
+.drawer h2, .drawer p {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+/* Close button inside drawer */
+.drawer .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the drawer */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #3387e7;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+  border-radius: 7px;
+  }
+
+button:hover {
+background-color: #2f60c9;
+}
+
+
+/* Overlay styles */
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black with opacity */
+  z-index: 2; /* Make sure it's below the drawer but above other content */
+  cursor: pointer;
+}
+
+/* Optional: Customize the second drawer differently if needed */
+#myModelDrawer {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.col-2{
+  padding-right: 10px!important;
+  padding-left: 10px!important;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;  
+  display: block;
+  margin: 0 auto;
+  
+  width: 80%; 
+  height: 8px;
+  background: #ddd; 
+  outline: none; 
+  opacity: 0.7;
+  transition: opacity .2s; 
+}
+
+input[type="range"]:hover {
+  opacity: 1; 
+}
+
+/* CSS cho thumb của slider */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #3387E7;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #000;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #3387E7;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #000;
+}
+
+.loading {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 48%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+/* noUiSlider base styling */
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* Color and shadow for the slider bar */
+.noUi-connect {
+  background: #3387E7 !important; /* Primary color */
+  transition: background-color .3s;
+}
+
+/* Handle styles */
+.noUi-handle {
+  border: 1px solid #1355A1;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  outline: none;
+  width: 24px;
+  height: 24px;
+  right: -12px;
+  top: -6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.noUi-handle:hover {
+  border: 1px solid #2f60c9;
+}
+
+/* Handle focus state */
+.noUi-handle:focus {
+  box-shadow: 0 0 1px #3387E7;
+}
+
+/* Tooltips styling */
+.noUi-tooltip {
+  background-color: #222222;
+  color: white;
+  padding: 0px 5px 5px 5px !important;
+  border-radius: 3px;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: -11px;
+}
+
+/* Vertical orientation */
+.noUi-vertical .noUi-handle {
+  width: 18px;
+  height: 18px;
+  left: -7px;
+  top: -9px;
+}
+
+.noUi-vertical .noUi-tooltip {
+  top: -40px;
+  left: 0;
+}
+
+/* Horizontal orientation */
+.noUi-horizontal .noUi-tooltip {
+  top: -30px;
+}
+
+/* Disable drag when using tooltips */
+.noUi-state-tap .noUi-connect,
+.noUi-state-tap .noUi-origin {
+  transition: none;
+}
+
+
+
+#colorPicker {
+  display: block;       /* Phải có display block */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Customize select dropdowns for better fitting */
+.drawer select.form-control {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  width: auto; /* or specific width if needed */
+  max-width: 100%; /* Ensures it doesn't overflow its container */
+  font-size: 0.9em; /* Smaller font size for compact appearance */
+  margin-top: 0.5em; /* Adds space above the dropdown for clarity */
+  margin-bottom: 1em; /* Ensures space below the dropdown */
+}
+
+/* Adjust label sizes for clarity and better layout */
+.drawer .form-group label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 0.5em; /* Reduced space below label for compactness */
+}
+
+
+/* Drawer styles */
+.drawer select {
+  width: 80%; /* Adjust width to not fill the entire drawer */
+  padding: 0.8em 1em; /* Add padding for better text alignment and size */
+  margin: 10px auto; /* Center the select horizontally and add vertical space */
+  display: block; /* Ensure it's a block element to fill the width set */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 7px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  background-color: #f8f8f8; /* Light background for the select */
+  color: #333; /* Darker text for better readability */
+  font-size: 1em; /* Appropriate text size */
+  cursor: pointer; /* Indicate it's selectable */
+  -webkit-appearance: none;  /* Remove default styling on WebKit browsers */
+  -moz-appearance: none;     /* Remove default styling on Firefox */
+  appearance: none;
+  text-indent: 1px;          /* Slight adjustment to text position */
+  text-overflow: "";         /* Prevent text from being cut off */
+
+}
+
+/* Enhance the dropdown arrow appearance */
+.drawer select::-ms-expand {
+  display: none; /* Hide the default arrow in IE/Edge */
+}
+.drawer select {
+  appearance: none; /* Remove default styling across browsers */
+  background-image: url('path_to_custom_arrow_icon'); /* Add your custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%, 0;
+  background-size: 12px; /* Size of custom arrow */
+}
+
+.drawer select option {
+  padding-left: 20px !important;    /* Add padding to the left of text */
+  font-weight: normal;
+}
+

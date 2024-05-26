@@ -244,25 +244,15 @@ var selectedImageSourceOrBlob = null;
 
 function selectImage(element) {
   var imgSrc = element.querySelector("img").src;
-  
-  // Clear any existing selected images before adding a new one
-  removeSelectedImage(); // This function clears the existing image
-  
-  // For sample images, fetch the image as a Blob
   fetch(imgSrc)
       .then(response => response.blob())
       .then(blob => {
-          // Store the Blob globally or in a way that processImage can use it
-          selectedImageSourceOrBlob = blob;
-          
-          // Display the selected image as before
-          var img = document.createElement("img");
-          img.src = URL.createObjectURL(blob);
-          img.className = "selected-image";
-          var label = document.getElementById("dropcontainer");
-          var contentPhoto = document.querySelector(".content-photo");
-          contentPhoto.style.opacity = "0";
-          label.appendChild(img);
+          var reader = new FileReader();
+          reader.onload = function(e) {
+              selectedImagePath = e.target.result;
+              displaySelectedImage(); // Sử dụng cùng một hàm với kéo và thả
+          };
+          reader.readAsDataURL(blob);
       })
       .catch(error => console.error('Error fetching selected sample image:', error));
 }
@@ -295,44 +285,6 @@ function drawLabel() {
 })
 }
 
-function processImage() {
-  var formData = new FormData();
-  
-  // Check if selectedImageSourceOrBlob is a Blob (sample image scenario)
-  if (selectedImageSourceOrBlob instanceof Blob) {
-      formData.append('image', selectedImageSourceOrBlob);
-  } else { // Else, use the file input (local file scenario)
-      var imageFile = document.getElementById('images').files[0];
-      formData.append('image', imageFile);
-  }
-
-  fetch('/convert_to_bw', {
-    method: 'POST',
-    body: formData
-})
-.then(response => response.blob())
-.then(blob => {
-    const imageUrl = URL.createObjectURL(blob);
-    var img = new Image();
-    img.onload = function () {
-        // Resize the image to 500x500
-        var canvas = document.createElement("canvas");
-        var ctx = canvas.getContext("2d");
-        canvas.width = 500;
-        canvas.height = 500;
-        ctx.drawImage(img, 0, 0, 500, 500);
-
-        // Create a new image from the canvas and set it as the source for the result image
-        var resizedImg = new Image();
-        resizedImg.src = canvas.toDataURL();
-        document.querySelector('.image-2').src = resizedImg.src;
-    };
-    img.src = imageUrl;
-})
-.catch(error => {
-    console.error('Error:', error);
-});
-}
 
 
 document
@@ -474,7 +426,14 @@ function displaySelectedImageModel() {
 
 function processImageModel() {
   var formData = new FormData();
-  
+  const spinner = document.querySelector('.loading')
+  spinner.style.display = 'block'
+
+
+  /// new  code
+  const resultImage = document.querySelector('.image-4'); // Select the image to be hidden
+  resultImage.style.visibility  = 'hidden'; // Hide the image
+  ///
   // Check if selectedImageSourceOrBlob is a Blob (sample image scenario)
   if (selectedImageSourceOrBlobModel instanceof Blob) {
       formData.append('image', selectedImageSourceOrBlobModel);
@@ -483,6 +442,13 @@ function processImageModel() {
       formData.append('image', imageFile);
   }
 
+  var modelType = document.getElementById('model_type').value;
+  formData.append('model_type', modelType);
+
+  var confidenceThreshold = document.getElementById('confidence-threshold').value;
+  formData.append('confidence_threshold', confidenceThreshold);
+
+  // document.getElementById('model_type').form.submit();
   fetch('/model', {
     method: 'POST',
     body: formData
@@ -503,11 +469,288 @@ function processImageModel() {
         // Create a new image from the canvas and set it as the source for the result image
         var resizedImg = new Image();
         resizedImg.src = canvas.toDataURL();
-        document.querySelector('.image-4').src = resizedImg.src;
+        resultImage.src = resizedImg.src;
+        resultImage.style.visibility = 'visible'; // Show the image again
+
+        // document.querySelector('.image-4').src = resizedImg.src;
+        spinner.style.display = 'none'
     };
     img.src = imageUrl;
 })
 .catch(error => {
     console.error('Error:', error);
+    spinner.style.display = 'none'; 
+    resultImage.style.visibility = 'visible'; // Show the image even if there is an error
+
 });
+return false
 }
+
+
+function openDrawer() {
+  document.getElementById("myDrawer").style.width = "500px"; // Set the width of the sidebar
+  document.getElementById("overlay").style.display = "block"; // Show the overlay
+}
+
+function closeDrawer() {
+  document.getElementById("myDrawer").style.width = "0"; // Close the sidebar by setting width to 0
+  document.getElementById("overlay").style.display = "none"; // Hide the overlay
+}
+
+function openModelDrawer() {
+  document.getElementById("myModelDrawer").style.width = "500px";
+  document.getElementById("overlay").style.display = "block";
+}
+
+function closeModelDrawer() {
+  document.getElementById("myModelDrawer").style.width = "0";
+  document.getElementById("overlay").style.display = "none";
+}
+
+function closeAllDrawers() {
+  // Set the width of all drawers to 0
+  document.getElementById("myDrawer").style.width = "0";
+  document.getElementById("myModelDrawer").style.width = "0";
+  // Hide the overlay
+  document.getElementById("overlay").style.display = "none";
+}
+
+function updateThresholdValue(value) {
+  document.getElementById('threshold-value').textContent = value;
+}
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   var slider = document.getElementById('word_length_slider');
+
+//   noUiSlider.create(slider, {
+//     start: [1, 30], // Initial handle positions
+//     connect: true, // Display a colored bar between the handles
+//     range: {
+//         'min': 1,
+//         'max': 30
+//     },
+//     step: 1, // Move in increments of 1
+//     tooltips: true, // Show tooltips with values above handles
+//     format: {
+//       to: function(value) {
+//         return value.toFixed(0); // Display values as integers
+//       },
+//       from: function(value) {
+//         return Number(value).toFixed(0);
+//       }
+//     }
+//   });
+// });
+
+
+function hexToRGB(hex) {
+  let r = 0, g = 0, b = 0;
+  // 3 digits
+  if (hex.length == 4) {
+      r = parseInt(hex[1] + hex[1], 16);
+      g = parseInt(hex[2] + hex[2], 16);
+      b = parseInt(hex[3] + hex[3], 16);
+  }
+  // 6 digits
+  else if (hex.length == 7) {
+      r = parseInt(hex[1] + hex[2], 16);
+      g = parseInt(hex[3] + hex[4], 16);
+      b = parseInt(hex[5] + hex[6], 16);
+  }
+  return r + ',' + g + ',' + b;
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  var colorPicker = document.getElementById('colorPicker');
+  colorPicker.value = '#' + Math.floor(Math.random() * 16777215).toString(16); 
+
+
+  // New slider for font size
+  var fontSizeSlider = document.getElementById('font_size_slider');
+  noUiSlider.create(fontSizeSlider, {
+      start: [8, 32], // Default values for font size
+      connect: true,
+      range: { 'min': 8, 'max': 72 },
+      step: 1,
+      tooltips: [true, true],
+      format: {
+        to: function(value) {
+          return parseInt(value);
+        },
+        from: function(value) {
+          return parseInt(value);
+        }
+      }
+  });
+
+
+  var angleSlider = document.getElementById('angle_slider');
+    noUiSlider.create(angleSlider, {
+        start: [-45, 45], // Default values for angles
+        connect: true,
+        range: { 'min': -180, 'max': 180 },
+        step: 1,
+        tooltips: [true, true],
+        format: {
+          to: function(value) {
+            return parseInt(value);
+          },
+          from: function(value) {
+            return parseInt(value);
+          }
+        }
+    });
+
+    var wordCountSlider = document.getElementById('word_count_slider');
+    noUiSlider.create(wordCountSlider, {
+        start: [5], // Default value for word count
+        connect: [true, false], // Connect the lower part of the slider
+        range: { 'min': 1, 'max': 100 },
+        step: 1,
+        tooltips: [true],
+        format: {
+          to: function(value) {
+            return parseInt(value);
+          },
+          from: function(value) {
+            return parseInt(value);
+          }
+        }
+    });
+
+
+
+
+  var slider = document.getElementById('word_length_slider');
+
+  noUiSlider.create(slider, {
+      start: [1, 30], // Default range
+      connect: true,
+      step: 1,
+      range: {
+          'min': 1,
+          'max': 30
+      },
+      step: 1, // Move in increments of 1
+      tooltips: true, // Show tooltips with values above handles
+      format: {
+        to: function(value) {
+          return value.toFixed(0); // Display values as integers
+        },
+        from: function(value) {
+          return Number(value).toFixed(0);
+        }
+      }
+  
+  });
+
+  window.processImage = function() {
+      var formData = new FormData();
+      if (selectedImageSourceOrBlob instanceof Blob) {
+        formData.append('image', selectedImageSourceOrBlob);
+    } else { // Else, use the file input (local file scenario)
+        var imageFile = document.getElementById('images').files[0];
+        formData.append('image', imageFile);
+    }
+  
+        formData.append('image', imageFile);
+
+      // Get and append slider values
+      var values = slider.noUiSlider.get();
+      formData.append('word_length_min', parseInt(values[0]));
+      formData.append('word_length_max', parseInt(values[1]));
+
+      var fontSizeValues = fontSizeSlider.noUiSlider.get();
+      formData.append('font_size_min', fontSizeValues[0]);
+      formData.append('font_size_max', fontSizeValues[1]);
+
+
+      var angleValues = angleSlider.noUiSlider.get();
+        formData.append('angle_min', angleValues[0]);
+        formData.append('angle_max', angleValues[1]);
+
+
+      var wordCount = wordCountSlider.noUiSlider.get();
+      formData.append('word_count', wordCount);
+
+      var color = document.getElementById('colorPicker').value;
+      formData.append('selected_color', hexToRGB(color));
+  
+  
+
+
+      fetch('/convert_to_bw', {
+          method: 'POST',
+          body: formData
+      })
+      .then(response => response.blob())
+      .then(blob => {
+        const imageUrl = URL.createObjectURL(blob);
+        var img = new Image();
+        img.onload = function () {
+            // Resize the image to 500x500
+            var canvas = document.createElement("canvas");
+            var ctx = canvas.getContext("2d");
+            canvas.width = 500;
+            canvas.height = 500;
+            ctx.drawImage(img, 0, 0, 500, 500);
+    
+            // Create a new image from the canvas and set it as the source for the result image
+            var resizedImg = new Image();
+            resizedImg.src = canvas.toDataURL();
+            document.querySelector('.image-2').src = resizedImg.src;
+        };
+        img.src = imageUrl;
+    })
+      .catch(error => console.error('Error:', error));
+  }
+});
+
+
+
+// function processImage() {
+//   var formData = new FormData();
+//   var values = slider.noUiSlider.get(); // Get current slider values
+
+//   formData.append('word_length_min', parseInt(values[0]));
+//   formData.append('word_length_max', parseInt(values[1]));
+
+
+//   // Check if selectedImageSourceOrBlob is a Blob (sample image scenario)
+//   if (selectedImageSourceOrBlob instanceof Blob) {
+//       formData.append('image', selectedImageSourceOrBlob);
+//   } else { // Else, use the file input (local file scenario)
+//       var imageFile = document.getElementById('images').files[0];
+//       formData.append('image', imageFile);
+//   }
+
+//   fetch('/convert_to_bw', {
+//     method: 'POST',
+//     body: formData
+// })
+// .then(response => response.blob())
+// .then(blob => {
+//     const imageUrl = URL.createObjectURL(blob);
+//     var img = new Image();
+//     img.onload = function () {
+//         // Resize the image to 500x500
+//         var canvas = document.createElement("canvas");
+//         var ctx = canvas.getContext("2d");
+//         canvas.width = 500;
+//         canvas.height = 500;
+//         ctx.drawImage(img, 0, 0, 500, 500);
+
+//         // Create a new image from the canvas and set it as the source for the result image
+//         var resizedImg = new Image();
+//         resizedImg.src = canvas.toDataURL();
+//         document.querySelector('.image-2').src = resizedImg.src;
+//     };
+//     img.src = imageUrl;
+// })
+// .catch(error => {
+//     console.error('Error:', error);
+// });
+// }
